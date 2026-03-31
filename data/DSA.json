@@ -1,0 +1,1172 @@
+[
+  {
+    "id": 1,
+    "topic": "Arrays",
+    "question": "What is the time complexity of accessing an element by index in an array?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(log n)",
+      "C": "O(1)",
+      "D": "O(n²)"
+    },
+    "correct_answer": "C",
+    "explanation": "Arrays store elements in contiguous memory. Direct access via base address + offset = O(1)."
+  },
+  {
+    "id": 2,
+    "topic": "Arrays",
+    "question": "What is the time complexity of inserting an element at the beginning of an array?",
+    "options": {
+      "A": "O(1)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(n²)"
+    },
+    "correct_answer": "C",
+    "explanation": "All existing elements must shift right by one position, taking O(n) time."
+  },
+  {
+    "id": 3,
+    "topic": "Arrays",
+    "question": "Which is NOT an advantage of arrays?",
+    "options": {
+      "A": "Random access",
+      "B": "Cache friendliness",
+      "C": "Easy insertion and deletion",
+      "D": "Simple implementation"
+    },
+    "correct_answer": "C",
+    "explanation": "Insertion/deletion in arrays requires shifting elements = O(n). This is a disadvantage."
+  },
+  {
+    "id": 4,
+    "topic": "Arrays",
+    "question": "Binary search requires the array to be:",
+    "options": {
+      "A": "Of fixed size",
+      "B": "Sorted",
+      "C": "Integer type only",
+      "D": "Dynamically allocated"
+    },
+    "correct_answer": "B",
+    "explanation": "Binary search divides search space in half each step, only works on sorted arrays."
+  },
+  {
+    "id": 5,
+    "topic": "Arrays",
+    "question": "What is the time complexity of binary search?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(n²)",
+      "C": "O(1)",
+      "D": "O(log n)"
+    },
+    "correct_answer": "D",
+    "explanation": "Binary search halves the search space each time = O(log n)."
+  },
+  {
+    "id": 6,
+    "topic": "Arrays",
+    "question": "What is the amortized time complexity of inserting at end of a dynamic array?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(1)",
+      "C": "O(log n)",
+      "D": "O(n²)"
+    },
+    "correct_answer": "B",
+    "explanation": "Although resizing occasionally takes O(n), the amortized cost per insertion is O(1) due to doubling strategy."
+  },
+  {
+    "id": 7,
+    "topic": "Linked List",
+    "question": "What is the time complexity of accessing the nth element in a singly linked list?",
+    "options": {
+      "A": "O(1)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(n²)"
+    },
+    "correct_answer": "C",
+    "explanation": "No random access in linked lists. Must traverse from head through n nodes = O(n)."
+  },
+  {
+    "id": 8,
+    "topic": "Linked List",
+    "question": "What is the time complexity of inserting a node at the beginning of a singly linked list?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(log n)",
+      "C": "O(1)",
+      "D": "O(n²)"
+    },
+    "correct_answer": "C",
+    "explanation": "Just create new node and update head pointer = O(1). No shifting needed."
+  },
+  {
+    "id": 9,
+    "topic": "Linked List",
+    "question": "What is the time complexity of deleting the last node from a singly linked list?",
+    "options": {
+      "A": "O(1)",
+      "B": "O(n)",
+      "C": "O(log n)",
+      "D": "O(n²)"
+    },
+    "correct_answer": "B",
+    "explanation": "Must traverse to second-to-last node to update its next pointer to NULL = O(n)."
+  },
+  {
+    "id": 10,
+    "topic": "Linked List",
+    "question": "What additional component does a doubly linked list node have?",
+    "options": {
+      "A": "A size counter",
+      "B": "A hash value",
+      "C": "A pointer to the previous node",
+      "D": "A data field"
+    },
+    "correct_answer": "C",
+    "explanation": "Doubly linked list has data + next pointer + previous pointer, enabling bidirectional traversal."
+  },
+  {
+    "id": 11,
+    "topic": "Linked List",
+    "question": "Which is an advantage of linked lists over arrays?",
+    "options": {
+      "A": "Random access",
+      "B": "Dynamic size",
+      "C": "Cache friendliness",
+      "D": "Less memory per element"
+    },
+    "correct_answer": "B",
+    "explanation": "Linked lists grow/shrink dynamically without pre-allocation or copying to larger block."
+  },
+  {
+    "id": 12,
+    "topic": "Linked List",
+    "question": "In a circular linked list, the last node points to:",
+    "options": {
+      "A": "NULL",
+      "B": "Itself",
+      "C": "The middle node",
+      "D": "The first node"
+    },
+    "correct_answer": "D",
+    "explanation": "Circular linked list's last node points back to the first node, forming a cycle."
+  },
+  {
+    "id": 13,
+    "topic": "Linked List",
+    "question": "To detect a cycle in a linked list, which algorithm is used?",
+    "options": {
+      "A": "Binary Search",
+      "B": "Floyd's Cycle Detection (Tortoise and Hare)",
+      "C": "Dijkstra's",
+      "D": "Bubble Sort"
+    },
+    "correct_answer": "B",
+    "explanation": "Floyd's uses slow pointer (1 step) and fast pointer (2 steps). If they meet, cycle exists. O(n) time, O(1) space."
+  },
+  {
+    "id": 14,
+    "topic": "Linked List",
+    "question": "To find middle element of a linked list in one pass, which technique is used?",
+    "options": {
+      "A": "Binary search",
+      "B": "Two pointers - slow and fast",
+      "C": "Recursion",
+      "D": "Hash table"
+    },
+    "correct_answer": "B",
+    "explanation": "Slow moves 1 step, fast moves 2 steps. When fast reaches end, slow is at the middle."
+  },
+  {
+    "id": 15,
+    "topic": "Stack",
+    "question": "A stack follows which principle?",
+    "options": {
+      "A": "FIFO",
+      "B": "Priority Based",
+      "C": "Random Access",
+      "D": "LIFO"
+    },
+    "correct_answer": "D",
+    "explanation": "Stack = LIFO (Last In First Out). Last element pushed is first to be popped."
+  },
+  {
+    "id": 16,
+    "topic": "Stack",
+    "question": "Time complexity of push and pop in a stack?",
+    "options": {
+      "A": "O(n) for both",
+      "B": "O(1) for both",
+      "C": "O(log n) for both",
+      "D": "O(n) push, O(1) pop"
+    },
+    "correct_answer": "B",
+    "explanation": "Both push and pop operate on the top of the stack only = O(1)."
+  },
+  {
+    "id": 17,
+    "topic": "Stack",
+    "question": "Which is NOT an application of a stack?",
+    "options": {
+      "A": "Function call management",
+      "B": "BFS traversal",
+      "C": "Expression evaluation",
+      "D": "Undo/Redo operations"
+    },
+    "correct_answer": "B",
+    "explanation": "BFS uses a Queue, not a Stack. DFS uses a stack. All others are valid stack applications."
+  },
+  {
+    "id": 18,
+    "topic": "Stack",
+    "question": "What is the postfix notation of: A + B * C?",
+    "options": {
+      "A": "A B + C *",
+      "B": "A B C * +",
+      "C": "+ A * B C",
+      "D": "* + A B C"
+    },
+    "correct_answer": "B",
+    "explanation": "Due to precedence, * first: BC*, then A + BC* → ABC*+"
+  },
+  {
+    "id": 19,
+    "topic": "Stack",
+    "question": "What is the prefix notation of: (A + B) * C?",
+    "options": {
+      "A": "AB+C*",
+      "B": "+A*BC",
+      "C": "*+ABC",
+      "D": "*A+BC"
+    },
+    "correct_answer": "C",
+    "explanation": "A+B → +AB, then (+AB)*C → *+ABC"
+  },
+  {
+    "id": 20,
+    "topic": "Stack",
+    "question": "Which data structure is best for checking balanced parentheses?",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Array",
+      "D": "Linked List"
+    },
+    "correct_answer": "B",
+    "explanation": "Push opening brackets, pop when closing bracket encountered and check for match."
+  },
+  {
+    "id": 21,
+    "topic": "Stack",
+    "question": "What happens when pop() is called on an empty stack?",
+    "options": {
+      "A": "Returns 0",
+      "B": "Stack Overflow",
+      "C": "Stack Underflow",
+      "D": "Returns null"
+    },
+    "correct_answer": "C",
+    "explanation": "Pop on empty stack = Stack Underflow. Push on full stack = Stack Overflow."
+  },
+  {
+    "id": 22,
+    "topic": "Queue",
+    "question": "A queue follows which principle?",
+    "options": {
+      "A": "LIFO",
+      "B": "FIFO",
+      "C": "Random Access",
+      "D": "Priority Based"
+    },
+    "correct_answer": "B",
+    "explanation": "Queue = FIFO (First In First Out). First element enqueued is first dequeued."
+  },
+  {
+    "id": 23,
+    "topic": "Queue",
+    "question": "Which traversal algorithm uses a queue?",
+    "options": {
+      "A": "DFS",
+      "B": "Inorder",
+      "C": "BFS",
+      "D": "Postorder"
+    },
+    "correct_answer": "C",
+    "explanation": "BFS (Breadth First Search) uses a queue to process nodes level by level."
+  },
+  {
+    "id": 24,
+    "topic": "Queue",
+    "question": "What problem does a circular queue solve?",
+    "options": {
+      "A": "Faster enqueue",
+      "B": "Memory waste due to unused front positions",
+      "C": "Priority handling",
+      "D": "Thread safety"
+    },
+    "correct_answer": "B",
+    "explanation": "Linear queue cannot reuse dequeued front positions. Circular queue wraps around to reuse them."
+  },
+  {
+    "id": 25,
+    "topic": "Queue",
+    "question": "What is the most efficient data structure to implement a priority queue?",
+    "options": {
+      "A": "Array",
+      "B": "Linked List",
+      "C": "Heap",
+      "D": "Stack"
+    },
+    "correct_answer": "C",
+    "explanation": "Heap gives O(log n) insert and O(log n) extract-min/max = most efficient for priority queue."
+  },
+  {
+    "id": 26,
+    "topic": "Binary Tree",
+    "question": "The maximum number of nodes in a binary tree of height h is:",
+    "options": {
+      "A": "2^h",
+      "B": "2h + 1",
+      "C": "2^(h+1) - 1",
+      "D": "h²"
+    },
+    "correct_answer": "C",
+    "explanation": "Perfect binary tree of height h has 2^(h+1) - 1 nodes."
+  },
+  {
+    "id": 27,
+    "topic": "Binary Tree",
+    "question": "A binary tree where every node has 0 or 2 children is called:",
+    "options": {
+      "A": "Complete Binary Tree",
+      "B": "Full (Strict) Binary Tree",
+      "C": "Perfect Binary Tree",
+      "D": "Skewed Tree"
+    },
+    "correct_answer": "B",
+    "explanation": "Full/Strict Binary Tree: every node has exactly 0 or 2 children."
+  },
+  {
+    "id": 28,
+    "topic": "Binary Tree",
+    "question": "A heap is always which type of binary tree?",
+    "options": {
+      "A": "Full Binary Tree",
+      "B": "Perfect Binary Tree",
+      "C": "Complete Binary Tree",
+      "D": "Skewed Binary Tree"
+    },
+    "correct_answer": "C",
+    "explanation": "Heap is always a Complete Binary Tree — all levels filled except possibly last, filled left to right."
+  },
+  {
+    "id": 29,
+    "topic": "Binary Tree - Traversals",
+    "question": "Inorder traversal visits nodes in which order?",
+    "options": {
+      "A": "Root, Left, Right",
+      "B": "Left, Right, Root",
+      "C": "Left, Root, Right",
+      "D": "Right, Root, Left"
+    },
+    "correct_answer": "C",
+    "explanation": "Inorder = Left → Root → Right. For BST, this gives sorted ascending order."
+  },
+  {
+    "id": 30,
+    "topic": "Binary Tree - Traversals",
+    "question": "Preorder traversal visits nodes in which order?",
+    "options": {
+      "A": "Left, Root, Right",
+      "B": "Root, Left, Right",
+      "C": "Left, Right, Root",
+      "D": "Root, Right, Left"
+    },
+    "correct_answer": "B",
+    "explanation": "Preorder = Root → Left → Right. Used for copying/serializing a tree."
+  },
+  {
+    "id": 31,
+    "topic": "Binary Tree - Traversals",
+    "question": "Postorder traversal visits nodes in which order?",
+    "options": {
+      "A": "Root, Left, Right",
+      "B": "Left, Root, Right",
+      "C": "Left, Right, Root",
+      "D": "Right, Left, Root"
+    },
+    "correct_answer": "C",
+    "explanation": "Postorder = Left → Right → Root. Used for deleting/freeing a tree."
+  },
+  {
+    "id": 32,
+    "topic": "Binary Tree - Traversals",
+    "question": "Given tree: Root=1, Left=2, Right=3, 2's Left=4, 2's Right=5. What is Inorder?",
+    "options": {
+      "A": "1,2,4,5,3",
+      "B": "4,5,2,3,1",
+      "C": "4,2,5,1,3",
+      "D": "1,2,3,4,5"
+    },
+    "correct_answer": "C",
+    "explanation": "Inorder (L,Root,R): 4 → 2 → 5 → 1 → 3"
+  },
+  {
+    "id": 33,
+    "topic": "Binary Tree - Traversals",
+    "question": "Which traversal is used for deleting a tree?",
+    "options": {
+      "A": "Preorder",
+      "B": "Inorder",
+      "C": "Level Order",
+      "D": "Postorder"
+    },
+    "correct_answer": "D",
+    "explanation": "Postorder deletes children before parent, preventing dangling pointers."
+  },
+  {
+    "id": 34,
+    "topic": "Binary Tree - Traversals",
+    "question": "Level order traversal uses which data structure?",
+    "options": {
+      "A": "Stack",
+      "B": "Queue",
+      "C": "Priority Queue",
+      "D": "Hash Table"
+    },
+    "correct_answer": "B",
+    "explanation": "Level order (BFS) uses a queue to process nodes level by level."
+  },
+  {
+    "id": 35,
+    "topic": "BST",
+    "question": "In a BST, for any node, the correct ordering is:",
+    "options": {
+      "A": "Left child > node > Right child",
+      "B": "Left child < node < Right child",
+      "C": "Left child = Right child",
+      "D": "No specific ordering"
+    },
+    "correct_answer": "B",
+    "explanation": "BST property: left subtree values < node < right subtree values."
+  },
+  {
+    "id": 36,
+    "topic": "BST",
+    "question": "Average case and worst case time complexity of BST search?",
+    "options": {
+      "A": "O(log n) average, O(n) worst",
+      "B": "O(1) average, O(log n) worst",
+      "C": "O(n) average, O(n²) worst",
+      "D": "O(log n) for both"
+    },
+    "correct_answer": "A",
+    "explanation": "Average O(log n) for balanced tree. Worst O(n) when tree is skewed (like a linked list)."
+  },
+  {
+    "id": 37,
+    "topic": "BST",
+    "question": "Inorder traversal of a BST gives:",
+    "options": {
+      "A": "Random order",
+      "B": "Descending order",
+      "C": "Level order",
+      "D": "Ascending sorted order"
+    },
+    "correct_answer": "D",
+    "explanation": "BST inorder (L→Root→R) always produces nodes in ascending sorted order."
+  },
+  {
+    "id": 38,
+    "topic": "BST",
+    "question": "In a BST, the minimum element is found at:",
+    "options": {
+      "A": "Root",
+      "B": "Rightmost node",
+      "C": "Leftmost node",
+      "D": "Any leaf"
+    },
+    "correct_answer": "C",
+    "explanation": "BST property: smaller values go left. The leftmost node is always the minimum."
+  },
+  {
+    "id": 39,
+    "topic": "BST",
+    "question": "Inserting sorted elements 1,2,3,4,5 into empty BST creates:",
+    "options": {
+      "A": "Balanced tree",
+      "B": "Right-skewed tree",
+      "C": "Left-skewed tree",
+      "D": "Perfect binary tree"
+    },
+    "correct_answer": "B",
+    "explanation": "Each new sorted element is greater than all previous, always going right → right-skewed."
+  },
+  {
+    "id": 40,
+    "topic": "BST",
+    "question": "When deleting a node with two children from BST, it is replaced with:",
+    "options": {
+      "A": "Its parent",
+      "B": "Its left child",
+      "C": "Inorder successor or predecessor",
+      "D": "A random node"
+    },
+    "correct_answer": "C",
+    "explanation": "Replace with inorder successor (smallest in right subtree) or inorder predecessor (largest in left subtree) to maintain BST property."
+  },
+  {
+    "id": 41,
+    "topic": "AVL Tree",
+    "question": "An AVL tree is a:",
+    "options": {
+      "A": "Binary tree with no constraints",
+      "B": "Self-balancing Binary Search Tree",
+      "C": "Non-binary tree",
+      "D": "Heap"
+    },
+    "correct_answer": "B",
+    "explanation": "AVL tree self-balances by ensuring balance factor of every node is -1, 0, or 1."
+  },
+  {
+    "id": 42,
+    "topic": "AVL Tree",
+    "question": "Balance factor in AVL tree is defined as:",
+    "options": {
+      "A": "Number of left children - Number of right children",
+      "B": "Height of left subtree - Height of right subtree",
+      "C": "Total nodes in left - Total nodes in right",
+      "D": "Depth of left + Depth of right"
+    },
+    "correct_answer": "B",
+    "explanation": "Balance Factor = Height(Left) - Height(Right). Must be -1, 0, or 1 for AVL."
+  },
+  {
+    "id": 43,
+    "topic": "AVL Tree",
+    "question": "AVL tree guarantees O(log n) for all operations because:",
+    "options": {
+      "A": "It uses hashing",
+      "B": "It maintains strict balance ensuring height stays O(log n)",
+      "C": "It is always a complete binary tree",
+      "D": "It has at most 2 children"
+    },
+    "correct_answer": "B",
+    "explanation": "Balance factor constraint keeps height at O(log n), guaranteeing O(log n) for search, insert, delete."
+  },
+  {
+    "id": 44,
+    "topic": "AVL Tree",
+    "question": "How many types of rotations are used in AVL trees?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "D",
+    "explanation": "4 rotations: LL (right rotation), RR (left rotation), LR (left then right), RL (right then left)."
+  },
+  {
+    "id": 45,
+    "topic": "AVL Tree",
+    "question": "LL imbalance in AVL tree is fixed by:",
+    "options": {
+      "A": "Left rotation",
+      "B": "Right rotation",
+      "C": "Left then Right rotation",
+      "D": "Right then Left rotation"
+    },
+    "correct_answer": "B",
+    "explanation": "LL imbalance (left subtree of left child too tall) is fixed by a single right rotation."
+  },
+  {
+    "id": 46,
+    "topic": "Heap",
+    "question": "In a Max-Heap:",
+    "options": {
+      "A": "Parent <= Children",
+      "B": "Parent >= Children",
+      "C": "Left child > Right child always",
+      "D": "Root is the minimum"
+    },
+    "correct_answer": "B",
+    "explanation": "Max-Heap: every parent >= its children. Root holds the maximum value."
+  },
+  {
+    "id": 47,
+    "topic": "Heap",
+    "question": "Time complexity of finding min in Min-Heap, insert, and delete-min?",
+    "options": {
+      "A": "O(1), O(n), O(log n)",
+      "B": "O(1), O(log n), O(log n)",
+      "C": "O(log n), O(log n), O(log n)",
+      "D": "O(1), O(1), O(1)"
+    },
+    "correct_answer": "B",
+    "explanation": "Find-min = O(1) (always at root). Insert = O(log n) (bubble up). Delete-min = O(log n) (heapify down)."
+  },
+  {
+    "id": 48,
+    "topic": "Heap",
+    "question": "Time complexity of building a heap from an unsorted array?",
+    "options": {
+      "A": "O(n log n)",
+      "B": "O(n²)",
+      "C": "O(n)",
+      "D": "O(log n)"
+    },
+    "correct_answer": "C",
+    "explanation": "Bottom-up heap construction (heapify from last non-leaf to root) takes O(n)."
+  },
+  {
+    "id": 49,
+    "topic": "Heap",
+    "question": "In 0-indexed array heap, left child of node at index i is at:",
+    "options": {
+      "A": "2i",
+      "B": "2i + 1",
+      "C": "2i + 2",
+      "D": "(i-1)/2"
+    },
+    "correct_answer": "B",
+    "explanation": "0-indexed: Left child = 2i+1, Right child = 2i+2, Parent = (i-1)/2."
+  },
+  {
+    "id": 50,
+    "topic": "Heap",
+    "question": "To find the Kth largest element efficiently, use:",
+    "options": {
+      "A": "Stack",
+      "B": "Sorted Array",
+      "C": "Min-Heap of size K",
+      "D": "Queue"
+    },
+    "correct_answer": "C",
+    "explanation": "Min-Heap of size K keeps K largest elements. Root = Kth largest. Time: O(n log K)."
+  },
+  {
+    "id": 51,
+    "topic": "Heap",
+    "question": "Searching for an arbitrary element in a heap takes:",
+    "options": {
+      "A": "O(1)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(n log n)"
+    },
+    "correct_answer": "C",
+    "explanation": "Heaps are not optimized for arbitrary search. May need to check every element = O(n)."
+  },
+  {
+    "id": 52,
+    "topic": "Hash Table",
+    "question": "Average and worst case time complexity of search in a hash table?",
+    "options": {
+      "A": "O(1) average, O(n) worst",
+      "B": "O(log n) average, O(n) worst",
+      "C": "O(1) for both",
+      "D": "O(n) for both"
+    },
+    "correct_answer": "A",
+    "explanation": "Average O(1) via direct hash lookup. Worst O(n) when all elements hash to same bucket."
+  },
+  {
+    "id": 53,
+    "topic": "Hash Table",
+    "question": "A collision in a hash table occurs when:",
+    "options": {
+      "A": "Table is full",
+      "B": "Two different keys hash to the same index",
+      "C": "Key is not found",
+      "D": "Table is empty"
+    },
+    "correct_answer": "B",
+    "explanation": "Collision = two different keys produce the same hash value/index."
+  },
+  {
+    "id": 54,
+    "topic": "Hash Table",
+    "question": "In separate chaining, each bucket contains:",
+    "options": {
+      "A": "A single element only",
+      "B": "A linked list of elements",
+      "C": "A binary tree",
+      "D": "A fixed-size array"
+    },
+    "correct_answer": "B",
+    "explanation": "Separate chaining stores all elements with same hash index in a linked list at that bucket."
+  },
+  {
+    "id": 55,
+    "topic": "Hash Table",
+    "question": "In linear probing, when collision occurs, next slot checked is:",
+    "options": {
+      "A": "(hash + i²) % size",
+      "B": "A random position",
+      "C": "(hash + 1) % size",
+      "D": "hash × 2"
+    },
+    "correct_answer": "C",
+    "explanation": "Linear probing: h(k,i) = (h(k) + i) mod m. Checks next consecutive slot."
+  },
+  {
+    "id": 56,
+    "topic": "Hash Table",
+    "question": "Main disadvantage of linear probing is:",
+    "options": {
+      "A": "High memory usage",
+      "B": "Primary clustering",
+      "C": "Cannot handle collisions",
+      "D": "Slow hash computation"
+    },
+    "correct_answer": "B",
+    "explanation": "Primary clustering: consecutive occupied slots form large clusters, degrading performance."
+  },
+  {
+    "id": 57,
+    "topic": "Hash Table",
+    "question": "Load factor of a hash table is:",
+    "options": {
+      "A": "Table size / number of elements",
+      "B": "Number of collisions / table size",
+      "C": "Number of elements / table size",
+      "D": "Number of empty slots / table size"
+    },
+    "correct_answer": "C",
+    "explanation": "Load factor α = n/m (elements/size). Higher load = more collisions. Resize typically at 0.75."
+  },
+  {
+    "id": 58,
+    "topic": "Hash Table",
+    "question": "Which is NOT an application of hash tables?",
+    "options": {
+      "A": "Database indexing",
+      "B": "Maintaining sorted order",
+      "C": "Caching",
+      "D": "Symbol tables in compilers"
+    },
+    "correct_answer": "B",
+    "explanation": "Hash tables do NOT maintain sorted order. Use BST or sorted arrays for ordered data."
+  },
+  {
+    "id": 59,
+    "topic": "Graph",
+    "question": "Maximum edges in undirected graph with n vertices (no self-loops)?",
+    "options": {
+      "A": "n",
+      "B": "n-1",
+      "C": "n(n-1)/2",
+      "D": "n²"
+    },
+    "correct_answer": "C",
+    "explanation": "Each pair of vertices: C(n,2) = n(n-1)/2 edges maximum."
+  },
+  {
+    "id": 60,
+    "topic": "Graph",
+    "question": "Space complexity of adjacency matrix vs adjacency list?",
+    "options": {
+      "A": "Both O(V+E)",
+      "B": "Matrix O(V²), List O(V+E)",
+      "C": "Matrix O(V+E), List O(V²)",
+      "D": "Both O(V²)"
+    },
+    "correct_answer": "B",
+    "explanation": "Adjacency Matrix = O(V²) always. Adjacency List = O(V+E), efficient for sparse graphs."
+  },
+  {
+    "id": 61,
+    "topic": "Graph",
+    "question": "Checking if edge exists between two vertices is O(1) in:",
+    "options": {
+      "A": "Adjacency List",
+      "B": "Edge List",
+      "C": "Adjacency Matrix",
+      "D": "None"
+    },
+    "correct_answer": "C",
+    "explanation": "Adjacency Matrix: check matrix[i][j] directly = O(1). Adjacency List needs traversal."
+  },
+  {
+    "id": 62,
+    "topic": "Graph",
+    "question": "Time complexity of BFS and DFS?",
+    "options": {
+      "A": "O(V) for both",
+      "B": "O(V²) for both",
+      "C": "O(V+E) for both",
+      "D": "O(E) for both"
+    },
+    "correct_answer": "C",
+    "explanation": "Both BFS and DFS visit each vertex once O(V) and each edge once O(E) = O(V+E)."
+  },
+  {
+    "id": 63,
+    "topic": "Graph",
+    "question": "BFS finds shortest path in:",
+    "options": {
+      "A": "Weighted graphs only",
+      "B": "Unweighted graphs",
+      "C": "Both weighted and unweighted",
+      "D": "Directed graphs only"
+    },
+    "correct_answer": "B",
+    "explanation": "BFS finds shortest path (minimum edges) in unweighted graphs. Dijkstra for weighted."
+  },
+  {
+    "id": 64,
+    "topic": "Graph",
+    "question": "BFS uses a Queue, DFS uses a:",
+    "options": {
+      "A": "Queue",
+      "B": "Priority Queue",
+      "C": "Stack (or recursion)",
+      "D": "Hash Table"
+    },
+    "correct_answer": "C",
+    "explanation": "DFS uses stack (explicit) or call stack (recursion) to explore as deep as possible first."
+  },
+  {
+    "id": 65,
+    "topic": "Graph",
+    "question": "Topological sort is only possible for:",
+    "options": {
+      "A": "Any graph",
+      "B": "Undirected graph only",
+      "C": "Directed Acyclic Graph (DAG)",
+      "D": "Cyclic graph"
+    },
+    "correct_answer": "C",
+    "explanation": "Topological sort orders vertices so every edge u→v has u before v. Only possible for DAGs."
+  },
+  {
+    "id": 66,
+    "topic": "Graph - Shortest Path",
+    "question": "Dijkstra's algorithm does NOT work with:",
+    "options": {
+      "A": "Undirected graphs",
+      "B": "Dense graphs",
+      "C": "Negative weight edges",
+      "D": "Directed graphs"
+    },
+    "correct_answer": "C",
+    "explanation": "Dijkstra's greedy approach fails with negative edges. Use Bellman-Ford for negative weights."
+  },
+  {
+    "id": 67,
+    "topic": "Graph - Shortest Path",
+    "question": "Time complexities of Dijkstra (with heap), Bellman-Ford, Floyd-Warshall?",
+    "options": {
+      "A": "O(V+E), O(VE), O(V³)",
+      "B": "O((V+E)logV), O(VE), O(V³)",
+      "C": "O(V²), O(V²), O(V²)",
+      "D": "O(V logV), O(V²), O(V²)"
+    },
+    "correct_answer": "B",
+    "explanation": "Dijkstra(heap)=O((V+E)logV), Bellman-Ford=O(VE), Floyd-Warshall=O(V³) all-pairs."
+  },
+  {
+    "id": 68,
+    "topic": "Graph - MST",
+    "question": "Kruskal's and Prim's algorithms both find:",
+    "options": {
+      "A": "Shortest path",
+      "B": "Minimum Spanning Tree",
+      "C": "All-pairs shortest path",
+      "D": "Topological order"
+    },
+    "correct_answer": "B",
+    "explanation": "Both Kruskal's and Prim's find the Minimum Spanning Tree (MST) of a weighted graph."
+  },
+  {
+    "id": 69,
+    "topic": "Graph - MST",
+    "question": "Kruskal's algorithm works by:",
+    "options": {
+      "A": "Growing tree from source vertex",
+      "B": "Sorting edges and adding smallest that doesn't form cycle",
+      "C": "Using BFS",
+      "D": "Relaxing all edges V-1 times"
+    },
+    "correct_answer": "B",
+    "explanation": "Kruskal's: sort edges by weight, greedily add smallest edge that doesn't form cycle. Time: O(E log E)."
+  },
+  {
+    "id": 70,
+    "topic": "Graph",
+    "question": "A spanning tree of graph with n vertices has exactly:",
+    "options": {
+      "A": "n edges",
+      "B": "n-1 edges",
+      "C": "n+1 edges",
+      "D": "n(n-1)/2 edges"
+    },
+    "correct_answer": "B",
+    "explanation": "Spanning tree connects all n vertices with minimum edges = n-1 edges, no cycles."
+  },
+  {
+    "id": 71,
+    "topic": "Trie",
+    "question": "A Trie (prefix tree) is primarily used for:",
+    "options": {
+      "A": "Sorting numbers",
+      "B": "Efficient string/prefix operations",
+      "C": "Graph traversal",
+      "D": "Priority queue"
+    },
+    "correct_answer": "B",
+    "explanation": "Tries efficiently support string insert, search, and prefix matching."
+  },
+  {
+    "id": 72,
+    "topic": "Trie",
+    "question": "Time complexity of search and insert in a Trie for word of length L?",
+    "options": {
+      "A": "O(n) where n is total words",
+      "B": "O(L)",
+      "C": "O(log n)",
+      "D": "O(L × n)"
+    },
+    "correct_answer": "B",
+    "explanation": "Trie operations depend only on word length L, not total number of words stored."
+  },
+  {
+    "id": 73,
+    "topic": "Trie",
+    "question": "Main disadvantage of Trie is:",
+    "options": {
+      "A": "Slow search",
+      "B": "Cannot handle prefixes",
+      "C": "High memory usage",
+      "D": "Complex traversal"
+    },
+    "correct_answer": "C",
+    "explanation": "Each Trie node may have pointers for all alphabet characters (26 for English), high memory overhead."
+  },
+  {
+    "id": 74,
+    "topic": "Sorting",
+    "question": "Which sorting algorithms have worst case O(n²)?",
+    "options": {
+      "A": "Merge Sort, Heap Sort",
+      "B": "Quick Sort, Merge Sort",
+      "C": "Bubble Sort, Selection Sort, Insertion Sort, Quick Sort",
+      "D": "Only Bubble Sort"
+    },
+    "correct_answer": "C",
+    "explanation": "O(n²) worst case: Bubble, Selection, Insertion (O(n²)), Quick Sort (O(n²) with bad pivot). Merge and Heap are always O(n log n)."
+  },
+  {
+    "id": 75,
+    "topic": "Sorting",
+    "question": "Which sorting algorithms guarantee O(n log n) in ALL cases?",
+    "options": {
+      "A": "Quick Sort, Merge Sort",
+      "B": "Merge Sort, Heap Sort",
+      "C": "Bubble Sort, Merge Sort",
+      "D": "All comparison sorts"
+    },
+    "correct_answer": "B",
+    "explanation": "Merge Sort: always O(n log n). Heap Sort: always O(n log n). Quick Sort has O(n²) worst case."
+  },
+  {
+    "id": 76,
+    "topic": "Sorting",
+    "question": "Best case time complexity of Insertion Sort and Bubble Sort?",
+    "options": {
+      "A": "O(n²) for both",
+      "B": "O(n log n) for both",
+      "C": "O(n) for both",
+      "D": "O(1) for both"
+    },
+    "correct_answer": "C",
+    "explanation": "Both achieve O(n) best case on already sorted arrays (with optimization flag for Bubble Sort)."
+  },
+  {
+    "id": 77,
+    "topic": "Sorting",
+    "question": "Which sorting algorithms are stable?",
+    "options": {
+      "A": "Quick Sort, Heap Sort, Selection Sort",
+      "B": "Merge Sort, Bubble Sort, Insertion Sort",
+      "C": "All sorting algorithms",
+      "D": "Only Merge Sort"
+    },
+    "correct_answer": "B",
+    "explanation": "Stable: Merge, Bubble, Insertion, Counting, Radix. Unstable: Quick, Heap, Selection."
+  },
+  {
+    "id": 78,
+    "topic": "Sorting",
+    "question": "Which sort is NOT in-place (requires O(n) extra space)?",
+    "options": {
+      "A": "Quick Sort",
+      "B": "Heap Sort",
+      "C": "Merge Sort",
+      "D": "Insertion Sort"
+    },
+    "correct_answer": "C",
+    "explanation": "Merge Sort needs O(n) extra space for temporary arrays during merging."
+  },
+  {
+    "id": 79,
+    "topic": "Sorting",
+    "question": "For nearly sorted arrays, which sort is most efficient?",
+    "options": {
+      "A": "Quick Sort",
+      "B": "Merge Sort",
+      "C": "Insertion Sort",
+      "D": "Heap Sort"
+    },
+    "correct_answer": "C",
+    "explanation": "Insertion Sort is O(n) for nearly sorted data since elements need minimal shifting."
+  },
+  {
+    "id": 80,
+    "topic": "Sorting",
+    "question": "Counting Sort time complexity is O(n+k). What is k?",
+    "options": {
+      "A": "Number of comparisons",
+      "B": "Range of input values",
+      "C": "Number of digits",
+      "D": "Log of n"
+    },
+    "correct_answer": "B",
+    "explanation": "Counting Sort: O(n+k) where k = range of input values. Non-comparison based, can beat O(n log n)."
+  },
+  {
+    "id": 81,
+    "topic": "Sorting",
+    "question": "Lower bound for comparison-based sorting is:",
+    "options": {
+      "A": "O(n)",
+      "B": "O(n²)",
+      "C": "O(n log n)",
+      "D": "O(log n)"
+    },
+    "correct_answer": "C",
+    "explanation": "Proven by decision tree model: any comparison-based sort needs at least Ω(n log n) comparisons."
+  },
+  {
+    "id": 82,
+    "topic": "Sorting",
+    "question": "Quick Sort uses which algorithm design technique?",
+    "options": {
+      "A": "Greedy",
+      "B": "Dynamic Programming",
+      "C": "Divide and Conquer",
+      "D": "Backtracking"
+    },
+    "correct_answer": "C",
+    "explanation": "Quick Sort: divide (partition around pivot), conquer (recursively sort), no combine step needed."
+  },
+  {
+    "id": 83,
+    "topic": "Complexity",
+    "question": "Correct order from fastest to slowest growth rate?",
+    "options": {
+      "A": "O(n) < O(1) < O(n²) < O(log n)",
+      "B": "O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2ⁿ)",
+      "C": "O(log n) < O(1) < O(n) < O(n²)",
+      "D": "O(n²) < O(n) < O(log n) < O(1)"
+    },
+    "correct_answer": "B",
+    "explanation": "O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(n³) < O(2ⁿ) < O(n!)"
+  },
+  {
+    "id": 84,
+    "topic": "Complexity",
+    "question": "What is the time complexity of this code?\nfor(i=0; i<n; i++)\n  for(j=0; j<n; j++)\n    print(i,j);",
+    "options": {
+      "A": "O(n)",
+      "B": "O(n log n)",
+      "C": "O(n²)",
+      "D": "O(2n)"
+    },
+    "correct_answer": "C",
+    "explanation": "Two nested loops each running n times = n × n = O(n²)."
+  },
+  {
+    "id": 85,
+    "topic": "Complexity",
+    "question": "What is the time complexity of:\nfor(i=1; i<n; i=i*2) print(i);",
+    "options": {
+      "A": "O(n)",
+      "B": "O(n²)",
+      "C": "O(log n)",
+      "D": "O(√n)"
+    },
+    "correct_answer": "C",
+    "explanation": "Loop variable doubles each time (1,2,4,8...). Runs log₂(n) times = O(log n)."
+  },
+  {
+    "id": 86,
+    "topic": "Complexity",
+    "question": "Big O notation represents:",
+    "options": {
+      "A": "Best case (lower bound)",
+      "B": "Tight bound",
+      "C": "Upper bound (worst case growth rate)",
+      "D": "Exact running time"
+    },
+    "correct_answer": "C",
+    "explanation": "Big O = upper bound on growth rate. Big Ω = lower bound. Big Θ = tight bound."
+  },
+  {
+    "id": 87,
+    "topic": "Complexity",
+    "question": "Recurrence T(n) = 2T(n/2) + n gives time complexity of:",
+    "options": {
+      "A": "O(n)",
+      "B": "O(n²)",
+      "C": "O(n log n)",
+      "D": "O(log n)"
+    },
+    "correct_answer": "C",
+    "explanation": "This is Merge Sort's recurrence. log n levels, O(n) work per level = O(n log n)."
+  },
+  {
+    "id": 88,
+    "topic": "Complexity",
+    "question": "Recurrence T(n) = T(n/2) + O(1) gives:",
+    "options": {
+      "A": "O(n)",
+      "B": "O(n²)",
+      "C": "O(n log n)",
+      "D": "O(log n)"
+    },
+    "correct_answer": "D",
+    "explanation": "This is Binary Search's recurrence. Halves problem, constant work = O(log n)."
+  },
+  {
+    "id": 89,
+    "topic": "Complexity",
+    "question": "Naive recursive Fibonacci has time complexity:",
+    "options": {
+      "A": "O(n)",
+      "B": "O(n²)",
+      "C": "O(2ⁿ)",
+      "D": "O(log n)"
+    },
+    "correct_answer": "C",
+    "explanation": "Naive Fibonacci makes exponential recursive calls with overlapping subproblems = O(2ⁿ)."
+  },
+  {
+    "id": 90,
+    "topic": "Complexity",
+    "question": "With memoization (DP), Fibonacci runs in:",
+    "options": {
+      "A": "O(2ⁿ)",
+      "B": "O(n²)",
+      "C": "O(n)",
+      "D": "O(log n)"
+    },
+    "correct_answer": "C",
+    "explanation": "Memoization computes each Fibonacci value only once and stores it, reducing to O(n)."
+  }
+]

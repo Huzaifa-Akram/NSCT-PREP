@@ -1,0 +1,385 @@
+[
+  {
+    "id": "mcq-1",
+    "topic": "Band Problem Solving",
+    "type": "mcq",
+    "question": "A band has 5 members. In how many ways can they stand in a line for a photo?",
+    "options": ["5", "10", "60", "120"],
+    "correctIndex": 3,
+    "note": "The number of ways to arrange 5 people in a line is 5! = 120."
+  },
+  {
+    "id": "mcq-2",
+    "topic": "Band Problem Solving",
+    "type": "mcq",
+    "question": "A band is to perform 3 songs from a list of 7, with no repeats and order matters. How many possible setlists are there?",
+    "options": ["21", "210", "343", "5040"],
+    "correctIndex": 1,
+    "note": "This is a permutation: 7P3 = 7 × 6 × 5 = 210."
+  },
+  {
+    "id": "mcq-3",
+    "topic": "Complexity & Efficiency Awareness",
+    "type": "mcq",
+    "question": "Which asymptotic notation represents the upper bound of an algorithm's growth rate, formally defined as f(n) <= c * g(n) for positive constants c and n0?",
+    "options": [
+      "Big-O notation (O)",
+      "Big-Omega notation (Ω)",
+      "Big-Theta notation (Θ)",
+      "Little-o notation (o)"
+    ],
+    "correctIndex": 0,
+    "note": "Big-O notation captures the worst-case scenario, providing a guarantee that an algorithm will never perform worse than a certain rate as the input scales."
+  },
+  {
+    "id": "mcq-4",
+    "topic": "Complexity & Efficiency Awareness",
+    "type": "mcq",
+    "question": "If an algorithm's growth rate is bounded from above and below by the same function, which notation correctly represents this tight bound?",
+    "options": [
+      "Big-O notation (O)",
+      "Big-Omega notation (Ω)",
+      "Big-Theta notation (Θ)",
+      "Little-Omega notation (ω)"
+    ],
+    "correctIndex": 2,
+    "note": "A tight bound describes the exact asymptotic behavior when the growth rate is consistent across all cases."
+  },
+  {
+    "id": "mcq-5",
+    "topic": "Complexity & Efficiency Awareness",
+    "type": "mcq",
+    "question": "Which of the following correctly describes Big-Omega (Ω) notation?",
+    "options": [
+      "It defines a tight bound on the order of growth.",
+      "It defines an upper bound on the order of growth.",
+      "It defines a lower bound on the order of growth, formally f(n) >= c * g(n).",
+      "It measures the auxiliary space consumed by a recursive call stack."
+    ],
+    "correctIndex": 2,
+    "note": "Big-Omega notation represents the best-case performance, establishing a minimum growth rate for the algorithm."
+  },
+  {
+    "id": "mcq-6",
+    "topic": "Complexity & Efficiency Awareness",
+    "type": "mcq",
+    "question": "A programmer is evaluating an algorithm that allocates a new array of size n and uses a recursive helper function that reaches a maximum depth of n calls. What is the total auxiliary space complexity of this algorithm?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+    "correctIndex": 2,
+    "note": "Auxiliary space complexity includes both the explicitly allocated array (O(n)) and the recursive call stack frames (O(n)). Asymptotically, O(n) + O(n) = O(2n), which simplifies to O(n)."
+  },
+  {
+    "id": "mcq-7",
+    "topic": "Complexity & Efficiency Awareness",
+    "type": "mcq",
+    "question": "Which of the following correctly arranges the complexity classes from most efficient (slowest growth) to least efficient (fastest growth)?",
+    "options": [
+      "O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(2^n)",
+      "O(1) < O(n) < O(log n) < O(n log n) < O(n^2) < O(2^n)",
+      "O(log n) < O(1) < O(n) < O(n^2) < O(n log n) < O(2^n)",
+      "O(1) < O(log n) < O(n) < O(n^2) < O(n log n) < O(2^n)"
+    ],
+    "correctIndex": 0,
+    "note": "The standard hierarchy prioritizes constant and logarithmic time as highly efficient, linear and linearithmic as efficient, and quadratic or exponential as less efficient for large inputs."
+  },
+  {
+    "id": "mcq-8",
+    "topic": "Complexity & Efficiency Awareness",
+    "type": "mcq",
+    "question": "What is the time complexity of a single loop that iterates from 0 to n using a constant increment?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+    "correctIndex": 2,
+    "note": "A single standard loop that increments its index from 0 to n by a constant performs n iterations, corresponding to linear time complexity O(n)."
+  },
+  {
+    "id": "mcq-9",
+    "topic": "Complexity & Efficiency Awareness",
+    "type": "mcq",
+    "question": "What is the time complexity of a loop where the index is multiplied or divided by a constant (e.g., i = i * 2) in each iteration?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correctIndex": 1,
+    "note": "A loop that multiplies its index by a constant factor reduces the remaining steps exponentially, leading to logarithmic time complexity O(log n)."
+  },
+  {
+    "id": "mcq-10",
+    "topic": "Complexity & Efficiency Awareness",
+    "type": "mcq",
+    "question": "What is the time complexity of two nested loops where both the outer and inner loops iterate n times?",
+    "options": ["O(n)", "O(2n)", "O(n log n)", "O(n^2)"],
+    "correctIndex": 3,
+    "note": "When two loops are nested and both run n times, the total number of operations is the product of the two iterations (n * n), resulting in quadratic complexity O(n^2)."
+  },
+  {
+    "id": "mcq-11",
+    "topic": "Complexity & Efficiency Awareness",
+    "type": "mcq",
+    "question": "What is the time complexity of two sequential (side-by-side) independent loops that each run n times?",
+    "options": ["O(1)", "O(n)", "O(2n)", "O(n^2)"],
+    "correctIndex": 1,
+    "note": "Sequential loops are additive, so O(n) + O(n) results in O(2n). In asymptotic analysis, the constant coefficient is dropped, so the overall complexity remains O(n)."
+  },
+  {
+    "id": "mcq-12",
+    "topic": "Complexity & Efficiency Awareness",
+    "type": "mcq",
+    "question": "What is the time complexity of a recursive Fibonacci algorithm defined by the recurrence relation T(n) = T(n-1) + T(n-2)?",
+    "options": ["O(n)", "O(n log n)", "O(n^2)", "O(2^n)"],
+    "correctIndex": 3,
+    "note": "Because the function repeatedly calls itself twice for preceding values without memoization, the recurrence relation has an upper bound of O(2^n), giving it exponential time complexity."
+  },
+  {
+    "id": "mcq-13",
+    "topic": "Logical Reasoning Fundamentals",
+    "type": "mcq",
+    "question": "In Boolean logic, what is the evaluated result of the operation: True XOR True (T ⊕ T)?",
+    "options": ["True", "False", "Undefined", "Both True and False"],
+    "correctIndex": 1,
+    "note": "The XOR (Exclusive OR) operator requires that exactly one of the inputs must be True for the output to be True. When both inputs are True, the condition of exclusivity fails, resulting in False."
+  },
+  {
+    "id": "mcq-14",
+    "topic": "Logical Reasoning Fundamentals",
+    "type": "mcq",
+    "question": "In the material conditional statement P => Q ('If P, then Q'), what is the only scenario where the statement evaluates to False?",
+    "options": [
+      "When both P and Q are False.",
+      "When both P and Q are True.",
+      "When P is False but Q is True.",
+      "When P is True but Q is False."
+    ],
+    "correctIndex": 3,
+    "note": "An implication 'If P, then Q' is only False when the premise (P) is True but the conclusion (Q) is False."
+  },
+  {
+    "id": "mcq-15",
+    "topic": "Logical Reasoning Fundamentals",
+    "type": "mcq",
+    "question": "According to the 'Vacuous Truth' rule in formal logic, what is the truth value of the conditional statement P => Q if the premise P is False?",
+    "options": [
+      "True",
+      "False",
+      "Undefined",
+      "It depends on the truth value of Q"
+    ],
+    "correctIndex": 0,
+    "note": "If the premise P is False, the entire statement P => Q is True by definition, completely regardless of the truth value of Q."
+  },
+  {
+    "id": "mcq-16",
+    "topic": "Logical Reasoning Fundamentals",
+    "type": "mcq",
+    "question": "Which of the following Boolean expressions is logically equivalent to NOT (A AND B) according to De Morgan's Laws?",
+    "options": [
+      "(NOT A) AND (NOT B)",
+      "(NOT A) OR (NOT B)",
+      "A OR B",
+      "A AND (NOT B)"
+    ],
+    "correctIndex": 1,
+    "note": "De Morgan's Laws state that negating a conjunction (AND) results in the disjunction (OR) of the negated operands."
+  },
+  {
+    "id": "mcq-17",
+    "topic": "Logical Reasoning Fundamentals",
+    "type": "mcq",
+    "question": "Which of the following Boolean expressions is logically equivalent to NOT (P OR Q) according to De Morgan's Laws?",
+    "options": [
+      "(NOT P) AND (NOT Q)",
+      "(NOT P) OR (NOT Q)",
+      "P AND Q",
+      "(NOT P) AND Q"
+    ],
+    "correctIndex": 0,
+    "note": "De Morgan's Laws state that negating a disjunction (OR) results in the conjunction (AND) of the negated operands."
+  },
+  {
+    "id": "mcq-18",
+    "topic": "Logical Reasoning Fundamentals",
+    "type": "mcq",
+    "question": "According to the properties of equivalent statements, what is the correct negation of the conditional statement (P => Q)?",
+    "options": ["NOT P OR Q", "NOT P AND NOT Q", "P AND NOT Q", "P OR NOT Q"],
+    "correctIndex": 2,
+    "note": "The negation of a conditional statement, NOT(P => Q), is the conjunction of P and NOT Q, which is written as P AND NOT Q."
+  },
+  {
+    "id": "mcq-19",
+    "topic": "Mathematical & Quantitative Reasoning",
+    "type": "mcq",
+    "question": "Identify the next logical number in the following arithmetic sequence: 4, 11, 18, 25, ...",
+    "options": ["30", "31", "32", "33"],
+    "correctIndex": 2,
+    "note": "This is an arithmetic sequence with a constant common difference of 7 (11 - 4 = 7). Adding 7 to the last term (25 + 7) yields 32."
+  },
+  {
+    "id": "mcq-20",
+    "topic": "Mathematical & Quantitative Reasoning",
+    "type": "mcq",
+    "question": "Determine the next term in the following geometric sequence: 3, 6, 12, 24, ...",
+    "options": ["30", "36", "48", "60"],
+    "correctIndex": 2,
+    "note": "This is a geometric sequence with a constant common ratio of 2 (6 / 3 = 2). Multiplying the last term (24 * 2) results in 48."
+  },
+  {
+    "id": "mcq-21",
+    "topic": "Mathematical & Quantitative Reasoning",
+    "type": "mcq",
+    "question": "What is the probability of rolling a fair six-sided die and obtaining a number that is exactly divisible by 3?",
+    "options": ["1/6", "1/3", "1/2", "2/3"],
+    "correctIndex": 1,
+    "note": "In a sample space of {1, 2, 3, 4, 5, 6}, the numbers divisible by 3 are {3, 6}. Probability is Desired Outcomes / Total Outcomes, so 2 / 6 simplifies to 1/3."
+  },
+  {
+    "id": "mcq-22",
+    "topic": "Mathematical & Quantitative Reasoning",
+    "type": "mcq",
+    "question": "The modulo operator finds the remainder of an integer division. Calculate the remainder for the operation: 147 % 10.",
+    "options": ["1", "4", "7", "14"],
+    "correctIndex": 2,
+    "note": "The modulo operation returns the remainder of the division. 147 divided by 10 equals 14 with a remainder of 7."
+  },
+  {
+    "id": "mcq-23",
+    "topic": "Time Complexity (Simple Programs)",
+    "type": "mcq",
+    "question": "What is the time complexity of the following code snippet? \nfor (int i = 0; i < n; i = i + c) { \n  // O(1) operations \n}",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+    "correctIndex": 2,
+    "note": "The loop increments by a constant 'c' each time, so it iterates n/c times. Since 'c' is a constant, asymptotic analysis drops the coefficient, resulting in a linear time complexity of O(n)."
+  },
+  {
+    "id": "mcq-24",
+    "topic": "Time Complexity (Simple Programs)",
+    "type": "mcq",
+    "question": "What is the time complexity of the following code snippet? \nfor (int i = n; i > 1; i = i / c) { \n  // O(1) operations \n}",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correctIndex": 1,
+    "note": "A loop that repeatedly divides its index by a constant factor 'c' reduces the search space exponentially in each iteration, which gives it a logarithmic time complexity of O(log n)."
+  },
+  {
+    "id": "mcq-25",
+    "topic": "Time Complexity (Nested Loops)",
+    "type": "mcq",
+    "question": "What is the time complexity of this nested loop structure? \nfor (int i = 0; i < n; i++) { \n  for (int j = 1; j < n; j = j * 2) { \n    // O(1) operations \n  } \n}",
+    "options": ["O(n)", "O(n log n)", "O(n^2)", "O(2^n)"],
+    "correctIndex": 1,
+    "note": "The outer loop runs 'n' times. The inner loop multiplies its index by 2 each time, meaning it runs 'log n' times. Multiplying the two independent loop iterations gives an overall complexity of O(n log n)."
+  },
+  {
+    "id": "mcq-26",
+    "topic": "Time Complexity (Simple Programs)",
+    "type": "mcq",
+    "question": "What is the time complexity of a function that simply retrieves the first item of an array, e.g., \nfunction getFirstItem(array) { return array; } ?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+    "correctIndex": 0,
+    "note": "Accessing an element in an array by its index takes a fixed amount of time that does not depend on the array's size, which is represented as O(1) or constant time."
+  },
+  {
+    "id": "mcq-27",
+    "topic": "Time Complexity (Nested Loops)",
+    "type": "mcq",
+    "question": "What is the time complexity of the following code where the inner loop depends on the outer loop's variable? \nfor (int i = 1; i <= N; i++) { \n  for (int j = 1; j <= i; j++) { \n    // O(1) operations \n  } \n}",
+    "options": ["O(n)", "O(n log n)", "O(n^2)", "O(n^3)"],
+    "correctIndex": 2,
+    "note": "The inner loop runs 'i' times for each iteration of the outer loop. The total operations sum up as 1 + 2 + 3 + ... + N, which equals N*(N+1)/2. Dropping constants and lower-order terms gives O(N^2)."
+  },
+  {
+    "id": "mcq-28",
+    "topic": "Time Complexity (Advanced Loops)",
+    "type": "mcq",
+    "question": "What is the time complexity of the following code? \nfor (int i = 1; i <= N; i++) { \n  for (int j = 1; j <= N; j += i) { \n    // O(1) operations \n  } \n}",
+    "options": ["O(N)", "O(N log N)", "O(N^2)", "O(N sqrt(N))"],
+    "correctIndex": 1,
+    "note": "The inner loop runs N/i times. The total sum of operations is N * (1/1 + 1/2 + 1/3 + ... + 1/N). This is a harmonic series which approximates to log N, making the total time complexity O(N log N)."
+  },
+  {
+    "id": "mcq-29",
+    "topic": "Time Complexity (Sequential Loops)",
+    "type": "mcq",
+    "question": "What is the time complexity of two independent sequential loops executed one after the other? \nfor (int i = 0; i < n; i++) { } \nfor (int j = 0; j < n; j++) { }",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+    "correctIndex": 2,
+    "note": "Sequential (side-by-side) loops are additive. O(n) + O(n) results in O(2n). In asymptotic analysis, the constant coefficient is ignored, so the overall complexity remains O(n)."
+  },
+  {
+    "id": "mcq-30",
+    "topic": "Time Complexity (Pointers)",
+    "type": "mcq",
+    "question": "What is the time complexity of a standard 'Two Pointers' approach where two indices start from opposite ends of an array and move towards the center until they meet?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+    "correctIndex": 2,
+    "note": "Since the pointers only move towards each other one step at a time and stop when they cross, they traverse the array elements exactly once, giving a linear time complexity of O(n)."
+  },
+  {
+    "id": "mcq-31",
+    "topic": "Time Complexity (Multiple Inputs)",
+    "type": "mcq",
+    "question": "Analyze the time complexity of the following code with two different inputs 'n' and 'm': \nfor(int i=0; i<n; i++) { for(int j=1; j<n; j*=3) { } } \nfor(int i=0; i<m; i++) { for(int j=0; j<m; j++) { } }",
+    "options": ["O(n log n)", "O(m^2)", "O(n log n + m^2)", "O(n^2 + m^2)"],
+    "correctIndex": 2,
+    "note": "The first nested loop structure takes O(n log n) time and the second independent nested loop takes O(m^2) time. Since 'n' and 'm' are different input variables, we cannot drop either term, resulting in O(n log n + m^2)."
+  },
+  {
+    "id": "mcq-32",
+    "topic": "Space Complexity (Recursion)",
+    "type": "mcq",
+    "question": "If a simple recursive function (like a countdown) is called N times before reaching its base case, what is its space complexity?",
+    "options": ["O(1)", "O(log N)", "O(N)", "O(N^2)"],
+    "correctIndex": 2,
+    "note": "The recursion stack will grow to a maximum depth of N frames before it begins to return. Therefore, the space complexity due to the auxiliary call stack memory is O(N)."
+  },
+  {
+    "id": "mcq-33",
+    "topic": "Space Complexity (Data Structures)",
+    "type": "mcq",
+    "question": "What is the space complexity of an algorithm that creates an n x m 2D array (matrix) to store calculated values?",
+    "options": ["O(n + m)", "O(n * m)", "O(max(n, m))", "O(1)"],
+    "correctIndex": 1,
+    "note": "Allocating a 2D array of size n rows by m columns consumes memory directly proportional to the product of those two dimensions, yielding an auxiliary space complexity of O(n * m)."
+  },
+  {
+    "id": "mcq-34",
+    "topic": "Space Complexity (Dynamic Programming)",
+    "type": "mcq",
+    "question": "What are the time and space complexities for calculating the Nth Fibonacci number using a 1D dynamic programming memoization array (dp) of size N?",
+    "options": [
+      "Time: O(N), Space: O(1)",
+      "Time: O(N^2), Space: O(N)",
+      "Time: O(N), Space: O(N)",
+      "Time: O(2^N), Space: O(N)"
+    ],
+    "correctIndex": 2,
+    "note": "Because the dp array explicitly stores previously computed values up to N to prevent recomputation, the algorithm takes O(N) time and requires O(N) auxiliary space for the array."
+  },
+  {
+    "id": "mcq-35",
+    "topic": "Time Complexity (Exponential)",
+    "type": "mcq",
+    "question": "Consider an algorithm designed to generate all possible subsets (combinations) of a given set. What is its typical worst-case time complexity?",
+    "options": ["O(n^2)", "O(n^3)", "O(2^n)", "O(n!)"],
+    "correctIndex": 2,
+    "note": "The number of subsets generated from a set of size 'n' is 2^n. Generating them all inherently grows exponentially with the size of the set, yielding a time complexity of O(2^n)."
+  },
+  {
+    "id": "mcq-36",
+    "topic": "Time Complexity (Logarithmic Power)",
+    "type": "mcq",
+    "question": "What is the time complexity of a loop structured as `for (int i = 2; i < n; i = i^c)` where `c` is a constant?",
+    "options": ["O(log n)", "O(log(log n))", "O(n)", "O(n log n)"],
+    "correctIndex": 1,
+    "note": "Because the loop variable is raised to a power at each step, it reduces the number of operations needed to reach `n` exponentially faster than standard multiplication, leading to O(log(log n)) time complexity."
+  },
+  {
+    "id": "mcq-37",
+    "topic": "Complexity & Efficiency Awareness",
+    "type": "mcq",
+    "question": "In algorithm analysis, what does Big Theta (Θ) notation define?",
+    "options": [
+      "An upper bound only",
+      "A lower bound only",
+      "A tight bound (both upper and lower)",
+      "The memory usage of an algorithm"
+    ],
+    "correctIndex": 2,
+    "note": "Big Theta (Θ) notation defines the exact order of growth. A function f(n) is Θ(g(n)) if it is bounded both above (Big O) and below (Big Omega) by g(n)."
+  }
+]

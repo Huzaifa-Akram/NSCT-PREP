@@ -1,0 +1,1237 @@
+[
+  {
+    "id": 1,
+    "topic": "Data Communication",
+    "question": "Which of the following is NOT a component of data communication?",
+    "options": {
+      "A": "Message",
+      "B": "Sender",
+      "C": "Protocol",
+      "D": "Compiler"
+    },
+    "correct_answer": "D",
+    "explanation": "5 components: Message, Sender, Receiver, Medium, Protocol. Compiler is a programming tool, not a communication component."
+  },
+  {
+    "id": 2,
+    "topic": "Data Communication",
+    "question": "A phone call is an example of which data flow mode?",
+    "options": {
+      "A": "Simplex",
+      "B": "Half-Duplex",
+      "C": "Full-Duplex",
+      "D": "Multiplex"
+    },
+    "correct_answer": "C",
+    "explanation": "Phone call = Full-Duplex (both parties talk and listen simultaneously). Walkie-talkie = Half-Duplex. TV = Simplex."
+  },
+  {
+    "id": 3,
+    "topic": "Data Communication",
+    "question": "A walkie-talkie uses which mode of communication?",
+    "options": {
+      "A": "Simplex",
+      "B": "Full-Duplex",
+      "C": "Half-Duplex",
+      "D": "Automatic Duplex"
+    },
+    "correct_answer": "C",
+    "explanation": "Walkie-talkie allows both directions but one at a time (take turns) = Half-Duplex."
+  },
+  {
+    "id": 4,
+    "topic": "Data Communication",
+    "question": "Which signal type is continuous and varies smoothly over time?",
+    "options": {
+      "A": "Digital",
+      "B": "Analog",
+      "C": "Binary",
+      "D": "Discrete"
+    },
+    "correct_answer": "B",
+    "explanation": "Analog signals are continuous waves. Digital signals are discrete (0s and 1s)."
+  },
+  {
+    "id": 5,
+    "topic": "Data Communication",
+    "question": "The maximum capacity of a communication channel is called:",
+    "options": {
+      "A": "Throughput",
+      "B": "Latency",
+      "C": "Bandwidth",
+      "D": "Jitter"
+    },
+    "correct_answer": "C",
+    "explanation": "Bandwidth = maximum capacity. Throughput = actual data transferred (always ≤ bandwidth)."
+  },
+  {
+    "id": 6,
+    "topic": "Data Communication",
+    "question": "Variation in delay between packets is called:",
+    "options": {
+      "A": "Bandwidth",
+      "B": "Latency",
+      "C": "Throughput",
+      "D": "Jitter"
+    },
+    "correct_answer": "D",
+    "explanation": "Jitter = variation in packet delay. Bad for real-time apps like video calls."
+  },
+  {
+    "id": 7,
+    "topic": "Data Communication",
+    "question": "Which transmission medium uses light and is immune to electromagnetic interference?",
+    "options": {
+      "A": "Twisted Pair Cable",
+      "B": "Coaxial Cable",
+      "C": "Fiber Optic Cable",
+      "D": "Radio Waves"
+    },
+    "correct_answer": "C",
+    "explanation": "Fiber optic uses light signals, fastest speed, longest distance, immune to EMI, but expensive."
+  },
+  {
+    "id": 8,
+    "topic": "Data Communication",
+    "question": "UTP stands for:",
+    "options": {
+      "A": "Universal Transfer Protocol",
+      "B": "Unshielded Twisted Pair",
+      "C": "Unified Transmission Path",
+      "D": "Ultra Thin Port"
+    },
+    "correct_answer": "B",
+    "explanation": "UTP (Unshielded Twisted Pair) is the most common LAN cable. STP = Shielded Twisted Pair (better interference protection)."
+  },
+  {
+    "id": 9,
+    "topic": "Data Communication",
+    "question": "Multiple radio stations using different frequencies on same medium is an example of:",
+    "options": {
+      "A": "TDM (Time Division Multiplexing)",
+      "B": "FDM (Frequency Division Multiplexing)",
+      "C": "CDM (Code Division Multiplexing)",
+      "D": "WDM (Wavelength Division Multiplexing)"
+    },
+    "correct_answer": "B",
+    "explanation": "FDM assigns different frequency bands to different signals. Radio stations = classic FDM example."
+  },
+  {
+    "id": 10,
+    "topic": "Data Communication",
+    "question": "Which modulation technique changes the amplitude of carrier signal for 0 and 1?",
+    "options": {
+      "A": "FSK",
+      "B": "PSK",
+      "C": "ASK",
+      "D": "QAM"
+    },
+    "correct_answer": "C",
+    "explanation": "ASK (Amplitude Shift Keying) changes amplitude. FSK changes frequency. PSK changes phase."
+  },
+  {
+    "id": 11,
+    "topic": "Data Communication",
+    "question": "Total delay in a network equals:",
+    "options": {
+      "A": "Propagation delay only",
+      "B": "Propagation + Transmission + Processing + Queuing",
+      "C": "Bandwidth × Throughput",
+      "D": "Jitter + Latency"
+    },
+    "correct_answer": "B",
+    "explanation": "Total delay = Propagation (travel time) + Transmission (push bits) + Processing (router processing) + Queuing (waiting in line)."
+  },
+  {
+    "id": 12,
+    "topic": "Network Types",
+    "question": "Which network type covers the largest geographical area?",
+    "options": {
+      "A": "PAN",
+      "B": "LAN",
+      "C": "MAN",
+      "D": "WAN"
+    },
+    "correct_answer": "D",
+    "explanation": "WAN (Wide Area Network) covers countries/world. The Internet is the largest WAN. PAN < LAN < MAN < WAN."
+  },
+  {
+    "id": 13,
+    "topic": "Network Types",
+    "question": "A network within a single building or campus is called:",
+    "options": {
+      "A": "WAN",
+      "B": "MAN",
+      "C": "LAN",
+      "D": "PAN"
+    },
+    "correct_answer": "C",
+    "explanation": "LAN (Local Area Network) covers a building or campus. Example: office network, school lab."
+  },
+  {
+    "id": 14,
+    "topic": "Network Types",
+    "question": "Bluetooth connection between phone and earbuds is an example of:",
+    "options": {
+      "A": "LAN",
+      "B": "PAN",
+      "C": "WAN",
+      "D": "MAN"
+    },
+    "correct_answer": "B",
+    "explanation": "PAN (Personal Area Network) covers ~1-10 meters. Bluetooth is the most common PAN technology."
+  },
+  {
+    "id": 15,
+    "topic": "Network Types",
+    "question": "VPN stands for:",
+    "options": {
+      "A": "Virtual Private Network",
+      "B": "Very Personal Network",
+      "C": "Virtual Protocol Network",
+      "D": "Verified Private Node"
+    },
+    "correct_answer": "A",
+    "explanation": "VPN creates a secure encrypted tunnel over public internet, providing privacy and security."
+  },
+  {
+    "id": 16,
+    "topic": "Topology",
+    "question": "In which topology does the entire network fail if the backbone cable breaks?",
+    "options": {
+      "A": "Star",
+      "B": "Ring",
+      "C": "Bus",
+      "D": "Mesh"
+    },
+    "correct_answer": "C",
+    "explanation": "Bus topology uses single backbone cable shared by all devices. If it breaks, entire network fails."
+  },
+  {
+    "id": 17,
+    "topic": "Topology",
+    "question": "Which topology is MOST commonly used today?",
+    "options": {
+      "A": "Bus",
+      "B": "Ring",
+      "C": "Star",
+      "D": "Mesh"
+    },
+    "correct_answer": "C",
+    "explanation": "Star topology is most popular. Central hub/switch, easy to manage, one device failure doesn't affect others."
+  },
+  {
+    "id": 18,
+    "topic": "Topology",
+    "question": "In Star topology, if the central hub fails:",
+    "options": {
+      "A": "Only one device is affected",
+      "B": "No device is affected",
+      "C": "Entire network fails",
+      "D": "Half the network fails"
+    },
+    "correct_answer": "C",
+    "explanation": "Star's single point of failure is the central hub/switch. If it fails, all connections are lost."
+  },
+  {
+    "id": 19,
+    "topic": "Topology",
+    "question": "Which topology is MOST reliable with multiple redundant paths?",
+    "options": {
+      "A": "Bus",
+      "B": "Star",
+      "C": "Ring",
+      "D": "Mesh"
+    },
+    "correct_answer": "D",
+    "explanation": "Mesh: every device connected to every other device. Multiple paths = highest reliability. Links = n(n-1)/2."
+  },
+  {
+    "id": 20,
+    "topic": "Topology",
+    "question": "In a mesh topology with 5 devices, how many links are needed?",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "20",
+      "D": "25"
+    },
+    "correct_answer": "B",
+    "explanation": "Links = n(n-1)/2 = 5(4)/2 = 10."
+  },
+  {
+    "id": 21,
+    "topic": "Topology",
+    "question": "Ring topology uses which access method?",
+    "options": {
+      "A": "CSMA/CD",
+      "B": "Token Passing",
+      "C": "CSMA/CA",
+      "D": "Random Access"
+    },
+    "correct_answer": "B",
+    "explanation": "Ring topology uses token passing — only the device holding the token can transmit data. No collisions."
+  },
+  {
+    "id": 22,
+    "topic": "OSI Model",
+    "question": "How many layers does the OSI model have?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correct_answer": "D",
+    "explanation": "OSI has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application."
+  },
+  {
+    "id": 23,
+    "topic": "OSI Model",
+    "question": "Which OSI layer is closest to the user?",
+    "options": {
+      "A": "Physical",
+      "B": "Transport",
+      "C": "Network",
+      "D": "Application"
+    },
+    "correct_answer": "D",
+    "explanation": "Application layer (Layer 7) is the topmost layer, closest to user. It provides network services to applications."
+  },
+  {
+    "id": 24,
+    "topic": "OSI Model",
+    "question": "Which layer handles encryption, compression, and data formatting?",
+    "options": {
+      "A": "Application",
+      "B": "Presentation",
+      "C": "Session",
+      "D": "Transport"
+    },
+    "correct_answer": "B",
+    "explanation": "Presentation layer (Layer 6) handles encryption/decryption, compression, and data format translation (e.g., JPEG, ASCII)."
+  },
+  {
+    "id": 25,
+    "topic": "OSI Model",
+    "question": "Which layer manages sessions (establishing, maintaining, terminating connections)?",
+    "options": {
+      "A": "Transport",
+      "B": "Application",
+      "C": "Session",
+      "D": "Network"
+    },
+    "correct_answer": "C",
+    "explanation": "Session layer (Layer 5) manages sessions, adds checkpoints for recovery, and controls dialog (who talks when)."
+  },
+  {
+    "id": 26,
+    "topic": "OSI Model",
+    "question": "Which layer provides reliable end-to-end delivery and uses port numbers?",
+    "options": {
+      "A": "Network",
+      "B": "Data Link",
+      "C": "Application",
+      "D": "Transport"
+    },
+    "correct_answer": "D",
+    "explanation": "Transport layer (Layer 4) provides reliable delivery using TCP/UDP, segmentation, flow control, and port numbers."
+  },
+  {
+    "id": 27,
+    "topic": "OSI Model",
+    "question": "Which layer handles routing and logical (IP) addressing?",
+    "options": {
+      "A": "Data Link",
+      "B": "Network",
+      "C": "Transport",
+      "D": "Physical"
+    },
+    "correct_answer": "B",
+    "explanation": "Network layer (Layer 3) handles IP addressing, routing packets between different networks. Device: Router."
+  },
+  {
+    "id": 28,
+    "topic": "OSI Model",
+    "question": "Which layer uses MAC addresses and frames?",
+    "options": {
+      "A": "Physical",
+      "B": "Network",
+      "C": "Data Link",
+      "D": "Transport"
+    },
+    "correct_answer": "C",
+    "explanation": "Data Link layer (Layer 2) uses MAC addresses, creates frames, error detection (CRC). Devices: Switch, Bridge."
+  },
+  {
+    "id": 29,
+    "topic": "OSI Model",
+    "question": "Which layer transmits raw bits over the physical medium?",
+    "options": {
+      "A": "Data Link",
+      "B": "Physical",
+      "C": "Network",
+      "D": "Transport"
+    },
+    "correct_answer": "B",
+    "explanation": "Physical layer (Layer 1) deals with raw bits, cables, connectors, voltages, signal encoding. Devices: Hub, Repeater."
+  },
+  {
+    "id": 30,
+    "topic": "OSI Model",
+    "question": "Match the correct data units: Transport=?, Network=?, Data Link=?, Physical=?",
+    "options": {
+      "A": "Packets, Frames, Segments, Bits",
+      "B": "Segments, Packets, Frames, Bits",
+      "C": "Frames, Packets, Segments, Bits",
+      "D": "Bits, Frames, Packets, Segments"
+    },
+    "correct_answer": "B",
+    "explanation": "Transport=Segments, Network=Packets, Data Link=Frames, Physical=Bits."
+  },
+  {
+    "id": 31,
+    "topic": "OSI Model",
+    "question": "A Router operates at which OSI layer?",
+    "options": {
+      "A": "Layer 1",
+      "B": "Layer 2",
+      "C": "Layer 3",
+      "D": "Layer 4"
+    },
+    "correct_answer": "C",
+    "explanation": "Router = Layer 3 (Network). Uses IP addresses to route packets between networks."
+  },
+  {
+    "id": 32,
+    "topic": "OSI Model",
+    "question": "A Switch operates at which OSI layer?",
+    "options": {
+      "A": "Layer 1",
+      "B": "Layer 2",
+      "C": "Layer 3",
+      "D": "Layer 4"
+    },
+    "correct_answer": "B",
+    "explanation": "Switch = Layer 2 (Data Link). Uses MAC addresses to forward frames to specific ports."
+  },
+  {
+    "id": 33,
+    "topic": "OSI Model",
+    "question": "A Hub operates at which OSI layer?",
+    "options": {
+      "A": "Layer 1",
+      "B": "Layer 2",
+      "C": "Layer 3",
+      "D": "Layer 7"
+    },
+    "correct_answer": "A",
+    "explanation": "Hub = Layer 1 (Physical). Dumb device that broadcasts data to ALL ports without any intelligence."
+  },
+  {
+    "id": 34,
+    "topic": "Network Devices",
+    "question": "What is the key difference between a Hub and a Switch?",
+    "options": {
+      "A": "Hub is faster than Switch",
+      "B": "Hub sends to specific port, Switch broadcasts",
+      "C": "Switch sends to specific port using MAC, Hub broadcasts to all",
+      "D": "They are exactly the same"
+    },
+    "correct_answer": "C",
+    "explanation": "Switch is smart (uses MAC addresses, sends to specific port). Hub is dumb (broadcasts to all ports)."
+  },
+  {
+    "id": 35,
+    "topic": "TCP/IP Model",
+    "question": "How many layers does the TCP/IP model have?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correct_answer": "A",
+    "explanation": "TCP/IP has 4 layers: Application, Transport, Internet, Network Access (Link)."
+  },
+  {
+    "id": 36,
+    "topic": "TCP/IP Model",
+    "question": "Which model is actually used on the Internet - OSI or TCP/IP?",
+    "options": {
+      "A": "OSI",
+      "B": "TCP/IP",
+      "C": "Both equally",
+      "D": "Neither"
+    },
+    "correct_answer": "B",
+    "explanation": "TCP/IP is the practical model used on the Internet. OSI is a theoretical reference model used for teaching."
+  },
+  {
+    "id": 37,
+    "topic": "TCP/IP Model",
+    "question": "OSI layers 5, 6, 7 are combined into which single TCP/IP layer?",
+    "options": {
+      "A": "Internet",
+      "B": "Transport",
+      "C": "Application",
+      "D": "Network Access"
+    },
+    "correct_answer": "C",
+    "explanation": "TCP/IP Application layer combines OSI's Session + Presentation + Application layers."
+  },
+  {
+    "id": 38,
+    "topic": "TCP vs UDP",
+    "question": "Which protocol is connection-oriented and reliable?",
+    "options": {
+      "A": "UDP",
+      "B": "TCP",
+      "C": "IP",
+      "D": "ICMP"
+    },
+    "correct_answer": "B",
+    "explanation": "TCP is connection-oriented (3-way handshake), reliable (acknowledgments), guarantees delivery and order."
+  },
+  {
+    "id": 39,
+    "topic": "TCP vs UDP",
+    "question": "Which protocol is connectionless, faster, but unreliable?",
+    "options": {
+      "A": "TCP",
+      "B": "HTTP",
+      "C": "UDP",
+      "D": "FTP"
+    },
+    "correct_answer": "C",
+    "explanation": "UDP is connectionless, no handshake, no guarantees, but faster. Used for streaming, gaming, DNS, VoIP."
+  },
+  {
+    "id": 40,
+    "topic": "TCP vs UDP",
+    "question": "Video streaming and online gaming typically use:",
+    "options": {
+      "A": "TCP",
+      "B": "UDP",
+      "C": "FTP",
+      "D": "SMTP"
+    },
+    "correct_answer": "B",
+    "explanation": "UDP is preferred for streaming/gaming because speed matters more than guaranteed delivery. A few lost packets are acceptable."
+  },
+  {
+    "id": 41,
+    "topic": "TCP vs UDP",
+    "question": "TCP uses a 3-way handshake. The correct sequence is:",
+    "options": {
+      "A": "ACK → SYN → SYN-ACK",
+      "B": "SYN → SYN-ACK → ACK",
+      "C": "SYN → ACK → SYN-ACK",
+      "D": "ACK → ACK → SYN"
+    },
+    "correct_answer": "B",
+    "explanation": "Client sends SYN → Server replies SYN-ACK → Client sends ACK → Connection established."
+  },
+  {
+    "id": 42,
+    "topic": "TCP vs UDP",
+    "question": "TCP header size is ___ bytes and UDP header size is ___ bytes:",
+    "options": {
+      "A": "8 and 20",
+      "B": "20 and 8",
+      "C": "16 and 4",
+      "D": "32 and 16"
+    },
+    "correct_answer": "B",
+    "explanation": "TCP header = 20 bytes (more features). UDP header = 8 bytes (minimal, hence faster)."
+  },
+  {
+    "id": 43,
+    "topic": "Port Numbers",
+    "question": "Port 80 is used for:",
+    "options": {
+      "A": "HTTPS",
+      "B": "FTP",
+      "C": "HTTP",
+      "D": "SSH"
+    },
+    "correct_answer": "C",
+    "explanation": "Port 80 = HTTP (unsecure web). Port 443 = HTTPS (secure web)."
+  },
+  {
+    "id": 44,
+    "topic": "Port Numbers",
+    "question": "Port 443 is used for:",
+    "options": {
+      "A": "HTTP",
+      "B": "HTTPS",
+      "C": "FTP",
+      "D": "DNS"
+    },
+    "correct_answer": "B",
+    "explanation": "Port 443 = HTTPS (secure web browsing using SSL/TLS encryption)."
+  },
+  {
+    "id": 45,
+    "topic": "Port Numbers",
+    "question": "Port 53 is used for:",
+    "options": {
+      "A": "SMTP",
+      "B": "SSH",
+      "C": "DNS",
+      "D": "FTP"
+    },
+    "correct_answer": "C",
+    "explanation": "Port 53 = DNS (Domain Name System - translates domain names to IP addresses)."
+  },
+  {
+    "id": 46,
+    "topic": "Port Numbers",
+    "question": "Port 22 is used for:",
+    "options": {
+      "A": "Telnet",
+      "B": "SSH",
+      "C": "HTTP",
+      "D": "SMTP"
+    },
+    "correct_answer": "B",
+    "explanation": "Port 22 = SSH (Secure Shell - secure remote access). Port 23 = Telnet (unsecure remote access)."
+  },
+  {
+    "id": 47,
+    "topic": "Port Numbers",
+    "question": "Port 25 is used for:",
+    "options": {
+      "A": "POP3",
+      "B": "IMAP",
+      "C": "SMTP",
+      "D": "DNS"
+    },
+    "correct_answer": "C",
+    "explanation": "Port 25 = SMTP (Simple Mail Transfer Protocol - sending emails)."
+  },
+  {
+    "id": 48,
+    "topic": "Protocols",
+    "question": "DNS resolves:",
+    "options": {
+      "A": "IP addresses to MAC addresses",
+      "B": "Domain names to IP addresses",
+      "C": "Port numbers to protocols",
+      "D": "MAC addresses to IP addresses"
+    },
+    "correct_answer": "B",
+    "explanation": "DNS translates human-readable domain names (google.com) to IP addresses (142.250.x.x)."
+  },
+  {
+    "id": 49,
+    "topic": "Protocols",
+    "question": "ARP resolves:",
+    "options": {
+      "A": "Domain name to IP",
+      "B": "IP address to MAC address",
+      "C": "MAC address to IP address",
+      "D": "Port number to IP"
+    },
+    "correct_answer": "B",
+    "explanation": "ARP (Address Resolution Protocol) maps IP address → MAC address. RARP does the reverse (MAC → IP)."
+  },
+  {
+    "id": 50,
+    "topic": "Protocols",
+    "question": "DHCP is used for:",
+    "options": {
+      "A": "Sending emails",
+      "B": "Automatic IP address assignment",
+      "C": "File transfer",
+      "D": "Web browsing"
+    },
+    "correct_answer": "B",
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses to devices on a network."
+  },
+  {
+    "id": 51,
+    "topic": "IP Addressing",
+    "question": "IPv4 address is ___ bits and IPv6 address is ___ bits:",
+    "options": {
+      "A": "16 and 32",
+      "B": "32 and 128",
+      "C": "64 and 128",
+      "D": "32 and 64"
+    },
+    "correct_answer": "B",
+    "explanation": "IPv4 = 32 bits (4.3 billion addresses). IPv6 = 128 bits (virtually unlimited addresses)."
+  },
+  {
+    "id": 52,
+    "topic": "IP Addressing",
+    "question": "Which IP address class is used for large networks?",
+    "options": {
+      "A": "Class A",
+      "B": "Class B",
+      "C": "Class C",
+      "D": "Class D"
+    },
+    "correct_answer": "A",
+    "explanation": "Class A: 1-126, subnet 255.0.0.0, large networks. Class B: medium. Class C: small. Class D: multicast."
+  },
+  {
+    "id": 53,
+    "topic": "IP Addressing",
+    "question": "Which of the following is a private IP address?",
+    "options": {
+      "A": "8.8.8.8",
+      "B": "192.168.1.1",
+      "C": "172.217.14.206",
+      "D": "104.16.133.229"
+    },
+    "correct_answer": "B",
+    "explanation": "Private IPs: 10.x.x.x, 172.16-31.x.x, 192.168.x.x. These are not routable on the public internet."
+  },
+  {
+    "id": 54,
+    "topic": "IP Addressing",
+    "question": "Class D IP addresses are used for:",
+    "options": {
+      "A": "Large networks",
+      "B": "Small networks",
+      "C": "Multicasting",
+      "D": "Private use"
+    },
+    "correct_answer": "C",
+    "explanation": "Class D (224-239) is reserved for multicast. Class E (240-255) is reserved/experimental."
+  },
+  {
+    "id": 55,
+    "topic": "Data Link Layer",
+    "question": "The Data Link layer has two sub-layers:",
+    "options": {
+      "A": "TCP and UDP",
+      "B": "IP and ICMP",
+      "C": "LLC and MAC",
+      "D": "HTTP and FTP"
+    },
+    "correct_answer": "C",
+    "explanation": "LLC (Logical Link Control) handles error/flow control. MAC (Media Access Control) handles physical addressing and channel access."
+  },
+  {
+    "id": 56,
+    "topic": "Data Link Layer",
+    "question": "CSMA/CD is used in ___ and CSMA/CA is used in ___:",
+    "options": {
+      "A": "Wireless and Wired",
+      "B": "Wired Ethernet and Wireless WiFi",
+      "C": "Both wired only",
+      "D": "Both wireless only"
+    },
+    "correct_answer": "B",
+    "explanation": "CSMA/CD (Collision Detection) = Wired Ethernet. CSMA/CA (Collision Avoidance) = Wireless WiFi."
+  },
+  {
+    "id": 57,
+    "topic": "Data Link Layer",
+    "question": "CRC (Cyclic Redundancy Check) is used for:",
+    "options": {
+      "A": "Encryption",
+      "B": "Routing",
+      "C": "Error detection",
+      "D": "IP addressing"
+    },
+    "correct_answer": "C",
+    "explanation": "CRC is an error detection method used at the Data Link layer to check if frames were corrupted during transmission."
+  },
+  {
+    "id": 58,
+    "topic": "Data Link Layer",
+    "question": "A MAC address is ___ bits long:",
+    "options": {
+      "A": "32",
+      "B": "48",
+      "C": "64",
+      "D": "128"
+    },
+    "correct_answer": "B",
+    "explanation": "MAC address is 48 bits (6 bytes), written as AA:BB:CC:DD:EE:FF. It is a physical/hardware address."
+  },
+  {
+    "id": 59,
+    "topic": "Wireless Networks",
+    "question": "WiFi uses which access method?",
+    "options": {
+      "A": "CSMA/CD",
+      "B": "Token Passing",
+      "C": "CSMA/CA",
+      "D": "TDMA"
+    },
+    "correct_answer": "C",
+    "explanation": "WiFi uses CSMA/CA (Collision Avoidance) because collision detection is difficult in wireless medium."
+  },
+  {
+    "id": 60,
+    "topic": "Wireless Networks",
+    "question": "Which WiFi standard is known as WiFi 6?",
+    "options": {
+      "A": "802.11n",
+      "B": "802.11ac",
+      "C": "802.11ax",
+      "D": "802.11g"
+    },
+    "correct_answer": "C",
+    "explanation": "802.11ax = WiFi 6 (latest, up to 9.6 Gbps). 802.11ac = WiFi 5. 802.11n = WiFi 4."
+  },
+  {
+    "id": 61,
+    "topic": "Wireless Networks",
+    "question": "2.4 GHz vs 5 GHz: which statement is correct?",
+    "options": {
+      "A": "5 GHz has longer range than 2.4 GHz",
+      "B": "2.4 GHz is faster than 5 GHz",
+      "C": "2.4 GHz has longer range but slower speed, 5 GHz has shorter range but faster speed",
+      "D": "Both have same range and speed"
+    },
+    "correct_answer": "C",
+    "explanation": "2.4 GHz: longer range, more interference, slower. 5 GHz: shorter range, less interference, faster."
+  },
+  {
+    "id": 62,
+    "topic": "Wireless Networks",
+    "question": "Which mobile generation offers speeds up to 20 Gbps and ultra-low latency?",
+    "options": {
+      "A": "3G",
+      "B": "4G",
+      "C": "5G",
+      "D": "2G"
+    },
+    "correct_answer": "C",
+    "explanation": "5G: up to 20 Gbps, ultra-low latency, supports IoT and autonomous vehicles."
+  },
+  {
+    "id": 63,
+    "topic": "Wireless Networks",
+    "question": "Bluetooth operates at which frequency?",
+    "options": {
+      "A": "5 GHz",
+      "B": "900 MHz",
+      "C": "2.4 GHz",
+      "D": "60 GHz"
+    },
+    "correct_answer": "C",
+    "explanation": "Bluetooth uses 2.4 GHz frequency band, range ~10 meters, standard IEEE 802.15.1."
+  },
+  {
+    "id": 64,
+    "topic": "Wireless Security",
+    "question": "Which is the MOST secure WiFi security protocol?",
+    "options": {
+      "A": "WEP",
+      "B": "WPA",
+      "C": "WPA2",
+      "D": "WPA3"
+    },
+    "correct_answer": "D",
+    "explanation": "Security progression: WEP (weak) → WPA (better) → WPA2 (strong, AES) → WPA3 (strongest, latest)."
+  },
+  {
+    "id": 65,
+    "topic": "Wireless Security",
+    "question": "WEP is considered:",
+    "options": {
+      "A": "The most secure protocol",
+      "B": "Deprecated and easily cracked",
+      "C": "The newest protocol",
+      "D": "Used in 5G networks"
+    },
+    "correct_answer": "B",
+    "explanation": "WEP is deprecated — it can be cracked in minutes. Should never be used anymore."
+  },
+  {
+    "id": 66,
+    "topic": "Wireless Networks",
+    "question": "SSID stands for:",
+    "options": {
+      "A": "Secure System Identification",
+      "B": "Service Set Identifier",
+      "C": "Simple Signal ID",
+      "D": "Standard Security ID"
+    },
+    "correct_answer": "B",
+    "explanation": "SSID (Service Set Identifier) is the name of a WiFi network that you see when connecting."
+  },
+  {
+    "id": 67,
+    "topic": "Cloud Computing",
+    "question": "Cloud computing means:",
+    "options": {
+      "A": "Using only local computers",
+      "B": "Storing data in the sky",
+      "C": "Using remote servers on the internet for storage, management, and processing",
+      "D": "Using only wireless networks"
+    },
+    "correct_answer": "C",
+    "explanation": "Cloud computing delivers computing services (servers, storage, databases, networking) over the internet."
+  },
+  {
+    "id": 68,
+    "topic": "Cloud Computing",
+    "question": "Which is NOT one of the 5 essential characteristics of cloud computing?",
+    "options": {
+      "A": "On-demand self-service",
+      "B": "Broad network access",
+      "C": "Dedicated hardware for each user",
+      "D": "Rapid elasticity"
+    },
+    "correct_answer": "C",
+    "explanation": "5 characteristics: On-demand self-service, Broad network access, Resource pooling (shared, NOT dedicated), Rapid elasticity, Measured service."
+  },
+  {
+    "id": 69,
+    "topic": "Cloud - Service Models",
+    "question": "In which cloud model does the provider manage EVERYTHING and you just use the software?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "DaaS"
+    },
+    "correct_answer": "C",
+    "explanation": "SaaS (Software as a Service): provider manages everything. You just use it. Example: Gmail, Office 365, Zoom."
+  },
+  {
+    "id": 70,
+    "topic": "Cloud - Service Models",
+    "question": "Gmail, Dropbox, and Zoom are examples of:",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "Private Cloud"
+    },
+    "correct_answer": "C",
+    "explanation": "SaaS = ready-to-use software delivered over internet. Users don't manage anything, just use the application."
+  },
+  {
+    "id": 71,
+    "topic": "Cloud - Service Models",
+    "question": "AWS EC2 and Azure Virtual Machines are examples of:",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "Community Cloud"
+    },
+    "correct_answer": "C",
+    "explanation": "IaaS provides virtual infrastructure (servers, storage, network). You manage OS, apps, data. Provider manages hardware."
+  },
+  {
+    "id": 72,
+    "topic": "Cloud - Service Models",
+    "question": "Heroku and Google App Engine are examples of:",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "Hybrid Cloud"
+    },
+    "correct_answer": "B",
+    "explanation": "PaaS provides platform to develop/deploy apps. You manage only apps & data. Provider manages runtime, OS, servers."
+  },
+  {
+    "id": 73,
+    "topic": "Cloud - Service Models",
+    "question": "In IaaS, the customer manages:",
+    "options": {
+      "A": "Nothing",
+      "B": "Only applications",
+      "C": "OS, applications, and data",
+      "D": "Physical servers"
+    },
+    "correct_answer": "C",
+    "explanation": "IaaS: customer manages OS, middleware, runtime, applications, data. Provider manages servers, storage, network."
+  },
+  {
+    "id": 74,
+    "topic": "Cloud - Deployment Models",
+    "question": "A cloud infrastructure shared by the general public is called:",
+    "options": {
+      "A": "Private Cloud",
+      "B": "Public Cloud",
+      "C": "Hybrid Cloud",
+      "D": "Community Cloud"
+    },
+    "correct_answer": "B",
+    "explanation": "Public Cloud: open to all, shared resources, cheaper, less control. Examples: AWS, Azure, Google Cloud."
+  },
+  {
+    "id": 75,
+    "topic": "Cloud - Deployment Models",
+    "question": "A cloud used by a single organization exclusively is called:",
+    "options": {
+      "A": "Public Cloud",
+      "B": "Private Cloud",
+      "C": "Community Cloud",
+      "D": "Shared Cloud"
+    },
+    "correct_answer": "B",
+    "explanation": "Private Cloud: dedicated to one organization, more secure, more control, more expensive."
+  },
+  {
+    "id": 76,
+    "topic": "Cloud - Deployment Models",
+    "question": "Combination of public and private cloud is called:",
+    "options": {
+      "A": "Community Cloud",
+      "B": "Multi Cloud",
+      "C": "Hybrid Cloud",
+      "D": "Virtual Cloud"
+    },
+    "correct_answer": "C",
+    "explanation": "Hybrid Cloud combines public + private. Sensitive data on private, general workloads on public. Most popular in enterprises."
+  },
+  {
+    "id": 77,
+    "topic": "Cloud - Virtualization",
+    "question": "Software that creates and manages virtual machines is called:",
+    "options": {
+      "A": "Compiler",
+      "B": "Hypervisor",
+      "C": "Firewall",
+      "D": "Load Balancer"
+    },
+    "correct_answer": "B",
+    "explanation": "Hypervisor creates and manages VMs. Examples: VMware, Hyper-V, KVM."
+  },
+  {
+    "id": 78,
+    "topic": "Cloud - Containers",
+    "question": "Containers vs VMs: which is lighter and faster to start?",
+    "options": {
+      "A": "VMs are lighter and faster",
+      "B": "Containers are lighter and faster",
+      "C": "Both are same",
+      "D": "Neither can start quickly"
+    },
+    "correct_answer": "B",
+    "explanation": "Containers: MBs in size, start in seconds, share host OS. VMs: GBs in size, start in minutes, full OS each."
+  },
+  {
+    "id": 79,
+    "topic": "Cloud - Containers",
+    "question": "Docker is an example of:",
+    "options": {
+      "A": "Hypervisor",
+      "B": "Container platform",
+      "C": "Firewall",
+      "D": "Operating System"
+    },
+    "correct_answer": "B",
+    "explanation": "Docker is a container engine. Kubernetes is used for orchestrating/managing multiple containers."
+  },
+  {
+    "id": 80,
+    "topic": "Network Security",
+    "question": "CIA Triad stands for:",
+    "options": {
+      "A": "Computing, Internet, Architecture",
+      "B": "Confidentiality, Integrity, Availability",
+      "C": "Control, Identity, Access",
+      "D": "Cipher, Index, Authentication"
+    },
+    "correct_answer": "B",
+    "explanation": "CIA Triad: Confidentiality (only authorized access), Integrity (data not tampered), Availability (accessible when needed)."
+  },
+  {
+    "id": 81,
+    "topic": "Network Security",
+    "question": "A DDoS attack targets which principle of CIA Triad?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Authentication"
+    },
+    "correct_answer": "C",
+    "explanation": "DDoS (Distributed Denial of Service) floods servers with traffic, making them unavailable. It targets Availability."
+  },
+  {
+    "id": 82,
+    "topic": "Network Security",
+    "question": "An attacker intercepts communication between two parties. This is called:",
+    "options": {
+      "A": "DDoS",
+      "B": "Phishing",
+      "C": "Man-in-the-Middle (MITM)",
+      "D": "SQL Injection"
+    },
+    "correct_answer": "C",
+    "explanation": "MITM: attacker secretly sits between two communicating parties, intercepting and possibly altering their messages."
+  },
+  {
+    "id": 83,
+    "topic": "Network Security",
+    "question": "Fake emails or websites designed to steal user credentials is called:",
+    "options": {
+      "A": "Spoofing",
+      "B": "Phishing",
+      "C": "Sniffing",
+      "D": "Brute Force"
+    },
+    "correct_answer": "B",
+    "explanation": "Phishing uses fake emails/websites that look legitimate to trick users into entering their credentials."
+  },
+  {
+    "id": 84,
+    "topic": "Network Security",
+    "question": "A firewall's main function is:",
+    "options": {
+      "A": "Speed up internet connection",
+      "B": "Filter incoming/outgoing network traffic based on rules",
+      "C": "Store data in the cloud",
+      "D": "Compress data"
+    },
+    "correct_answer": "B",
+    "explanation": "Firewall monitors and filters traffic based on predefined security rules. Acts as barrier between trusted and untrusted networks."
+  },
+  {
+    "id": 85,
+    "topic": "Network Security",
+    "question": "In symmetric encryption:",
+    "options": {
+      "A": "Two different keys are used",
+      "B": "Same key is used for encryption and decryption",
+      "C": "No key is needed",
+      "D": "Public key encrypts, private key decrypts"
+    },
+    "correct_answer": "B",
+    "explanation": "Symmetric: ONE key for both encrypt and decrypt. Fast but key distribution is a challenge. Example: AES, DES."
+  },
+  {
+    "id": 86,
+    "topic": "Network Security",
+    "question": "In asymmetric encryption:",
+    "options": {
+      "A": "Same key for encryption and decryption",
+      "B": "No encryption happens",
+      "C": "Public key encrypts, Private key decrypts (two different keys)",
+      "D": "Only the receiver has a key"
+    },
+    "correct_answer": "C",
+    "explanation": "Asymmetric uses two keys: Public key (shared, encrypts) and Private key (secret, decrypts). Example: RSA. Slower than symmetric."
+  },
+  {
+    "id": 87,
+    "topic": "Network Security",
+    "question": "HTTPS uses which security protocol?",
+    "options": {
+      "A": "WEP",
+      "B": "SSH",
+      "C": "SSL/TLS",
+      "D": "IPSec"
+    },
+    "correct_answer": "C",
+    "explanation": "HTTPS = HTTP + SSL/TLS encryption. TLS is the newer replacement for SSL. Port 443."
+  },
+  {
+    "id": 88,
+    "topic": "Network Security",
+    "question": "Two-Factor Authentication (2FA) combines:",
+    "options": {
+      "A": "Two passwords",
+      "B": "Two different authentication factors (e.g., password + phone OTP)",
+      "C": "Two usernames",
+      "D": "Two firewalls"
+    },
+    "correct_answer": "B",
+    "explanation": "2FA uses two different factors: something you know (password) + something you have (phone OTP) or something you are (fingerprint)."
+  },
+  {
+    "id": 89,
+    "topic": "Network Security",
+    "question": "IDS stands for:",
+    "options": {
+      "A": "Internet Data Service",
+      "B": "Intrusion Detection System",
+      "C": "Internal Domain Server",
+      "D": "Integrated Digital Security"
+    },
+    "correct_answer": "B",
+    "explanation": "IDS detects suspicious activity and alerts. IPS (Intrusion Prevention System) detects AND blocks attacks."
+  },
+  {
+    "id": 90,
+    "topic": "Network Security",
+    "question": "ARP Poisoning is an attack at which OSI layer?",
+    "options": {
+      "A": "Application",
+      "B": "Transport",
+      "C": "Network",
+      "D": "Data Link"
+    },
+    "correct_answer": "D",
+    "explanation": "ARP operates at Data Link layer. ARP poisoning sends fake ARP replies to redirect traffic to attacker's machine."
+  },
+  {
+    "id": 91,
+    "topic": "Next Gen Networks",
+    "question": "SDN (Software Defined Networking) centralizes:",
+    "options": {
+      "A": "Data storage",
+      "B": "Network control in software",
+      "C": "User authentication",
+      "D": "Email management"
+    },
+    "correct_answer": "B",
+    "explanation": "SDN separates control plane from data plane. Central controller manages all network devices through software."
+  },
+  {
+    "id": 92,
+    "topic": "Next Gen Networks",
+    "question": "NFV (Network Function Virtualization) does what?",
+    "options": {
+      "A": "Makes cables virtual",
+      "B": "Replaces physical network devices with software on standard servers",
+      "C": "Creates virtual users",
+      "D": "Speeds up WiFi"
+    },
+    "correct_answer": "B",
+    "explanation": "NFV: instead of buying physical firewall/router boxes, run their functions as software on standard servers."
+  },
+  {
+    "id": 93,
+    "topic": "Next Gen Networks",
+    "question": "IoT stands for:",
+    "options": {
+      "A": "Internet of Technology",
+      "B": "Internet of Things",
+      "C": "Integration of Tools",
+      "D": "Internal Operating Terminal"
+    },
+    "correct_answer": "B",
+    "explanation": "IoT connects everyday objects (watches, fridges, cars) to the internet for monitoring and control."
+  },
+  {
+    "id": 94,
+    "topic": "Next Gen Networks",
+    "question": "Edge Computing processes data:",
+    "options": {
+      "A": "Only in central cloud data centers",
+      "B": "Near the source of data (close to user/device)",
+      "C": "Only on mobile phones",
+      "D": "Only on satellites"
+    },
+    "correct_answer": "B",
+    "explanation": "Edge Computing processes data near where it's generated, reducing latency. Ideal for IoT and real-time applications."
+  },
+  {
+    "id": 95,
+    "topic": "Next Gen Networks",
+    "question": "Compared to Cloud Computing, Edge Computing offers:",
+    "options": {
+      "A": "Higher latency",
+      "B": "More processing power",
+      "C": "Lower latency",
+      "D": "More storage"
+    },
+    "correct_answer": "C",
+    "explanation": "Edge computing processes data locally = lower latency. Cloud has more power/storage but higher latency due to distance."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "text-1",
+    "question": "Explain the difference between TCP and UDP in simple terms.",
+    "answer": "TCP is connection-oriented and reliable (acknowledgments, ordered delivery). UDP is connectionless and faster but does not guarantee delivery or order."
+  },
+  {
+    "id": "text-2",
+    "question": "What is DNS and why is it important?",
+    "answer": "DNS (Domain Name System) translates human-readable domain names into IP addresses so devices can locate and communicate with internet services."
+  }
+]
