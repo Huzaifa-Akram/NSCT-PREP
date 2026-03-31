@@ -23,7 +23,10 @@ html.dark {
 
 * {
   box-sizing: border-box;
-  transition: background-color 300ms ease-out, color 300ms ease-out, border-color 300ms ease-out;
+  transition:
+    background-color 300ms ease-out,
+    color 300ms ease-out,
+    border-color 300ms ease-out;
 }
 
 .bg-art {
@@ -64,7 +67,11 @@ html.dark {
 }
 
 html.dark .question-card {
-  background: linear-gradient(145deg, rgba(22, 27, 34, 0.85), rgba(13, 17, 23, 0.8));
+  background: linear-gradient(
+    145deg,
+    rgba(22, 27, 34, 0.85),
+    rgba(13, 17, 23, 0.8)
+  );
   border-color: var(--dark-primary);
   color: var(--dark-text);
   box-shadow: 0 22px 44px -30px rgba(0, 0, 0, 0.5);
@@ -242,7 +249,9 @@ html.dark .tab-btn-active {
 
 html.dark .question-card {
   border-color: var(--dark-primary);
-  box-shadow: 0 8px 32px -8px rgba(0,0,0,0.7), 0 1.5px 0 #30363d;
+  box-shadow:
+    0 8px 32px -8px rgba(0, 0, 0, 0.7),
+    0 1.5px 0 #30363d;
   background: linear-gradient(120deg, #161b22, #0d1117);
 }
 
@@ -526,4 +535,3 @@ html.dark #theme-toggle {
   color: #1a202c;
   border-color: #0e7490;
 }
-
