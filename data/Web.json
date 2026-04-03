@@ -1,0 +1,3291 @@
+[
+  {
+    "id": 1,
+    "topic": "1. Introduction to Web Development",
+    "question": "What does the term 'Web Development' primarily refer to?",
+    "options": {
+      "A": "Designing logos and branding",
+      "B": "Building and maintaining websites and web applications",
+      "C": "Only database management",
+      "D": "Hardware installation"
+    },
+    "correct_answer": "B",
+    "explanation": "Web Development involves building, creating, and maintaining websites and web applications that run on browsers."
+  },
+  {
+    "id": 2,
+    "topic": "1. Introduction to Web Development",
+    "question": "Which of the following is a frontend technology?",
+    "options": {
+      "A": "Node.js",
+      "B": "MySQL",
+      "C": "HTML",
+      "D": "PHP"
+    },
+    "correct_answer": "C",
+    "explanation": "HTML is a frontend technology rendered in the browser. Node.js, MySQL, and PHP are backend technologies."
+  },
+  {
+    "id": 3,
+    "topic": "1. Introduction to Web Development",
+    "question": "What is a Full-Stack Developer?",
+    "options": {
+      "A": "Someone who only works on frontend",
+      "B": "Someone who only works on backend",
+      "C": "Someone who works on both frontend and backend",
+      "D": "Someone who only manages databases"
+    },
+    "correct_answer": "C",
+    "explanation": "A Full-Stack Developer has skills in both frontend (client-side) and backend (server-side) development."
+  },
+  {
+    "id": 4,
+    "topic": "1. Introduction to Web Development",
+    "question": "Which of the following is NOT a web development role?",
+    "options": {
+      "A": "Frontend Developer",
+      "B": "Backend Developer",
+      "C": "Circuit Designer",
+      "D": "DevOps Engineer"
+    },
+    "correct_answer": "C",
+    "explanation": "Circuit Designer is a hardware/electronics role, not a web development role."
+  },
+  {
+    "id": 5,
+    "topic": "1. Introduction to Web Development",
+    "question": "What is the primary difference between a website and a web application?",
+    "options": {
+      "A": "Websites are always static; web apps are always dynamic",
+      "B": "Web applications are interactive and allow user interaction/data manipulation, websites are mostly informational",
+      "C": "There is no difference",
+      "D": "Web applications cannot run on browsers"
+    },
+    "correct_answer": "B",
+    "explanation": "Web applications are interactive (e.g., Gmail, Facebook) while websites are primarily informational (e.g., blogs, news sites)."
+  },
+  {
+    "id": 6,
+    "topic": "1. Introduction to Web Development",
+    "question": "Which of the following is a static website?",
+    "options": {
+      "A": "Facebook",
+      "B": "Gmail",
+      "C": "A personal portfolio with only HTML/CSS",
+      "D": "Amazon"
+    },
+    "correct_answer": "C",
+    "explanation": "A static website displays fixed content using HTML/CSS without server-side processing or database interaction."
+  },
+  {
+    "id": 7,
+    "topic": "1. Introduction to Web Development",
+    "question": "What does 'client-side' mean in web development?",
+    "options": {
+      "A": "Code that runs on the server",
+      "B": "Code that runs on the user's browser",
+      "C": "Code that runs on the database",
+      "D": "Code stored in the cloud"
+    },
+    "correct_answer": "B",
+    "explanation": "Client-side refers to code (HTML, CSS, JS) that is executed in the user's web browser."
+  },
+  {
+    "id": 8,
+    "topic": "1. Introduction to Web Development",
+    "question": "Which technology stack is known as MERN?",
+    "options": {
+      "A": "MongoDB, Express.js, React, Node.js",
+      "B": "MySQL, Express.js, React, Node.js",
+      "C": "MongoDB, Ember.js, React, Node.js",
+      "D": "MongoDB, Express.js, Ruby, Node.js"
+    },
+    "correct_answer": "A",
+    "explanation": "MERN stands for MongoDB, Express.js, React, and Node.js — a popular JavaScript full-stack."
+  },
+  {
+    "id": 9,
+    "topic": "1. Introduction to Web Development",
+    "question": "What does LAMP stack stand for?",
+    "options": {
+      "A": "Linux, Apache, MongoDB, Python",
+      "B": "Linux, Apache, MySQL, PHP",
+      "C": "Linux, Angular, MySQL, PHP",
+      "D": "Linux, Apache, MySQL, Perl only"
+    },
+    "correct_answer": "B",
+    "explanation": "LAMP = Linux, Apache, MySQL, PHP (also Perl/Python). It's a classic open-source web stack."
+  },
+  {
+    "id": 10,
+    "topic": "1. Introduction to Web Development",
+    "question": "What is a dynamic website?",
+    "options": {
+      "A": "A website that never changes",
+      "B": "A website that generates content dynamically based on user input or database",
+      "C": "A website with animations only",
+      "D": "A website without CSS"
+    },
+    "correct_answer": "B",
+    "explanation": "Dynamic websites generate pages on-the-fly using server-side logic and databases, content can change per user/request."
+  },
+  {
+    "id": 11,
+    "topic": "1. Introduction to Web Development",
+    "question": "Which is an example of a server-side language?",
+    "options": {
+      "A": "HTML",
+      "B": "CSS",
+      "C": "Python (Django/Flask)",
+      "D": "Bootstrap"
+    },
+    "correct_answer": "C",
+    "explanation": "Python with Django/Flask runs on the server. HTML, CSS, and Bootstrap are client-side technologies."
+  },
+  {
+    "id": 12,
+    "topic": "1. Introduction to Web Development",
+    "question": "What is an IDE commonly used for web development?",
+    "options": {
+      "A": "Photoshop",
+      "B": "VS Code",
+      "C": "Excel",
+      "D": "PowerPoint"
+    },
+    "correct_answer": "B",
+    "explanation": "Visual Studio Code (VS Code) is the most popular IDE/code editor for web development."
+  },
+  {
+    "id": 13,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What does HTTP stand for?",
+    "options": {
+      "A": "HyperText Transfer Protocol",
+      "B": "HyperText Transmission Process",
+      "C": "High Transfer Text Protocol",
+      "D": "Hyper Transfer Text Process"
+    },
+    "correct_answer": "A",
+    "explanation": "HTTP = HyperText Transfer Protocol, the foundation protocol for data communication on the web."
+  },
+  {
+    "id": 14,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What is the default port number for HTTP?",
+    "options": {
+      "A": "443",
+      "B": "21",
+      "C": "80",
+      "D": "8080"
+    },
+    "correct_answer": "C",
+    "explanation": "HTTP uses port 80 by default. HTTPS uses port 443, FTP uses 21."
+  },
+  {
+    "id": 15,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What is the default port for HTTPS?",
+    "options": {
+      "A": "80",
+      "B": "443",
+      "C": "8080",
+      "D": "22"
+    },
+    "correct_answer": "B",
+    "explanation": "HTTPS (HTTP Secure) uses port 443 by default with SSL/TLS encryption."
+  },
+  {
+    "id": 16,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What does DNS stand for?",
+    "options": {
+      "A": "Data Network System",
+      "B": "Domain Name System",
+      "C": "Digital Network Service",
+      "D": "Domain Network Server"
+    },
+    "correct_answer": "B",
+    "explanation": "DNS = Domain Name System. It translates domain names (google.com) to IP addresses."
+  },
+  {
+    "id": 17,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What does the client-server model describe?",
+    "options": {
+      "A": "Two servers communicating",
+      "B": "A client (browser) requests resources from a server which responds",
+      "C": "Two clients communicating directly",
+      "D": "A server requesting from a client"
+    },
+    "correct_answer": "B",
+    "explanation": "In client-server model, the client (browser) sends requests and the server processes and sends responses."
+  },
+  {
+    "id": 18,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "Which HTTP method is used to retrieve data from a server?",
+    "options": {
+      "A": "POST",
+      "B": "PUT",
+      "C": "GET",
+      "D": "DELETE"
+    },
+    "correct_answer": "C",
+    "explanation": "GET is used to request/retrieve data from a server. POST sends data, PUT updates, DELETE removes."
+  },
+  {
+    "id": 19,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "Which HTTP method is used to submit data to a server?",
+    "options": {
+      "A": "GET",
+      "B": "POST",
+      "C": "HEAD",
+      "D": "OPTIONS"
+    },
+    "correct_answer": "B",
+    "explanation": "POST is used to send/submit data to the server (e.g., form submissions, creating resources)."
+  },
+  {
+    "id": 20,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What does the HTTP status code 200 mean?",
+    "options": {
+      "A": "Not Found",
+      "B": "Server Error",
+      "C": "OK (Success)",
+      "D": "Redirect"
+    },
+    "correct_answer": "C",
+    "explanation": "200 OK means the request was successful and the server returned the requested resource."
+  },
+  {
+    "id": 21,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What does HTTP status code 404 indicate?",
+    "options": {
+      "A": "Server Error",
+      "B": "Unauthorized",
+      "C": "Not Found",
+      "D": "Redirect"
+    },
+    "correct_answer": "C",
+    "explanation": "404 Not Found means the requested resource does not exist on the server."
+  },
+  {
+    "id": 22,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What does HTTP status code 500 indicate?",
+    "options": {
+      "A": "Client Error",
+      "B": "Redirect",
+      "C": "Not Found",
+      "D": "Internal Server Error"
+    },
+    "correct_answer": "D",
+    "explanation": "500 Internal Server Error means the server encountered an unexpected condition."
+  },
+  {
+    "id": 23,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What does HTTP status code 301 indicate?",
+    "options": {
+      "A": "Temporary Redirect",
+      "B": "Moved Permanently",
+      "C": "Not Modified",
+      "D": "Bad Request"
+    },
+    "correct_answer": "B",
+    "explanation": "301 = Moved Permanently. The resource has been permanently moved to a new URL."
+  },
+  {
+    "id": 24,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What does URL stand for?",
+    "options": {
+      "A": "Uniform Resource Locator",
+      "B": "Universal Resource Link",
+      "C": "Uniform Reference Locator",
+      "D": "Universal Resource Locator"
+    },
+    "correct_answer": "A",
+    "explanation": "URL = Uniform Resource Locator, the address used to access resources on the web."
+  },
+  {
+    "id": 25,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "Which protocol provides secure communication over the internet?",
+    "options": {
+      "A": "HTTP",
+      "B": "FTP",
+      "C": "HTTPS",
+      "D": "SMTP"
+    },
+    "correct_answer": "C",
+    "explanation": "HTTPS uses SSL/TLS encryption to secure data transmission between client and server."
+  },
+  {
+    "id": 26,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What is a web server?",
+    "options": {
+      "A": "A software that serves web pages to clients upon request",
+      "B": "A browser",
+      "C": "A database",
+      "D": "A CSS framework"
+    },
+    "correct_answer": "A",
+    "explanation": "A web server (e.g., Apache, Nginx) handles HTTP requests and serves web content to clients."
+  },
+  {
+    "id": 27,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "Which of the following is a web server software?",
+    "options": {
+      "A": "React",
+      "B": "Nginx",
+      "C": "MongoDB",
+      "D": "jQuery"
+    },
+    "correct_answer": "B",
+    "explanation": "Nginx is a popular web server and reverse proxy. Apache is another common web server."
+  },
+  {
+    "id": 28,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What does the TCP/IP model consist of?",
+    "options": {
+      "A": "Application, Transport, Internet, Network Access layers",
+      "B": "Only Application and Transport layers",
+      "C": "HTML, CSS, JS layers",
+      "D": "Frontend and Backend layers"
+    },
+    "correct_answer": "A",
+    "explanation": "TCP/IP has 4 layers: Application, Transport, Internet, and Network Access (Link) layer."
+  },
+  {
+    "id": 29,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What is the role of SSL/TLS in web communication?",
+    "options": {
+      "A": "To speed up the website",
+      "B": "To encrypt data between client and server",
+      "C": "To compress images",
+      "D": "To cache pages"
+    },
+    "correct_answer": "B",
+    "explanation": "SSL/TLS encrypts data in transit, ensuring confidentiality and integrity of communication."
+  },
+  {
+    "id": 30,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "HTTP is a _____ protocol.",
+    "options": {
+      "A": "Stateful",
+      "B": "Stateless",
+      "C": "Connection-oriented",
+      "D": "Encrypted by default"
+    },
+    "correct_answer": "B",
+    "explanation": "HTTP is stateless — each request is independent; the server doesn't remember previous requests."
+  },
+  {
+    "id": 31,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What does the PUT HTTP method do?",
+    "options": {
+      "A": "Retrieves data",
+      "B": "Deletes data",
+      "C": "Updates/replaces a resource",
+      "D": "Creates a new session"
+    },
+    "correct_answer": "C",
+    "explanation": "PUT method updates or replaces an existing resource at the specified URL."
+  },
+  {
+    "id": 32,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What HTTP status code range indicates client errors?",
+    "options": {
+      "A": "1xx",
+      "B": "2xx",
+      "C": "3xx",
+      "D": "4xx"
+    },
+    "correct_answer": "D",
+    "explanation": "4xx = Client errors (400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found)."
+  },
+  {
+    "id": 33,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What is a CDN?",
+    "options": {
+      "A": "Central Data Node",
+      "B": "Content Delivery Network",
+      "C": "Cloud Database Network",
+      "D": "Custom Domain Name"
+    },
+    "correct_answer": "B",
+    "explanation": "CDN = Content Delivery Network. It distributes content across multiple servers globally for faster delivery."
+  },
+  {
+    "id": 34,
+    "topic": "2. Web Architecture & Protocols",
+    "question": "What does WebSocket provide?",
+    "options": {
+      "A": "One-way communication only",
+      "B": "Full-duplex bidirectional communication",
+      "C": "Only file transfer",
+      "D": "Email communication"
+    },
+    "correct_answer": "B",
+    "explanation": "WebSocket provides full-duplex, persistent, bidirectional communication between client and server."
+  },
+  {
+    "id": 35,
+    "topic": "3. HTML Fundamentals",
+    "question": "What does HTML stand for?",
+    "options": {
+      "A": "Hyper Text Markup Language",
+      "B": "High Text Machine Language",
+      "C": "Hyper Transfer Markup Language",
+      "D": "Hyper Text Making Language"
+    },
+    "correct_answer": "A",
+    "explanation": "HTML = HyperText Markup Language, the standard language for creating web pages."
+  },
+  {
+    "id": 36,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which tag is used to define a paragraph in HTML?",
+    "options": {
+      "A": "<para>",
+      "B": "<p>",
+      "C": "<pg>",
+      "D": "<text>"
+    },
+    "correct_answer": "B",
+    "explanation": "The <p> tag defines a paragraph in HTML."
+  },
+  {
+    "id": 37,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which is the correct HTML element for the largest heading?",
+    "options": {
+      "A": "<h6>",
+      "B": "<heading>",
+      "C": "<h1>",
+      "D": "<head>"
+    },
+    "correct_answer": "C",
+    "explanation": "<h1> is the largest heading. Headings range from <h1> (largest) to <h6> (smallest)."
+  },
+  {
+    "id": 38,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": {
+      "A": "<link>",
+      "B": "<a>",
+      "C": "<href>",
+      "D": "<url>"
+    },
+    "correct_answer": "B",
+    "explanation": "The <a> (anchor) tag with href attribute creates hyperlinks: <a href='url'>text</a>."
+  },
+  {
+    "id": 39,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which attribute specifies the URL in an anchor tag?",
+    "options": {
+      "A": "src",
+      "B": "link",
+      "C": "href",
+      "D": "url"
+    },
+    "correct_answer": "C",
+    "explanation": "The href attribute in <a> tag specifies the destination URL of the link."
+  },
+  {
+    "id": 40,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which tag is used to insert an image in HTML?",
+    "options": {
+      "A": "<image>",
+      "B": "<pic>",
+      "C": "<img>",
+      "D": "<photo>"
+    },
+    "correct_answer": "C",
+    "explanation": "The <img> tag embeds images. It is self-closing and uses src and alt attributes."
+  },
+  {
+    "id": 41,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which attribute of <img> provides alternate text?",
+    "options": {
+      "A": "title",
+      "B": "alt",
+      "C": "src",
+      "D": "name"
+    },
+    "correct_answer": "B",
+    "explanation": "The alt attribute provides alternative text for the image if it cannot be displayed, also for accessibility."
+  },
+  {
+    "id": 42,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which HTML element is used for an unordered list?",
+    "options": {
+      "A": "<ol>",
+      "B": "<ul>",
+      "C": "<li>",
+      "D": "<list>"
+    },
+    "correct_answer": "B",
+    "explanation": "<ul> creates an unordered (bulleted) list. <ol> creates an ordered (numbered) list. <li> is a list item."
+  },
+  {
+    "id": 43,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which HTML element is used for an ordered list?",
+    "options": {
+      "A": "<ul>",
+      "B": "<ol>",
+      "C": "<dl>",
+      "D": "<list>"
+    },
+    "correct_answer": "B",
+    "explanation": "<ol> creates an ordered (numbered) list."
+  },
+  {
+    "id": 44,
+    "topic": "3. HTML Fundamentals",
+    "question": "What is the correct HTML for creating a table?",
+    "options": {
+      "A": "<table><tr><td>",
+      "B": "<tab><row><col>",
+      "C": "<table><row><data>",
+      "D": "<tbl><tr><td>"
+    },
+    "correct_answer": "A",
+    "explanation": "Tables use <table> for the table, <tr> for rows, <td> for data cells, <th> for header cells."
+  },
+  {
+    "id": 45,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which HTML tag is used for line break?",
+    "options": {
+      "A": "<break>",
+      "B": "<lb>",
+      "C": "<br>",
+      "D": "<newline>"
+    },
+    "correct_answer": "C",
+    "explanation": "<br> inserts a single line break. It is a self-closing/void element."
+  },
+  {
+    "id": 46,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which tag is used to make text bold in HTML?",
+    "options": {
+      "A": "<bold>",
+      "B": "<b> or <strong>",
+      "C": "<thick>",
+      "D": "<em>"
+    },
+    "correct_answer": "B",
+    "explanation": "<b> makes text bold (visual only). <strong> makes text bold with semantic importance."
+  },
+  {
+    "id": 47,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which tag is used to italicize text?",
+    "options": {
+      "A": "<italic>",
+      "B": "<i> or <em>",
+      "C": "<slant>",
+      "D": "<it>"
+    },
+    "correct_answer": "B",
+    "explanation": "<i> italicizes text. <em> italicizes with semantic emphasis."
+  },
+  {
+    "id": 48,
+    "topic": "3. HTML Fundamentals",
+    "question": "What is the correct doctype declaration for HTML5?",
+    "options": {
+      "A": "<!DOCTYPE html>",
+      "B": "<!DOCTYPE HTML5>",
+      "C": "<doctype html5>",
+      "D": "<!html5>"
+    },
+    "correct_answer": "A",
+    "explanation": "<!DOCTYPE html> is the HTML5 doctype declaration that tells the browser to render in standards mode."
+  },
+  {
+    "id": 49,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which section contains metadata in an HTML document?",
+    "options": {
+      "A": "<body>",
+      "B": "<head>",
+      "C": "<footer>",
+      "D": "<main>"
+    },
+    "correct_answer": "B",
+    "explanation": "The <head> section contains metadata like title, charset, links to CSS, and meta tags."
+  },
+  {
+    "id": 50,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which tag defines the title shown in the browser tab?",
+    "options": {
+      "A": "<h1>",
+      "B": "<header>",
+      "C": "<title>",
+      "D": "<name>"
+    },
+    "correct_answer": "C",
+    "explanation": "The <title> tag inside <head> sets the page title shown in the browser tab."
+  },
+  {
+    "id": 51,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which tag is used to create a form in HTML?",
+    "options": {
+      "A": "<input>",
+      "B": "<form>",
+      "C": "<fieldset>",
+      "D": "<submit>"
+    },
+    "correct_answer": "B",
+    "explanation": "The <form> tag creates a form container for user input elements."
+  },
+  {
+    "id": 52,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which input type creates a password field?",
+    "options": {
+      "A": "<input type='text'>",
+      "B": "<input type='password'>",
+      "C": "<input type='hidden'>",
+      "D": "<input type='secret'>"
+    },
+    "correct_answer": "B",
+    "explanation": "type='password' masks the input characters for security."
+  },
+  {
+    "id": 53,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which HTML element is used for a dropdown/select list?",
+    "options": {
+      "A": "<dropdown>",
+      "B": "<select>",
+      "C": "<list>",
+      "D": "<input type='dropdown'>"
+    },
+    "correct_answer": "B",
+    "explanation": "<select> creates a dropdown list with <option> elements as choices."
+  },
+  {
+    "id": 54,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which tag creates a multi-line text input?",
+    "options": {
+      "A": "<input type='text'>",
+      "B": "<textarea>",
+      "C": "<multiline>",
+      "D": "<input type='multiline'>"
+    },
+    "correct_answer": "B",
+    "explanation": "The <textarea> tag creates a multi-line text input field."
+  },
+  {
+    "id": 55,
+    "topic": "3. HTML Fundamentals",
+    "question": "What does the <div> tag represent?",
+    "options": {
+      "A": "A division or section (block-level container)",
+      "B": "An inline element",
+      "C": "A table division",
+      "D": "A paragraph"
+    },
+    "correct_answer": "A",
+    "explanation": "<div> is a generic block-level container used for grouping and styling content."
+  },
+  {
+    "id": 56,
+    "topic": "3. HTML Fundamentals",
+    "question": "What is the difference between <div> and <span>?",
+    "options": {
+      "A": "Both are inline elements",
+      "B": "<div> is block-level, <span> is inline",
+      "C": "Both are block-level",
+      "D": "<div> is inline, <span> is block-level"
+    },
+    "correct_answer": "B",
+    "explanation": "<div> is a block-level container (takes full width). <span> is an inline container."
+  },
+  {
+    "id": 57,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which HTML5 semantic tag represents the main navigation?",
+    "options": {
+      "A": "<navigation>",
+      "B": "<nav>",
+      "C": "<menu>",
+      "D": "<links>"
+    },
+    "correct_answer": "B",
+    "explanation": "The <nav> semantic tag represents a section of navigation links."
+  },
+  {
+    "id": 58,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which HTML5 element represents a footer section?",
+    "options": {
+      "A": "<bottom>",
+      "B": "<footer>",
+      "C": "<foot>",
+      "D": "<end>"
+    },
+    "correct_answer": "B",
+    "explanation": "<footer> represents footer content for a section or page (copyright, contact info, etc.)."
+  },
+  {
+    "id": 59,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which HTML5 tag is used to embed a video?",
+    "options": {
+      "A": "<media>",
+      "B": "<video>",
+      "C": "<movie>",
+      "D": "<embed>"
+    },
+    "correct_answer": "B",
+    "explanation": "The <video> tag embeds video content. Supports attributes like controls, autoplay, loop."
+  },
+  {
+    "id": 60,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which HTML5 tag is used to embed audio?",
+    "options": {
+      "A": "<sound>",
+      "B": "<music>",
+      "C": "<audio>",
+      "D": "<mp3>"
+    },
+    "correct_answer": "C",
+    "explanation": "The <audio> tag embeds sound content with controls, autoplay, loop attributes."
+  },
+  {
+    "id": 61,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which attribute makes an input field mandatory?",
+    "options": {
+      "A": "mandatory",
+      "B": "required",
+      "C": "validate",
+      "D": "necessary"
+    },
+    "correct_answer": "B",
+    "explanation": "The 'required' attribute makes an input field mandatory before form submission."
+  },
+  {
+    "id": 62,
+    "topic": "3. HTML Fundamentals",
+    "question": "What does the <meta charset='UTF-8'> tag specify?",
+    "options": {
+      "A": "Page language",
+      "B": "Character encoding of the document",
+      "C": "Page title",
+      "D": "Page refresh rate"
+    },
+    "correct_answer": "B",
+    "explanation": "charset='UTF-8' specifies the character encoding, supporting all international characters."
+  },
+  {
+    "id": 63,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which HTML5 semantic tag represents an independent piece of content?",
+    "options": {
+      "A": "<section>",
+      "B": "<article>",
+      "C": "<div>",
+      "D": "<aside>"
+    },
+    "correct_answer": "B",
+    "explanation": "<article> represents a self-contained, independent piece of content (blog post, news article)."
+  },
+  {
+    "id": 64,
+    "topic": "3. HTML Fundamentals",
+    "question": "Which HTML tag is used to define a horizontal rule/line?",
+    "options": {
+      "A": "<line>",
+      "B": "<hr>",
+      "C": "<rule>",
+      "D": "<border>"
+    },
+    "correct_answer": "B",
+    "explanation": "<hr> creates a horizontal rule/line, used as a thematic break."
+  },
+  {
+    "id": 65,
+    "topic": "3. HTML Fundamentals",
+    "question": "What does the target='_blank' attribute do in an anchor tag?",
+    "options": {
+      "A": "Opens the link in the same tab",
+      "B": "Opens the link in a new tab/window",
+      "C": "Opens in parent frame",
+      "D": "Downloads the link"
+    },
+    "correct_answer": "B",
+    "explanation": "target='_blank' opens the hyperlink in a new browser tab or window."
+  },
+  {
+    "id": 66,
+    "topic": "4. CSS Fundamentals",
+    "question": "What does CSS stand for?",
+    "options": {
+      "A": "Computer Style Sheets",
+      "B": "Cascading Style Sheets",
+      "C": "Creative Style System",
+      "D": "Colorful Style Sheets"
+    },
+    "correct_answer": "B",
+    "explanation": "CSS = Cascading Style Sheets, used to style and layout web pages."
+  },
+  {
+    "id": 67,
+    "topic": "4. CSS Fundamentals",
+    "question": "Which is the correct CSS syntax?",
+    "options": {
+      "A": "body:color=black;",
+      "B": "body {color: black;}",
+      "C": "{body; color: black;}",
+      "D": "body = color: black"
+    },
+    "correct_answer": "B",
+    "explanation": "CSS syntax: selector { property: value; }"
+  },
+  {
+    "id": 68,
+    "topic": "4. CSS Fundamentals",
+    "question": "How do you add an external CSS file to HTML?",
+    "options": {
+      "A": "<style src='style.css'>",
+      "B": "<css>style.css</css>",
+      "C": "<link rel='stylesheet' href='style.css'>",
+      "D": "<script src='style.css'>"
+    },
+    "correct_answer": "C",
+    "explanation": "The <link> tag with rel='stylesheet' and href connects an external CSS file."
+  },
+  {
+    "id": 69,
+    "topic": "4. CSS Fundamentals",
+    "question": "Which CSS property changes the text color?",
+    "options": {
+      "A": "text-color",
+      "B": "font-color",
+      "C": "color",
+      "D": "foreground"
+    },
+    "correct_answer": "C",
+    "explanation": "The 'color' property sets the text color in CSS."
+  },
+  {
+    "id": 70,
+    "topic": "4. CSS Fundamentals",
+    "question": "Which CSS property changes the background color?",
+    "options": {
+      "A": "bgcolor",
+      "B": "background-color",
+      "C": "color-background",
+      "D": "bg-color"
+    },
+    "correct_answer": "B",
+    "explanation": "background-color sets the background color of an element."
+  },
+  {
+    "id": 71,
+    "topic": "4. CSS Fundamentals",
+    "question": "How do you select an element with id='header' in CSS?",
+    "options": {
+      "A": ".header",
+      "B": "#header",
+      "C": "header",
+      "D": "*header"
+    },
+    "correct_answer": "B",
+    "explanation": "# (hash) is used to select elements by id. . (dot) selects by class."
+  },
+  {
+    "id": 72,
+    "topic": "4. CSS Fundamentals",
+    "question": "How do you select elements with class='intro' in CSS?",
+    "options": {
+      "A": "#intro",
+      "B": ".intro",
+      "C": "intro",
+      "D": "*intro"
+    },
+    "correct_answer": "B",
+    "explanation": ". (dot) is used to select elements by class name."
+  },
+  {
+    "id": 73,
+    "topic": "4. CSS Fundamentals",
+    "question": "What are the three ways to apply CSS?",
+    "options": {
+      "A": "Inline, Internal, External",
+      "B": "Inline, Import, External",
+      "C": "Block, Inline, Internal",
+      "D": "Local, Global, External"
+    },
+    "correct_answer": "A",
+    "explanation": "CSS can be applied: Inline (style attribute), Internal (<style> in <head>), External (.css file)."
+  },
+  {
+    "id": 74,
+    "topic": "4. CSS Fundamentals",
+    "question": "Which CSS property controls the font size?",
+    "options": {
+      "A": "text-size",
+      "B": "font-size",
+      "C": "size",
+      "D": "text-style"
+    },
+    "correct_answer": "B",
+    "explanation": "font-size sets the size of the text (e.g., 16px, 1em, 1rem)."
+  },
+  {
+    "id": 75,
+    "topic": "4. CSS Fundamentals",
+    "question": "Which CSS property controls the font family?",
+    "options": {
+      "A": "font-type",
+      "B": "font-family",
+      "C": "text-font",
+      "D": "typeface"
+    },
+    "correct_answer": "B",
+    "explanation": "font-family specifies the font for an element (e.g., font-family: Arial, sans-serif;)."
+  },
+  {
+    "id": 76,
+    "topic": "4. CSS Fundamentals",
+    "question": "What is the CSS Box Model?",
+    "options": {
+      "A": "A model for 3D rendering",
+      "B": "Content + Padding + Border + Margin",
+      "C": "Only Content and Border",
+      "D": "A database model"
+    },
+    "correct_answer": "B",
+    "explanation": "The CSS Box Model consists of Content, Padding, Border, and Margin (from inside out)."
+  },
+  {
+    "id": 77,
+    "topic": "4. CSS Fundamentals",
+    "question": "Which CSS property sets the space between the content and the border?",
+    "options": {
+      "A": "margin",
+      "B": "spacing",
+      "C": "padding",
+      "D": "gap"
+    },
+    "correct_answer": "C",
+    "explanation": "Padding is the space between the content and the border of an element."
+  },
+  {
+    "id": 78,
+    "topic": "4. CSS Fundamentals",
+    "question": "Which CSS property sets the space outside the border?",
+    "options": {
+      "A": "padding",
+      "B": "margin",
+      "C": "border-spacing",
+      "D": "gap"
+    },
+    "correct_answer": "B",
+    "explanation": "Margin is the space outside the border, between the element and surrounding elements."
+  },
+  {
+    "id": 79,
+    "topic": "4. CSS Fundamentals",
+    "question": "What is the default value of the 'position' property in CSS?",
+    "options": {
+      "A": "relative",
+      "B": "absolute",
+      "C": "static",
+      "D": "fixed"
+    },
+    "correct_answer": "C",
+    "explanation": "The default position value is 'static' — elements are positioned in normal document flow."
+  },
+  {
+    "id": 80,
+    "topic": "4. CSS Fundamentals",
+    "question": "Which display value hides an element and removes it from the document flow?",
+    "options": {
+      "A": "display: hidden",
+      "B": "display: none",
+      "C": "visibility: hidden",
+      "D": "display: invisible"
+    },
+    "correct_answer": "B",
+    "explanation": "display: none hides the element AND removes it from the layout. visibility: hidden hides but keeps space."
+  },
+  {
+    "id": 81,
+    "topic": "4. CSS Fundamentals",
+    "question": "What is the specificity order in CSS (highest to lowest)?",
+    "options": {
+      "A": "Element > Class > ID > Inline",
+      "B": "Inline > ID > Class > Element",
+      "C": "Class > ID > Element > Inline",
+      "D": "ID > Inline > Class > Element"
+    },
+    "correct_answer": "B",
+    "explanation": "Specificity (high to low): Inline styles > ID (#) > Class (.) > Element (tag). !important overrides all."
+  },
+  {
+    "id": 82,
+    "topic": "4. CSS Fundamentals",
+    "question": "Which CSS property makes text uppercase?",
+    "options": {
+      "A": "text-style: uppercase",
+      "B": "text-transform: uppercase",
+      "C": "font-transform: uppercase",
+      "D": "text-case: upper"
+    },
+    "correct_answer": "B",
+    "explanation": "text-transform: uppercase transforms all text to uppercase letters."
+  },
+  {
+    "id": 83,
+    "topic": "4. CSS Fundamentals",
+    "question": "Which CSS property controls the space between lines of text?",
+    "options": {
+      "A": "spacing",
+      "B": "line-height",
+      "C": "text-spacing",
+      "D": "vertical-space"
+    },
+    "correct_answer": "B",
+    "explanation": "line-height sets the height of each line of text, controlling spacing between lines."
+  },
+  {
+    "id": 84,
+    "topic": "4. CSS Fundamentals",
+    "question": "What does 'cascading' mean in CSS?",
+    "options": {
+      "A": "Styles are applied randomly",
+      "B": "Styles cascade down — later rules and higher specificity override earlier ones",
+      "C": "Only external CSS applies",
+      "D": "All styles have equal priority"
+    },
+    "correct_answer": "B",
+    "explanation": "Cascading means styles flow down and are resolved by specificity, importance, and source order."
+  },
+  {
+    "id": 85,
+    "topic": "4. CSS Fundamentals",
+    "question": "Which property is used to center a block element horizontally?",
+    "options": {
+      "A": "text-align: center",
+      "B": "margin: 0 auto",
+      "C": "align: center",
+      "D": "float: center"
+    },
+    "correct_answer": "B",
+    "explanation": "margin: 0 auto with a defined width centers a block element horizontally."
+  },
+  {
+    "id": 86,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What is Flexbox used for?",
+    "options": {
+      "A": "3D animations",
+      "B": "One-dimensional layout (row or column)",
+      "C": "Database management",
+      "D": "Two-dimensional layout"
+    },
+    "correct_answer": "B",
+    "explanation": "Flexbox is a one-dimensional layout method for arranging items in a row or column."
+  },
+  {
+    "id": 87,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "Which CSS property enables Flexbox?",
+    "options": {
+      "A": "display: block",
+      "B": "display: flex",
+      "C": "display: grid",
+      "D": "display: flexbox"
+    },
+    "correct_answer": "B",
+    "explanation": "display: flex on a container enables Flexbox layout for its children."
+  },
+  {
+    "id": 88,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "Which Flexbox property aligns items along the main axis?",
+    "options": {
+      "A": "align-items",
+      "B": "justify-content",
+      "C": "flex-direction",
+      "D": "align-content"
+    },
+    "correct_answer": "B",
+    "explanation": "justify-content aligns flex items along the main axis (horizontal by default)."
+  },
+  {
+    "id": 89,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "Which Flexbox property aligns items along the cross axis?",
+    "options": {
+      "A": "justify-content",
+      "B": "align-items",
+      "C": "flex-wrap",
+      "D": "flex-direction"
+    },
+    "correct_answer": "B",
+    "explanation": "align-items aligns flex items along the cross axis (vertical by default)."
+  },
+  {
+    "id": 90,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What is CSS Grid used for?",
+    "options": {
+      "A": "One-dimensional layout only",
+      "B": "Two-dimensional layout (rows AND columns)",
+      "C": "Only animations",
+      "D": "Print styling"
+    },
+    "correct_answer": "B",
+    "explanation": "CSS Grid is a two-dimensional layout system for creating layouts with rows AND columns simultaneously."
+  },
+  {
+    "id": 91,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "Which CSS property enables Grid layout?",
+    "options": {
+      "A": "display: flex",
+      "B": "display: grid",
+      "C": "display: table",
+      "D": "display: layout"
+    },
+    "correct_answer": "B",
+    "explanation": "display: grid enables CSS Grid layout on a container."
+  },
+  {
+    "id": 92,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What does a media query do in CSS?",
+    "options": {
+      "A": "Embeds media files",
+      "B": "Applies styles based on device/screen conditions",
+      "C": "Plays audio",
+      "D": "Connects to a database"
+    },
+    "correct_answer": "B",
+    "explanation": "Media queries apply CSS rules based on conditions like screen width, making designs responsive."
+  },
+  {
+    "id": 93,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "Which is the correct syntax for a media query?",
+    "options": {
+      "A": "@media screen and (max-width: 768px) { }",
+      "B": "@screen (max-width: 768px) { }",
+      "C": "#media (768px) { }",
+      "D": "media-query: 768px { }"
+    },
+    "correct_answer": "A",
+    "explanation": "@media screen and (condition) { rules } is the correct media query syntax."
+  },
+  {
+    "id": 94,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What does 'responsive design' mean?",
+    "options": {
+      "A": "Fast-loading websites",
+      "B": "Websites that adapt to different screen sizes and devices",
+      "C": "Websites with animations",
+      "D": "Server-side rendering"
+    },
+    "correct_answer": "B",
+    "explanation": "Responsive design means a website layout adapts and looks good on all screen sizes (desktop, tablet, mobile)."
+  },
+  {
+    "id": 95,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What is the 'mobile-first' approach?",
+    "options": {
+      "A": "Designing for desktop first",
+      "B": "Designing for mobile screens first, then scaling up for larger screens",
+      "C": "Only supporting mobile devices",
+      "D": "Using mobile apps instead of websites"
+    },
+    "correct_answer": "B",
+    "explanation": "Mobile-first means designing for small screens first using min-width media queries to add styles for larger screens."
+  },
+  {
+    "id": 96,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What does the CSS 'viewport' meta tag do?",
+    "options": {
+      "A": "Sets the page title",
+      "B": "Controls the viewport dimensions and scaling on mobile devices",
+      "C": "Links a CSS file",
+      "D": "Defines character encoding"
+    },
+    "correct_answer": "B",
+    "explanation": "<meta name='viewport' content='width=device-width, initial-scale=1.0'> controls responsive behavior on mobile."
+  },
+  {
+    "id": 97,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What CSS unit is relative to the root element's font size?",
+    "options": {
+      "A": "em",
+      "B": "rem",
+      "C": "px",
+      "D": "%"
+    },
+    "correct_answer": "B",
+    "explanation": "rem is relative to the root (<html>) element's font size. em is relative to the parent element."
+  },
+  {
+    "id": 98,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What does 'vw' unit stand for in CSS?",
+    "options": {
+      "A": "Variable width",
+      "B": "Viewport width",
+      "C": "Visual width",
+      "D": "Vector width"
+    },
+    "correct_answer": "B",
+    "explanation": "1vw = 1% of the viewport width. Similarly, 1vh = 1% of viewport height."
+  },
+  {
+    "id": 99,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "Which CSS property creates smooth transitions between property changes?",
+    "options": {
+      "A": "animation",
+      "B": "transition",
+      "C": "transform",
+      "D": "translate"
+    },
+    "correct_answer": "B",
+    "explanation": "transition creates smooth animations when CSS properties change (e.g., transition: all 0.3s ease;)."
+  },
+  {
+    "id": 100,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "Which CSS property is used to rotate, scale, or move elements?",
+    "options": {
+      "A": "transition",
+      "B": "animation",
+      "C": "transform",
+      "D": "position"
+    },
+    "correct_answer": "C",
+    "explanation": "transform applies 2D/3D transformations like rotate(), scale(), translate(), skew()."
+  },
+  {
+    "id": 101,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "Which CSS property defines keyframe animations?",
+    "options": {
+      "A": "transition",
+      "B": "animation",
+      "C": "transform",
+      "D": "motion"
+    },
+    "correct_answer": "B",
+    "explanation": "animation property with @keyframes defines complex multi-step animations in CSS."
+  },
+  {
+    "id": 102,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What is a CSS preprocessor?",
+    "options": {
+      "A": "A JavaScript framework",
+      "B": "A tool that extends CSS with variables, nesting, mixins (e.g., SASS, LESS)",
+      "C": "A database tool",
+      "D": "A browser extension"
+    },
+    "correct_answer": "B",
+    "explanation": "CSS preprocessors like SASS/SCSS and LESS add features like variables, nesting, and mixins to CSS."
+  },
+  {
+    "id": 103,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What does 'box-sizing: border-box' do?",
+    "options": {
+      "A": "Adds extra border",
+      "B": "Includes padding and border in the element's total width/height",
+      "C": "Removes all borders",
+      "D": "Makes element circular"
+    },
+    "correct_answer": "B",
+    "explanation": "border-box includes padding and border within the specified width/height, preventing layout overflow."
+  },
+  {
+    "id": 104,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "Which CSS Grid property defines the columns?",
+    "options": {
+      "A": "grid-template-rows",
+      "B": "grid-template-columns",
+      "C": "grid-column-gap",
+      "D": "grid-auto-flow"
+    },
+    "correct_answer": "B",
+    "explanation": "grid-template-columns defines the column structure (e.g., grid-template-columns: 1fr 1fr 1fr;)."
+  },
+  {
+    "id": 105,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What does the CSS 'fr' unit represent?",
+    "options": {
+      "A": "Frame rate",
+      "B": "Fraction of available space in Grid",
+      "C": "Font ratio",
+      "D": "Fixed ratio"
+    },
+    "correct_answer": "B",
+    "explanation": "fr = fraction unit in CSS Grid, distributing available space proportionally."
+  },
+  {
+    "id": 106,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What is Bootstrap?",
+    "options": {
+      "A": "A JavaScript library",
+      "B": "A CSS framework for responsive design",
+      "C": "A database system",
+      "D": "A web server"
+    },
+    "correct_answer": "B",
+    "explanation": "Bootstrap is a popular CSS framework providing pre-built responsive components and grid system."
+  },
+  {
+    "id": 107,
+    "topic": "5. Advanced CSS & Responsive Design",
+    "question": "What is Tailwind CSS?",
+    "options": {
+      "A": "A component-based CSS framework",
+      "B": "A utility-first CSS framework",
+      "C": "A JavaScript library",
+      "D": "A backend framework"
+    },
+    "correct_answer": "B",
+    "explanation": "Tailwind CSS is a utility-first framework using small utility classes directly in HTML."
+  },
+  {
+    "id": 108,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "What is JavaScript primarily used for?",
+    "options": {
+      "A": "Styling web pages",
+      "B": "Adding interactivity and dynamic behavior to web pages",
+      "C": "Structuring content only",
+      "D": "Managing databases"
+    },
+    "correct_answer": "B",
+    "explanation": "JavaScript adds interactivity, dynamic content manipulation, and event handling to web pages."
+  },
+  {
+    "id": 109,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "Which keyword declares a variable that can be reassigned?",
+    "options": {
+      "A": "const",
+      "B": "let",
+      "C": "final",
+      "D": "static"
+    },
+    "correct_answer": "B",
+    "explanation": "let declares a block-scoped variable that can be reassigned. const cannot be reassigned."
+  },
+  {
+    "id": 110,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "Which keyword declares a constant variable?",
+    "options": {
+      "A": "var",
+      "B": "let",
+      "C": "const",
+      "D": "constant"
+    },
+    "correct_answer": "C",
+    "explanation": "const declares a block-scoped variable that cannot be reassigned after initialization."
+  },
+  {
+    "id": 111,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "What is the difference between 'var' and 'let'?",
+    "options": {
+      "A": "No difference",
+      "B": "var is function-scoped, let is block-scoped",
+      "C": "let is function-scoped, var is block-scoped",
+      "D": "var cannot be reassigned"
+    },
+    "correct_answer": "B",
+    "explanation": "var is function-scoped and hoisted; let is block-scoped and not hoisted in the same way."
+  },
+  {
+    "id": 112,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "Which data type is NOT a primitive in JavaScript?",
+    "options": {
+      "A": "String",
+      "B": "Number",
+      "C": "Object",
+      "D": "Boolean"
+    },
+    "correct_answer": "C",
+    "explanation": "Object is a non-primitive (reference) type. Primitives: String, Number, Boolean, null, undefined, Symbol, BigInt."
+  },
+  {
+    "id": 113,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "What does typeof null return in JavaScript?",
+    "options": {
+      "A": "null",
+      "B": "undefined",
+      "C": "object",
+      "D": "boolean"
+    },
+    "correct_answer": "C",
+    "explanation": "typeof null returns 'object' — this is a known JavaScript bug from its first implementation."
+  },
+  {
+    "id": 114,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "What is the result of '5' + 3 in JavaScript?",
+    "options": {
+      "A": "8",
+      "B": "53",
+      "C": "Error",
+      "D": "undefined"
+    },
+    "correct_answer": "B",
+    "explanation": "The + operator with a string performs concatenation: '5' + 3 = '53' (string)."
+  },
+  {
+    "id": 115,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "What is the result of '5' - 3 in JavaScript?",
+    "options": {
+      "A": "53",
+      "B": "2",
+      "C": "Error",
+      "D": "NaN"
+    },
+    "correct_answer": "B",
+    "explanation": "The - operator coerces the string to a number: '5' - 3 = 2."
+  },
+  {
+    "id": 116,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "What does === check in JavaScript?",
+    "options": {
+      "A": "Value only",
+      "B": "Type only",
+      "C": "Value AND type (strict equality)",
+      "D": "Reference"
+    },
+    "correct_answer": "C",
+    "explanation": "=== is strict equality — checks both value and type. == checks value with type coercion."
+  },
+  {
+    "id": 117,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "Which method outputs data to the browser console?",
+    "options": {
+      "A": "print()",
+      "B": "console.log()",
+      "C": "document.write()",
+      "D": "window.print()"
+    },
+    "correct_answer": "B",
+    "explanation": "console.log() prints output to the browser's developer console for debugging."
+  },
+  {
+    "id": 118,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "How do you write a single-line comment in JavaScript?",
+    "options": {
+      "A": "<!-- comment -->",
+      "B": "// comment",
+      "C": "/* comment */",
+      "D": "# comment"
+    },
+    "correct_answer": "B",
+    "explanation": "// is for single-line comments. /* */ is for multi-line comments in JavaScript."
+  },
+  {
+    "id": 119,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "Which built-in function parses a string to an integer?",
+    "options": {
+      "A": "Integer.parse()",
+      "B": "parseInt()",
+      "C": "toInt()",
+      "D": "Number.parseInt() only"
+    },
+    "correct_answer": "B",
+    "explanation": "parseInt('123') converts a string to an integer. parseFloat() converts to float."
+  },
+  {
+    "id": 120,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "Which is the correct way to declare a function?",
+    "options": {
+      "A": "function myFunc() {}",
+      "B": "def myFunc() {}",
+      "C": "func myFunc() {}",
+      "D": "method myFunc() {}"
+    },
+    "correct_answer": "A",
+    "explanation": "function keyword is used to declare functions in JavaScript: function name(params) { body }."
+  },
+  {
+    "id": 121,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "What is an arrow function?",
+    "options": {
+      "A": "A function declared with the 'function' keyword",
+      "B": "A shorter syntax for writing functions using =>",
+      "C": "A built-in method",
+      "D": "A CSS property"
+    },
+    "correct_answer": "B",
+    "explanation": "Arrow functions: const func = (params) => { body }. Shorter syntax and lexical 'this' binding."
+  },
+  {
+    "id": 122,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "Which method adds an element to the end of an array?",
+    "options": {
+      "A": "push()",
+      "B": "pop()",
+      "C": "shift()",
+      "D": "unshift()"
+    },
+    "correct_answer": "A",
+    "explanation": "push() adds to end, pop() removes from end, unshift() adds to beginning, shift() removes from beginning."
+  },
+  {
+    "id": 123,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "Which method removes the last element from an array?",
+    "options": {
+      "A": "push()",
+      "B": "pop()",
+      "C": "shift()",
+      "D": "delete()"
+    },
+    "correct_answer": "B",
+    "explanation": "pop() removes and returns the last element of an array."
+  },
+  {
+    "id": 124,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "What does the 'for...of' loop iterate over?",
+    "options": {
+      "A": "Object keys",
+      "B": "Iterable values (arrays, strings, etc.)",
+      "C": "Only numbers",
+      "D": "CSS properties"
+    },
+    "correct_answer": "B",
+    "explanation": "for...of iterates over iterable values. for...in iterates over object keys/properties."
+  },
+  {
+    "id": 125,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "What is the DOM?",
+    "options": {
+      "A": "Document Object Model — a tree representation of the HTML document",
+      "B": "Data Object Manager",
+      "C": "Document Order Method",
+      "D": "Digital Output Module"
+    },
+    "correct_answer": "A",
+    "explanation": "DOM = Document Object Model. It represents HTML as a tree of objects that JavaScript can manipulate."
+  },
+  {
+    "id": 126,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "Which method selects an HTML element by its ID?",
+    "options": {
+      "A": "document.getElement('id')",
+      "B": "document.getElementById('id')",
+      "C": "document.querySelector('#id') only",
+      "D": "document.findById('id')"
+    },
+    "correct_answer": "B",
+    "explanation": "document.getElementById('id') selects an element by its ID attribute."
+  },
+  {
+    "id": 127,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "Which method selects elements using CSS selectors?",
+    "options": {
+      "A": "document.getElementById()",
+      "B": "document.querySelector()",
+      "C": "document.getSelector()",
+      "D": "document.findElement()"
+    },
+    "correct_answer": "B",
+    "explanation": "querySelector() selects the first matching element. querySelectorAll() selects all matching elements."
+  },
+  {
+    "id": 128,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "How do you add an event listener in JavaScript?",
+    "options": {
+      "A": "element.onEvent(function)",
+      "B": "element.addEventListener('click', function)",
+      "C": "element.listen('click', function)",
+      "D": "element.addEvent('click', function)"
+    },
+    "correct_answer": "B",
+    "explanation": "addEventListener('event', callback) attaches an event handler to an element."
+  },
+  {
+    "id": 129,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "What does NaN stand for?",
+    "options": {
+      "A": "Not a Null",
+      "B": "Not a Number",
+      "C": "Null and None",
+      "D": "New assigned Number"
+    },
+    "correct_answer": "B",
+    "explanation": "NaN = Not a Number. It results from invalid numeric operations like parseInt('hello')."
+  },
+  {
+    "id": 130,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "What does 'undefined' mean in JavaScript?",
+    "options": {
+      "A": "Variable is declared but has no assigned value",
+      "B": "Variable does not exist",
+      "C": "Variable is null",
+      "D": "Variable is empty string"
+    },
+    "correct_answer": "A",
+    "explanation": "undefined means a variable is declared but hasn't been assigned a value yet."
+  },
+  {
+    "id": 131,
+    "topic": "6. JavaScript Fundamentals",
+    "question": "Which loop is guaranteed to execute at least once?",
+    "options": {
+      "A": "for loop",
+      "B": "while loop",
+      "C": "do...while loop",
+      "D": "for...in loop"
+    },
+    "correct_answer": "C",
+    "explanation": "do...while executes the block first, then checks the condition — runs at least once."
+  },
+  {
+    "id": 132,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is a closure in JavaScript?",
+    "options": {
+      "A": "A way to close the browser",
+      "B": "A function that remembers its outer scope variables even after the outer function has returned",
+      "C": "A type of loop",
+      "D": "An HTML element"
+    },
+    "correct_answer": "B",
+    "explanation": "A closure is a function that retains access to its lexical scope even when executed outside that scope."
+  },
+  {
+    "id": 133,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is a Promise in JavaScript?",
+    "options": {
+      "A": "A CSS property",
+      "B": "An object representing the eventual completion or failure of an async operation",
+      "C": "A variable type",
+      "D": "A loop construct"
+    },
+    "correct_answer": "B",
+    "explanation": "A Promise represents an asynchronous operation with states: pending, fulfilled, or rejected."
+  },
+  {
+    "id": 134,
+    "topic": "7. Advanced JavaScript",
+    "question": "What are the three states of a Promise?",
+    "options": {
+      "A": "Start, Middle, End",
+      "B": "Pending, Fulfilled, Rejected",
+      "C": "Open, Closed, Error",
+      "D": "True, False, Null"
+    },
+    "correct_answer": "B",
+    "explanation": "Promise states: Pending (initial), Fulfilled (resolved successfully), Rejected (failed)."
+  },
+  {
+    "id": 135,
+    "topic": "7. Advanced JavaScript",
+    "question": "What does async/await do?",
+    "options": {
+      "A": "Makes code run faster",
+      "B": "Syntactic sugar for Promises, making async code look synchronous",
+      "C": "Creates new threads",
+      "D": "Blocks all execution"
+    },
+    "correct_answer": "B",
+    "explanation": "async/await is syntactic sugar over Promises, allowing cleaner asynchronous code that reads like synchronous code."
+  },
+  {
+    "id": 136,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is the event loop in JavaScript?",
+    "options": {
+      "A": "A CSS animation loop",
+      "B": "A mechanism that handles async callbacks by monitoring the call stack and callback queue",
+      "C": "A for loop for events",
+      "D": "A server-side technology"
+    },
+    "correct_answer": "B",
+    "explanation": "The event loop continuously checks the call stack and pushes callbacks from the queue when the stack is empty."
+  },
+  {
+    "id": 137,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is hoisting in JavaScript?",
+    "options": {
+      "A": "Moving elements up in the DOM",
+      "B": "Variable and function declarations are moved to the top of their scope during compilation",
+      "C": "A CSS positioning technique",
+      "D": "A security mechanism"
+    },
+    "correct_answer": "B",
+    "explanation": "Hoisting moves declarations to the top of their scope. var is hoisted (undefined), let/const are hoisted but not initialized."
+  },
+  {
+    "id": 138,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is destructuring in JavaScript?",
+    "options": {
+      "A": "Deleting an object",
+      "B": "Unpacking values from arrays or properties from objects into variables",
+      "C": "Creating nested objects",
+      "D": "Encrypting data"
+    },
+    "correct_answer": "B",
+    "explanation": "Destructuring: const {name, age} = obj; or const [a, b] = arr; extracts values into variables."
+  },
+  {
+    "id": 139,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is the spread operator (...)?",
+    "options": {
+      "A": "A comparison operator",
+      "B": "Expands an iterable into individual elements",
+      "C": "A ternary operator",
+      "D": "A division operator"
+    },
+    "correct_answer": "B",
+    "explanation": "Spread (...) expands arrays/objects: [...arr], {...obj}. Also used as rest parameter in functions."
+  },
+  {
+    "id": 140,
+    "topic": "7. Advanced JavaScript",
+    "question": "What are template literals in JavaScript?",
+    "options": {
+      "A": "Regular strings with single quotes",
+      "B": "Strings using backticks (`) that support interpolation with ${expression}",
+      "C": "HTML templates",
+      "D": "CSS templates"
+    },
+    "correct_answer": "B",
+    "explanation": "Template literals use backticks: `Hello ${name}` allowing embedded expressions and multi-line strings."
+  },
+  {
+    "id": 141,
+    "topic": "7. Advanced JavaScript",
+    "question": "What does the 'this' keyword refer to in JavaScript?",
+    "options": {
+      "A": "Always the global object",
+      "B": "The object that is currently executing the function (context-dependent)",
+      "C": "The DOM element",
+      "D": "The parent function"
+    },
+    "correct_answer": "B",
+    "explanation": "'this' refers to the execution context — the object calling the function. It varies based on how the function is called."
+  },
+  {
+    "id": 142,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is the difference between map() and forEach()?",
+    "options": {
+      "A": "No difference",
+      "B": "map() returns a new array; forEach() returns undefined",
+      "C": "forEach() returns a new array; map() returns undefined",
+      "D": "Both return new arrays"
+    },
+    "correct_answer": "B",
+    "explanation": "map() transforms each element and returns a NEW array. forEach() just iterates, returns undefined."
+  },
+  {
+    "id": 143,
+    "topic": "7. Advanced JavaScript",
+    "question": "What does the filter() method do?",
+    "options": {
+      "A": "Modifies all array elements",
+      "B": "Returns a new array with elements that pass a test",
+      "C": "Sorts the array",
+      "D": "Removes duplicates"
+    },
+    "correct_answer": "B",
+    "explanation": "filter() creates a new array with elements that pass the callback's condition (return true)."
+  },
+  {
+    "id": 144,
+    "topic": "7. Advanced JavaScript",
+    "question": "What does the reduce() method do?",
+    "options": {
+      "A": "Removes elements from an array",
+      "B": "Reduces the array to a single value using an accumulator",
+      "C": "Filters the array",
+      "D": "Sorts the array"
+    },
+    "correct_answer": "B",
+    "explanation": "reduce() applies a function against an accumulator to reduce the array to a single value."
+  },
+  {
+    "id": 145,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is a callback function?",
+    "options": {
+      "A": "A function that calls itself",
+      "B": "A function passed as an argument to another function",
+      "C": "A built-in browser function",
+      "D": "A function that returns HTML"
+    },
+    "correct_answer": "B",
+    "explanation": "A callback is a function passed as an argument to another function, to be executed later."
+  },
+  {
+    "id": 146,
+    "topic": "7. Advanced JavaScript",
+    "question": "What are ES6 modules?",
+    "options": {
+      "A": "CSS modules",
+      "B": "A way to organize code using import and export statements",
+      "C": "Node.js packages",
+      "D": "HTML components"
+    },
+    "correct_answer": "B",
+    "explanation": "ES6 modules allow exporting and importing code between files using export and import statements."
+  },
+  {
+    "id": 147,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is the fetch() API used for?",
+    "options": {
+      "A": "Fetching CSS styles",
+      "B": "Making HTTP requests to servers (returns a Promise)",
+      "C": "Fetching DOM elements",
+      "D": "Fetching local variables"
+    },
+    "correct_answer": "B",
+    "explanation": "fetch() is a modern API for making HTTP requests, returning a Promise with the response."
+  },
+  {
+    "id": 148,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is JSON?",
+    "options": {
+      "A": "JavaScript Object Notation — a data interchange format",
+      "B": "Java Standard Object Naming",
+      "C": "JavaScript Online Network",
+      "D": "Java Serialized Object Node"
+    },
+    "correct_answer": "A",
+    "explanation": "JSON = JavaScript Object Notation. A lightweight text-based data format for data exchange."
+  },
+  {
+    "id": 149,
+    "topic": "7. Advanced JavaScript",
+    "question": "Which method converts a JavaScript object to JSON string?",
+    "options": {
+      "A": "JSON.parse()",
+      "B": "JSON.stringify()",
+      "C": "JSON.convert()",
+      "D": "JSON.toString()"
+    },
+    "correct_answer": "B",
+    "explanation": "JSON.stringify() converts a JS object to JSON string. JSON.parse() converts JSON string to JS object."
+  },
+  {
+    "id": 150,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is localStorage in JavaScript?",
+    "options": {
+      "A": "Server-side storage",
+      "B": "Client-side storage that persists even after browser is closed",
+      "C": "Memory that is cleared on every page load",
+      "D": "A database"
+    },
+    "correct_answer": "B",
+    "explanation": "localStorage stores data in the browser with no expiration. sessionStorage clears when the session ends."
+  },
+  {
+    "id": 151,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is event bubbling?",
+    "options": {
+      "A": "Events trigger only on the target element",
+      "B": "Events propagate from the target element up to the root/parent elements",
+      "C": "Events propagate from root to target",
+      "D": "Events are canceled"
+    },
+    "correct_answer": "B",
+    "explanation": "Event bubbling: events propagate upward from target to parent elements. Event capturing goes top-down."
+  },
+  {
+    "id": 152,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is event delegation?",
+    "options": {
+      "A": "Adding event listeners to every child element",
+      "B": "Attaching a single event listener to a parent to handle events from its children",
+      "C": "Removing all events",
+      "D": "Preventing event propagation"
+    },
+    "correct_answer": "B",
+    "explanation": "Event delegation uses a single listener on a parent element, leveraging event bubbling to handle child events."
+  },
+  {
+    "id": 153,
+    "topic": "7. Advanced JavaScript",
+    "question": "What does 'use strict' do?",
+    "options": {
+      "A": "Makes JavaScript faster",
+      "B": "Enforces stricter parsing and error handling rules",
+      "C": "Enables ES6 features",
+      "D": "Disables console.log"
+    },
+    "correct_answer": "B",
+    "explanation": "'use strict' enables strict mode — prevents undeclared variables, disallows certain syntax, catches common errors."
+  },
+  {
+    "id": 154,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is a higher-order function?",
+    "options": {
+      "A": "A function with many parameters",
+      "B": "A function that takes another function as argument or returns a function",
+      "C": "A recursive function",
+      "D": "An IIFE"
+    },
+    "correct_answer": "B",
+    "explanation": "Higher-order functions accept functions as arguments or return functions (e.g., map, filter, reduce)."
+  },
+  {
+    "id": 155,
+    "topic": "7. Advanced JavaScript",
+    "question": "What is an IIFE?",
+    "options": {
+      "A": "International Internet Function Expression",
+      "B": "Immediately Invoked Function Expression — a function that runs immediately upon definition",
+      "C": "An async function",
+      "D": "A generator function"
+    },
+    "correct_answer": "B",
+    "explanation": "IIFE: (function() { ... })(); — executes immediately, creates a private scope."
+  },
+  {
+    "id": 156,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What is React?",
+    "options": {
+      "A": "A CSS framework",
+      "B": "A JavaScript library for building user interfaces",
+      "C": "A backend framework",
+      "D": "A database"
+    },
+    "correct_answer": "B",
+    "explanation": "React is a JavaScript library by Facebook/Meta for building component-based user interfaces."
+  },
+  {
+    "id": 157,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What is a component in React?",
+    "options": {
+      "A": "A CSS class",
+      "B": "A reusable piece of UI that can have its own logic and rendering",
+      "C": "An HTML element",
+      "D": "A database table"
+    },
+    "correct_answer": "B",
+    "explanation": "Components are independent, reusable building blocks of React UIs, either functional or class-based."
+  },
+  {
+    "id": 158,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What is JSX?",
+    "options": {
+      "A": "A database query language",
+      "B": "JavaScript XML — syntax extension that allows writing HTML-like code in JavaScript",
+      "C": "A CSS preprocessor",
+      "D": "A JavaScript variable type"
+    },
+    "correct_answer": "B",
+    "explanation": "JSX lets you write HTML-like syntax in JavaScript, which gets compiled to React.createElement() calls."
+  },
+  {
+    "id": 159,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What is the Virtual DOM in React?",
+    "options": {
+      "A": "The actual browser DOM",
+      "B": "A lightweight copy of the real DOM for efficient updates",
+      "C": "A CSS framework",
+      "D": "A server-side rendering engine"
+    },
+    "correct_answer": "B",
+    "explanation": "Virtual DOM is an in-memory representation of the real DOM. React compares changes and updates only what's needed."
+  },
+  {
+    "id": 160,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What is 'state' in React?",
+    "options": {
+      "A": "External data from API",
+      "B": "Built-in object to store component data that can change over time",
+      "C": "CSS styling",
+      "D": "A routing mechanism"
+    },
+    "correct_answer": "B",
+    "explanation": "State is a built-in object holding component data that, when changed, triggers re-rendering."
+  },
+  {
+    "id": 161,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What are 'props' in React?",
+    "options": {
+      "A": "Internal state of a component",
+      "B": "Properties passed from parent to child components (read-only)",
+      "C": "CSS properties",
+      "D": "Database properties"
+    },
+    "correct_answer": "B",
+    "explanation": "Props (properties) are read-only data passed from a parent component to a child component."
+  },
+  {
+    "id": 162,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "Which React hook is used to manage state in functional components?",
+    "options": {
+      "A": "useEffect",
+      "B": "useState",
+      "C": "useContext",
+      "D": "useRef"
+    },
+    "correct_answer": "B",
+    "explanation": "useState() hook adds state to functional components: const [value, setValue] = useState(initial)."
+  },
+  {
+    "id": 163,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "Which React hook handles side effects?",
+    "options": {
+      "A": "useState",
+      "B": "useEffect",
+      "C": "useReducer",
+      "D": "useMemo"
+    },
+    "correct_answer": "B",
+    "explanation": "useEffect() handles side effects like API calls, subscriptions, and DOM manipulation."
+  },
+  {
+    "id": 164,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What is Angular?",
+    "options": {
+      "A": "A JavaScript library",
+      "B": "A full-featured TypeScript-based frontend framework by Google",
+      "C": "A CSS framework",
+      "D": "A backend framework"
+    },
+    "correct_answer": "B",
+    "explanation": "Angular is a comprehensive TypeScript-based frontend framework by Google with built-in routing, forms, HTTP client."
+  },
+  {
+    "id": 165,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What is Vue.js?",
+    "options": {
+      "A": "A backend framework",
+      "B": "A progressive JavaScript framework for building UIs",
+      "C": "A database",
+      "D": "A CSS preprocessor"
+    },
+    "correct_answer": "B",
+    "explanation": "Vue.js is a progressive framework for building UIs with a gentle learning curve and reactive data binding."
+  },
+  {
+    "id": 166,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What is jQuery?",
+    "options": {
+      "A": "A frontend framework",
+      "B": "A fast, small JavaScript library that simplifies DOM manipulation and AJAX",
+      "C": "A backend library",
+      "D": "A CSS library"
+    },
+    "correct_answer": "B",
+    "explanation": "jQuery is a JS library that simplifies DOM manipulation, event handling, AJAX. Less used now with modern frameworks."
+  },
+  {
+    "id": 167,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What is SPA (Single Page Application)?",
+    "options": {
+      "A": "A website with only one page of content",
+      "B": "A web app that loads a single HTML page and dynamically updates content without full page reloads",
+      "C": "A static website",
+      "D": "A server-rendered website"
+    },
+    "correct_answer": "B",
+    "explanation": "SPA dynamically rewrites the current page instead of loading entire new pages from the server."
+  },
+  {
+    "id": 168,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What is client-side routing?",
+    "options": {
+      "A": "Server handles all page navigation",
+      "B": "JavaScript handles page navigation without full page reloads",
+      "C": "DNS routing",
+      "D": "Network routing"
+    },
+    "correct_answer": "B",
+    "explanation": "Client-side routing uses JavaScript to change views/URL without requesting a new page from the server."
+  },
+  {
+    "id": 169,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What is npm?",
+    "options": {
+      "A": "Node Package Manager — a package manager for JavaScript",
+      "B": "New Programming Method",
+      "C": "Network Protocol Manager",
+      "D": "Node Process Manager"
+    },
+    "correct_answer": "A",
+    "explanation": "npm = Node Package Manager. Used to install, share, and manage JavaScript packages/dependencies."
+  },
+  {
+    "id": 170,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What does 'npm install' do?",
+    "options": {
+      "A": "Installs Node.js",
+      "B": "Installs all dependencies listed in package.json",
+      "C": "Installs the browser",
+      "D": "Creates a new project"
+    },
+    "correct_answer": "B",
+    "explanation": "npm install reads package.json and installs all listed dependencies into node_modules."
+  },
+  {
+    "id": 171,
+    "topic": "8. Frontend Frameworks & Libraries",
+    "question": "What is a package.json file?",
+    "options": {
+      "A": "A CSS file",
+      "B": "A file containing project metadata and dependency list",
+      "C": "An HTML template",
+      "D": "A database config file"
+    },
+    "correct_answer": "B",
+    "explanation": "package.json contains project name, version, scripts, and list of dependencies."
+  },
+  {
+    "id": 172,
+    "topic": "9. Backend Development Fundamentals",
+    "question": "What is backend development?",
+    "options": {
+      "A": "Designing the UI",
+      "B": "Server-side logic, database management, and API development",
+      "C": "Only CSS styling",
+      "D": "Browser rendering"
+    },
+    "correct_answer": "B",
+    "explanation": "Backend development handles server-side logic, databases, authentication, and APIs."
+  },
+  {
+    "id": 173,
+    "topic": "9. Backend Development Fundamentals",
+    "question": "What is Node.js?",
+    "options": {
+      "A": "A frontend framework",
+      "B": "A JavaScript runtime environment built on Chrome's V8 engine for server-side code",
+      "C": "A database",
+      "D": "A CSS preprocessor"
+    },
+    "correct_answer": "B",
+    "explanation": "Node.js allows running JavaScript on the server side, built on Google Chrome's V8 engine."
+  },
+  {
+    "id": 174,
+    "topic": "9. Backend Development Fundamentals",
+    "question": "What is Express.js?",
+    "options": {
+      "A": "A database",
+      "B": "A minimal and flexible Node.js web application framework",
+      "C": "A frontend library",
+      "D": "A CSS framework"
+    },
+    "correct_answer": "B",
+    "explanation": "Express.js is a lightweight web framework for Node.js, used for building APIs and web applications."
+  },
+  {
+    "id": 175,
+    "topic": "9. Backend Development Fundamentals",
+    "question": "What is middleware in Express.js?",
+    "options": {
+      "A": "Frontend components",
+      "B": "Functions that execute during the request-response cycle with access to req, res, next",
+      "C": "Database queries",
+      "D": "CSS styling functions"
+    },
+    "correct_answer": "B",
+    "explanation": "Middleware functions have access to request, response objects, and next(). They process requests in sequence."
+  },
+  {
+    "id": 176,
+    "topic": "9. Backend Development Fundamentals",
+    "question": "What is Django?",
+    "options": {
+      "A": "A JavaScript framework",
+      "B": "A high-level Python web framework",
+      "C": "A CSS framework",
+      "D": "A database"
+    },
+    "correct_answer": "B",
+    "explanation": "Django is a high-level Python web framework following the MVT (Model-View-Template) pattern."
+  },
+  {
+    "id": 177,
+    "topic": "9. Backend Development Fundamentals",
+    "question": "What is Flask?",
+    "options": {
+      "A": "A full-featured framework",
+      "B": "A micro web framework for Python",
+      "C": "A JavaScript library",
+      "D": "A database tool"
+    },
+    "correct_answer": "B",
+    "explanation": "Flask is a lightweight Python micro-framework with minimal built-in features, giving developers flexibility."
+  },
+  {
+    "id": 178,
+    "topic": "9. Backend Development Fundamentals",
+    "question": "What is the MVC pattern?",
+    "options": {
+      "A": "Model-View-Controller — separates application into data, UI, and logic layers",
+      "B": "Multiple Virtual Containers",
+      "C": "Modern Visual CSS",
+      "D": "Module Version Control"
+    },
+    "correct_answer": "A",
+    "explanation": "MVC: Model (data), View (UI), Controller (logic) — separates concerns in application architecture."
+  },
+  {
+    "id": 179,
+    "topic": "9. Backend Development Fundamentals",
+    "question": "What is routing in backend development?",
+    "options": {
+      "A": "Network configuration",
+      "B": "Mapping URLs to specific handler functions that process requests",
+      "C": "CSS layout",
+      "D": "Database indexing"
+    },
+    "correct_answer": "B",
+    "explanation": "Routing defines how an application responds to client requests at specific endpoints (URLs + HTTP methods)."
+  },
+  {
+    "id": 180,
+    "topic": "9. Backend Development Fundamentals",
+    "question": "What is server-side rendering (SSR)?",
+    "options": {
+      "A": "Rendering CSS on the server",
+      "B": "HTML is generated on the server and sent as a complete page to the client",
+      "C": "JavaScript runs only on client",
+      "D": "Database rendering"
+    },
+    "correct_answer": "B",
+    "explanation": "SSR renders the HTML on the server before sending it to the browser, improving SEO and initial load time."
+  },
+  {
+    "id": 181,
+    "topic": "9. Backend Development Fundamentals",
+    "question": "What is a session in web development?",
+    "options": {
+      "A": "A CSS animation",
+      "B": "Server-side storage of user data across multiple requests",
+      "C": "A JavaScript variable",
+      "D": "A database table"
+    },
+    "correct_answer": "B",
+    "explanation": "Sessions store user-specific data on the server between HTTP requests, identified by a session ID."
+  },
+  {
+    "id": 182,
+    "topic": "9. Backend Development Fundamentals",
+    "question": "What is a cookie?",
+    "options": {
+      "A": "A server-side file",
+      "B": "A small piece of data stored on the client's browser by the server",
+      "C": "A database record",
+      "D": "A JavaScript framework"
+    },
+    "correct_answer": "B",
+    "explanation": "Cookies are small data files stored on the client browser, sent with every request to the server."
+  },
+  {
+    "id": 183,
+    "topic": "10. Server-Side Programming",
+    "question": "What is PHP?",
+    "options": {
+      "A": "A frontend language",
+      "B": "A server-side scripting language for web development",
+      "C": "A database",
+      "D": "A CSS preprocessor"
+    },
+    "correct_answer": "B",
+    "explanation": "PHP (Hypertext Preprocessor) is a widely-used server-side scripting language embedded in HTML."
+  },
+  {
+    "id": 184,
+    "topic": "10. Server-Side Programming",
+    "question": "What is Ruby on Rails?",
+    "options": {
+      "A": "A JavaScript framework",
+      "B": "A server-side web application framework written in Ruby",
+      "C": "A database system",
+      "D": "A frontend library"
+    },
+    "correct_answer": "B",
+    "explanation": "Ruby on Rails is a server-side framework in Ruby following convention over configuration (CoC)."
+  },
+  {
+    "id": 185,
+    "topic": "10. Server-Side Programming",
+    "question": "What is ASP.NET?",
+    "options": {
+      "A": "A JavaScript library",
+      "B": "A server-side web framework by Microsoft using C#",
+      "C": "A database",
+      "D": "A CSS framework"
+    },
+    "correct_answer": "B",
+    "explanation": "ASP.NET is Microsoft's web framework for building web apps and APIs using C# or VB.NET."
+  },
+  {
+    "id": 186,
+    "topic": "10. Server-Side Programming",
+    "question": "What is a template engine?",
+    "options": {
+      "A": "A CSS generator",
+      "B": "A tool that generates HTML dynamically by combining templates with data",
+      "C": "A database tool",
+      "D": "A browser extension"
+    },
+    "correct_answer": "B",
+    "explanation": "Template engines (EJS, Pug, Handlebars, Jinja2) generate HTML by injecting data into templates."
+  },
+  {
+    "id": 187,
+    "topic": "10. Server-Side Programming",
+    "question": "What does CRUD stand for?",
+    "options": {
+      "A": "Create, Read, Update, Delete",
+      "B": "Copy, Read, Upload, Download",
+      "C": "Create, Run, Update, Deploy",
+      "D": "Connect, Read, Update, Disconnect"
+    },
+    "correct_answer": "A",
+    "explanation": "CRUD = Create, Read, Update, Delete — the four basic database operations."
+  },
+  {
+    "id": 188,
+    "topic": "10. Server-Side Programming",
+    "question": "Which HTTP methods map to CRUD operations?",
+    "options": {
+      "A": "POST=Create, GET=Read, PUT/PATCH=Update, DELETE=Delete",
+      "B": "GET=Create, POST=Read, PUT=Update, DELETE=Delete",
+      "C": "POST=Read, GET=Create, PUT=Delete, DELETE=Update",
+      "D": "All use GET"
+    },
+    "correct_answer": "A",
+    "explanation": "POST→Create, GET→Read, PUT/PATCH→Update, DELETE→Delete is the standard REST mapping."
+  },
+  {
+    "id": 189,
+    "topic": "10. Server-Side Programming",
+    "question": "What is authentication?",
+    "options": {
+      "A": "Checking what a user is allowed to do",
+      "B": "Verifying the identity of a user (who they are)",
+      "C": "Encrypting data",
+      "D": "Loading web pages"
+    },
+    "correct_answer": "B",
+    "explanation": "Authentication verifies identity (login). Authorization determines what an authenticated user can access."
+  },
+  {
+    "id": 190,
+    "topic": "10. Server-Side Programming",
+    "question": "What is authorization?",
+    "options": {
+      "A": "Verifying user identity",
+      "B": "Determining what resources a user is permitted to access",
+      "C": "Encrypting passwords",
+      "D": "Creating user accounts"
+    },
+    "correct_answer": "B",
+    "explanation": "Authorization determines permissions — what an authenticated user is allowed to do/access."
+  },
+  {
+    "id": 191,
+    "topic": "10. Server-Side Programming",
+    "question": "What is JWT?",
+    "options": {
+      "A": "Java Web Token",
+      "B": "JSON Web Token — a compact token for secure information transmission",
+      "C": "JavaScript Web Template",
+      "D": "Java Web Technology"
+    },
+    "correct_answer": "B",
+    "explanation": "JWT = JSON Web Token. A self-contained token with encoded claims used for stateless authentication."
+  },
+  {
+    "id": 192,
+    "topic": "10. Server-Side Programming",
+    "question": "What is bcrypt used for?",
+    "options": {
+      "A": "Compressing files",
+      "B": "Hashing passwords securely",
+      "C": "Encrypting emails",
+      "D": "Minifying JavaScript"
+    },
+    "correct_answer": "B",
+    "explanation": "bcrypt is a password hashing function that adds salt and is computationally expensive to prevent brute-force attacks."
+  },
+  {
+    "id": 193,
+    "topic": "10. Server-Side Programming",
+    "question": "What is OAuth?",
+    "options": {
+      "A": "A database",
+      "B": "An open standard for access delegation / third-party authentication",
+      "C": "A CSS framework",
+      "D": "A programming language"
+    },
+    "correct_answer": "B",
+    "explanation": "OAuth allows third-party services (Google, Facebook) to authenticate users without sharing passwords."
+  },
+  {
+    "id": 194,
+    "topic": "10. Server-Side Programming",
+    "question": "What is the purpose of environment variables?",
+    "options": {
+      "A": "Styling web pages",
+      "B": "Storing configuration/sensitive data outside the codebase",
+      "C": "Creating HTML templates",
+      "D": "Managing CSS variables"
+    },
+    "correct_answer": "B",
+    "explanation": "Environment variables store secrets (API keys, DB passwords) outside code, often in .env files."
+  },
+  {
+    "id": 195,
+    "topic": "11. Databases for Web Applications",
+    "question": "What is a relational database?",
+    "options": {
+      "A": "A database that stores data in documents",
+      "B": "A database that stores data in structured tables with rows and columns",
+      "C": "A file-based storage",
+      "D": "A key-value store"
+    },
+    "correct_answer": "B",
+    "explanation": "Relational databases (MySQL, PostgreSQL) store data in tables with defined schemas and relationships."
+  },
+  {
+    "id": 196,
+    "topic": "11. Databases for Web Applications",
+    "question": "What is SQL?",
+    "options": {
+      "A": "Structured Query Language — used to manage relational databases",
+      "B": "Server Query Logic",
+      "C": "Simple Question Language",
+      "D": "Standard Queue Language"
+    },
+    "correct_answer": "A",
+    "explanation": "SQL = Structured Query Language, used for querying, inserting, updating, and deleting data in RDBMS."
+  },
+  {
+    "id": 197,
+    "topic": "11. Databases for Web Applications",
+    "question": "Which is a NoSQL database?",
+    "options": {
+      "A": "MySQL",
+      "B": "PostgreSQL",
+      "C": "MongoDB",
+      "D": "Oracle"
+    },
+    "correct_answer": "C",
+    "explanation": "MongoDB is a NoSQL document database storing data as JSON-like (BSON) documents."
+  },
+  {
+    "id": 198,
+    "topic": "11. Databases for Web Applications",
+    "question": "What is MongoDB?",
+    "options": {
+      "A": "A relational database",
+      "B": "A NoSQL document-oriented database storing data as BSON documents",
+      "C": "A frontend framework",
+      "D": "A web server"
+    },
+    "correct_answer": "B",
+    "explanation": "MongoDB stores data as flexible, JSON-like documents with dynamic schemas (no fixed table structure)."
+  },
+  {
+    "id": 199,
+    "topic": "11. Databases for Web Applications",
+    "question": "What is the difference between SQL and NoSQL databases?",
+    "options": {
+      "A": "No difference",
+      "B": "SQL uses structured tables with schemas; NoSQL uses flexible document/key-value/graph stores",
+      "C": "NoSQL is always faster",
+      "D": "SQL cannot handle large data"
+    },
+    "correct_answer": "B",
+    "explanation": "SQL = structured, relational, fixed schema. NoSQL = flexible schema, document/key-value/graph/column-based."
+  },
+  {
+    "id": 200,
+    "topic": "11. Databases for Web Applications",
+    "question": "What is an ORM?",
+    "options": {
+      "A": "Object Relational Mapping — maps database tables to programming objects",
+      "B": "Online Resource Manager",
+      "C": "Object Rendering Model",
+      "D": "Ordered Record Manager"
+    },
+    "correct_answer": "A",
+    "explanation": "ORM maps database tables to code objects (e.g., Sequelize for Node.js, SQLAlchemy for Python, Hibernate for Java)."
+  },
+  {
+    "id": 201,
+    "topic": "11. Databases for Web Applications",
+    "question": "What is Mongoose?",
+    "options": {
+      "A": "A SQL ORM",
+      "B": "An ODM (Object Data Modeling) library for MongoDB and Node.js",
+      "C": "A CSS framework",
+      "D": "A frontend library"
+    },
+    "correct_answer": "B",
+    "explanation": "Mongoose provides schema-based modeling for MongoDB in Node.js applications."
+  },
+  {
+    "id": 202,
+    "topic": "11. Databases for Web Applications",
+    "question": "What is a primary key?",
+    "options": {
+      "A": "A foreign reference",
+      "B": "A unique identifier for each record in a table",
+      "C": "A table name",
+      "D": "A column type"
+    },
+    "correct_answer": "B",
+    "explanation": "A primary key uniquely identifies each row in a table. It must be unique and not null."
+  },
+  {
+    "id": 203,
+    "topic": "11. Databases for Web Applications",
+    "question": "What is a foreign key?",
+    "options": {
+      "A": "A primary key in another table",
+      "B": "A field that references the primary key of another table, creating a relationship",
+      "C": "A unique constraint",
+      "D": "An index"
+    },
+    "correct_answer": "B",
+    "explanation": "A foreign key creates a relationship between two tables by referencing another table's primary key."
+  },
+  {
+    "id": 204,
+    "topic": "11. Databases for Web Applications",
+    "question": "Which SQL command retrieves data from a database?",
+    "options": {
+      "A": "INSERT",
+      "B": "UPDATE",
+      "C": "SELECT",
+      "D": "DELETE"
+    },
+    "correct_answer": "C",
+    "explanation": "SELECT is used to query and retrieve data from database tables."
+  },
+  {
+    "id": 205,
+    "topic": "11. Databases for Web Applications",
+    "question": "Which SQL command adds new data?",
+    "options": {
+      "A": "SELECT",
+      "B": "INSERT INTO",
+      "C": "UPDATE",
+      "D": "ALTER"
+    },
+    "correct_answer": "B",
+    "explanation": "INSERT INTO table (columns) VALUES (values) adds new records to a table."
+  },
+  {
+    "id": 206,
+    "topic": "11. Databases for Web Applications",
+    "question": "What is database indexing?",
+    "options": {
+      "A": "Deleting old records",
+      "B": "Creating a data structure to speed up data retrieval queries",
+      "C": "Backing up data",
+      "D": "Encrypting the database"
+    },
+    "correct_answer": "B",
+    "explanation": "Indexes speed up query performance by providing quick lookup paths, like a book's index."
+  },
+  {
+    "id": 207,
+    "topic": "11. Databases for Web Applications",
+    "question": "What is normalization in databases?",
+    "options": {
+      "A": "Making all data lowercase",
+      "B": "Organizing data to reduce redundancy and improve integrity",
+      "C": "Encrypting data",
+      "D": "Compressing data"
+    },
+    "correct_answer": "B",
+    "explanation": "Normalization organizes tables to minimize data redundancy and dependency (1NF, 2NF, 3NF, etc.)."
+  },
+  {
+    "id": 208,
+    "topic": "11. Databases for Web Applications",
+    "question": "What is a JOIN in SQL?",
+    "options": {
+      "A": "Merging two databases",
+      "B": "Combining rows from two or more tables based on a related column",
+      "C": "Deleting duplicate rows",
+      "D": "Creating a new table"
+    },
+    "correct_answer": "B",
+    "explanation": "JOIN combines rows from multiple tables based on related columns (INNER, LEFT, RIGHT, FULL JOIN)."
+  },
+  {
+    "id": 209,
+    "topic": "12. Web Security",
+    "question": "What is XSS?",
+    "options": {
+      "A": "XML Style Sheets",
+      "B": "Cross-Site Scripting — injecting malicious scripts into web pages",
+      "C": "Cross-Server Sync",
+      "D": "Extra Secure Sockets"
+    },
+    "correct_answer": "B",
+    "explanation": "XSS = Cross-Site Scripting. Attackers inject malicious scripts into web pages viewed by other users."
+  },
+  {
+    "id": 210,
+    "topic": "12. Web Security",
+    "question": "What is SQL Injection?",
+    "options": {
+      "A": "Adding SQL to CSS",
+      "B": "Inserting malicious SQL code through user input to manipulate the database",
+      "C": "A database backup method",
+      "D": "A type of JOIN"
+    },
+    "correct_answer": "B",
+    "explanation": "SQL Injection manipulates database queries by injecting SQL through unsanitized user inputs."
+  },
+  {
+    "id": 211,
+    "topic": "12. Web Security",
+    "question": "How can SQL Injection be prevented?",
+    "options": {
+      "A": "Using inline CSS",
+      "B": "Using parameterized queries / prepared statements",
+      "C": "Using bigger databases",
+      "D": "Disabling JavaScript"
+    },
+    "correct_answer": "B",
+    "explanation": "Parameterized queries/prepared statements separate SQL code from user data, preventing injection."
+  },
+  {
+    "id": 212,
+    "topic": "12. Web Security",
+    "question": "What is CSRF?",
+    "options": {
+      "A": "CSS Rendering Framework",
+      "B": "Cross-Site Request Forgery — tricks users into making unwanted requests",
+      "C": "Cross-Server Resource Fetch",
+      "D": "Client-Side Rendering Feature"
+    },
+    "correct_answer": "B",
+    "explanation": "CSRF tricks authenticated users into submitting unintended requests. Prevented with CSRF tokens."
+  },
+  {
+    "id": 213,
+    "topic": "12. Web Security",
+    "question": "What is CORS?",
+    "options": {
+      "A": "Cross-Origin Resource Sharing — allows or restricts resource requests from other domains",
+      "B": "Client-Origin Request System",
+      "C": "Cross-Object Rendering System",
+      "D": "Central Origin Resource Server"
+    },
+    "correct_answer": "A",
+    "explanation": "CORS controls which external domains can access resources on your server via HTTP headers."
+  },
+  {
+    "id": 214,
+    "topic": "12. Web Security",
+    "question": "What is HTTPS used for?",
+    "options": {
+      "A": "Faster page loading",
+      "B": "Encrypting data between client and server using SSL/TLS",
+      "C": "Compressing images",
+      "D": "Caching pages"
+    },
+    "correct_answer": "B",
+    "explanation": "HTTPS encrypts communication using SSL/TLS, protecting data from eavesdropping and tampering."
+  },
+  {
+    "id": 215,
+    "topic": "12. Web Security",
+    "question": "What is Content Security Policy (CSP)?",
+    "options": {
+      "A": "A CSS feature",
+      "B": "An HTTP header that restricts which resources the browser can load, preventing XSS",
+      "C": "A JavaScript library",
+      "D": "A database policy"
+    },
+    "correct_answer": "B",
+    "explanation": "CSP is an HTTP header that specifies allowed sources for scripts, styles, images, etc., mitigating XSS."
+  },
+  {
+    "id": 216,
+    "topic": "12. Web Security",
+    "question": "What is input validation?",
+    "options": {
+      "A": "Styling input fields",
+      "B": "Checking and sanitizing user input to prevent malicious data",
+      "C": "Creating input fields",
+      "D": "Disabling input fields"
+    },
+    "correct_answer": "B",
+    "explanation": "Input validation ensures user data meets expected format and is sanitized before processing."
+  },
+  {
+    "id": 217,
+    "topic": "12. Web Security",
+    "question": "What is the principle of least privilege?",
+    "options": {
+      "A": "Giving all users admin access",
+      "B": "Granting users only the minimum permissions they need",
+      "C": "Removing all permissions",
+      "D": "Using the simplest code possible"
+    },
+    "correct_answer": "B",
+    "explanation": "Least privilege means giving users/systems only the minimum access required to perform their tasks."
+  },
+  {
+    "id": 218,
+    "topic": "12. Web Security",
+    "question": "What is a DDoS attack?",
+    "options": {
+      "A": "A database optimization",
+      "B": "Distributed Denial of Service — overwhelming a server with traffic to make it unavailable",
+      "C": "A CSS rendering error",
+      "D": "A JavaScript bug"
+    },
+    "correct_answer": "B",
+    "explanation": "DDoS floods a server with massive traffic from multiple sources, causing service unavailability."
+  },
+  {
+    "id": 219,
+    "topic": "12. Web Security",
+    "question": "What is password hashing?",
+    "options": {
+      "A": "Storing passwords in plain text",
+      "B": "Converting passwords into fixed-length irreversible strings before storage",
+      "C": "Encrypting passwords that can be decrypted",
+      "D": "Compressing passwords"
+    },
+    "correct_answer": "B",
+    "explanation": "Hashing converts passwords to irreversible fixed-length strings. Unlike encryption, hashing is one-way."
+  },
+  {
+    "id": 220,
+    "topic": "12. Web Security",
+    "question": "What is the Same-Origin Policy?",
+    "options": {
+      "A": "All websites can access each other's data",
+      "B": "A browser security feature that restricts scripts from accessing data from a different origin",
+      "C": "A CSS rule",
+      "D": "A server configuration"
+    },
+    "correct_answer": "B",
+    "explanation": "Same-Origin Policy prevents scripts from one origin accessing resources from a different origin (protocol+domain+port)."
+  },
+  {
+    "id": 221,
+    "topic": "12. Web Security",
+    "question": "What is clickjacking?",
+    "options": {
+      "A": "A fast click technique",
+      "B": "Tricking users into clicking something different from what they perceive using hidden frames",
+      "C": "A JavaScript event",
+      "D": "A CSS animation"
+    },
+    "correct_answer": "B",
+    "explanation": "Clickjacking uses transparent overlays to trick users into clicking hidden elements. Prevented with X-Frame-Options header."
+  },
+  {
+    "id": 222,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What is minification?",
+    "options": {
+      "A": "Making images smaller",
+      "B": "Removing unnecessary characters (whitespace, comments) from code without changing functionality",
+      "C": "Deleting unused files",
+      "D": "Compressing the database"
+    },
+    "correct_answer": "B",
+    "explanation": "Minification removes whitespace, comments, and shortens variable names to reduce file size."
+  },
+  {
+    "id": 223,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What is lazy loading?",
+    "options": {
+      "A": "Loading all resources at once",
+      "B": "Deferring the loading of non-critical resources until they are needed",
+      "C": "Slow internet connection",
+      "D": "Disabling JavaScript"
+    },
+    "correct_answer": "B",
+    "explanation": "Lazy loading defers loading of images/resources until they are about to enter the viewport."
+  },
+  {
+    "id": 224,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What is caching?",
+    "options": {
+      "A": "Deleting old files",
+      "B": "Storing copies of data/resources for faster subsequent access",
+      "C": "Encrypting data",
+      "D": "Compressing images"
+    },
+    "correct_answer": "B",
+    "explanation": "Caching stores copies of resources (browser cache, server cache, CDN) to speed up future requests."
+  },
+  {
+    "id": 225,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What is code splitting?",
+    "options": {
+      "A": "Breaking code into multiple files for better organization",
+      "B": "Breaking JavaScript bundles into smaller chunks loaded on demand",
+      "C": "Splitting CSS from HTML",
+      "D": "Using multiple programming languages"
+    },
+    "correct_answer": "B",
+    "explanation": "Code splitting breaks large JS bundles into smaller chunks that are loaded only when needed, improving initial load time."
+  },
+  {
+    "id": 226,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What is image optimization?",
+    "options": {
+      "A": "Making images bigger",
+      "B": "Reducing image file size without significant quality loss using compression, proper formats",
+      "C": "Adding more images",
+      "D": "Converting all images to GIF"
+    },
+    "correct_answer": "B",
+    "explanation": "Image optimization includes compression, using modern formats (WebP, AVIF), responsive images, and proper sizing."
+  },
+  {
+    "id": 227,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What is the purpose of a CDN for performance?",
+    "options": {
+      "A": "Store databases",
+      "B": "Serve static content from servers geographically closer to the user",
+      "C": "Run backend logic",
+      "D": "Manage DNS"
+    },
+    "correct_answer": "B",
+    "explanation": "CDN caches content on edge servers worldwide, reducing latency by serving from the nearest location."
+  },
+  {
+    "id": 228,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What does the 'defer' attribute do on a script tag?",
+    "options": {
+      "A": "Loads script synchronously",
+      "B": "Downloads script in parallel and executes after HTML parsing is complete",
+      "C": "Prevents script from running",
+      "D": "Minifies the script"
+    },
+    "correct_answer": "B",
+    "explanation": "defer downloads the script during HTML parsing and executes it after parsing completes, in order."
+  },
+  {
+    "id": 229,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What does the 'async' attribute do on a script tag?",
+    "options": {
+      "A": "Makes the script synchronous",
+      "B": "Downloads script in parallel and executes immediately when ready (may interrupt parsing)",
+      "C": "Defers execution to page load",
+      "D": "Caches the script"
+    },
+    "correct_answer": "B",
+    "explanation": "async downloads the script in parallel and executes it as soon as it's downloaded, regardless of HTML parsing."
+  },
+  {
+    "id": 230,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What is Gzip compression?",
+    "options": {
+      "A": "Image compression",
+      "B": "Server-side compression of files (HTML, CSS, JS) before sending to the client",
+      "C": "Database compression",
+      "D": "Video compression"
+    },
+    "correct_answer": "B",
+    "explanation": "Gzip/Brotli compresses text-based files on the server, reducing transfer size by up to 70-90%."
+  },
+  {
+    "id": 231,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What are Core Web Vitals?",
+    "options": {
+      "A": "Server metrics",
+      "B": "Google's metrics: LCP (loading), FID/INP (interactivity), CLS (visual stability)",
+      "C": "CSS properties",
+      "D": "Database metrics"
+    },
+    "correct_answer": "B",
+    "explanation": "Core Web Vitals: LCP (Largest Contentful Paint), FID/INP (interactivity), CLS (Cumulative Layout Shift)."
+  },
+  {
+    "id": 232,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What is bundling in web development?",
+    "options": {
+      "A": "Packaging products",
+      "B": "Combining multiple files (JS, CSS) into fewer files to reduce HTTP requests",
+      "C": "Creating backups",
+      "D": "Zipping files for download"
+    },
+    "correct_answer": "B",
+    "explanation": "Bundling combines multiple files into fewer bundles, reducing HTTP requests. Tools: Webpack, Vite, Rollup."
+  },
+  {
+    "id": 233,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What tool is commonly used for JavaScript bundling?",
+    "options": {
+      "A": "Photoshop",
+      "B": "Webpack",
+      "C": "MongoDB",
+      "D": "Bootstrap"
+    },
+    "correct_answer": "B",
+    "explanation": "Webpack is a popular module bundler. Others include Vite, Rollup, Parcel, and esbuild."
+  },
+  {
+    "id": 234,
+    "topic": "13. Web Performance & Optimization",
+    "question": "What is tree shaking?",
+    "options": {
+      "A": "A CSS animation",
+      "B": "Removing unused/dead code from JavaScript bundles during build",
+      "C": "A database optimization",
+      "D": "A testing technique"
+    },
+    "correct_answer": "B",
+    "explanation": "Tree shaking eliminates unused exports from the final bundle, reducing file size."
+  },
+  {
+    "id": 235,
+    "topic": "14. Web Testing & Debugging",
+    "question": "What is unit testing?",
+    "options": {
+      "A": "Testing the entire application",
+      "B": "Testing individual functions/components in isolation",
+      "C": "Testing the database",
+      "D": "Testing the network"
+    },
+    "correct_answer": "B",
+    "explanation": "Unit testing tests individual units of code (functions, methods) in isolation from the rest of the application."
+  },
+  {
+    "id": 236,
+    "topic": "14. Web Testing & Debugging",
+    "question": "What is integration testing?",
+    "options": {
+      "A": "Testing individual functions",
+      "B": "Testing how multiple components/modules work together",
+      "C": "Testing CSS styles",
+      "D": "Testing deployment"
+    },
+    "correct_answer": "B",
+    "explanation": "Integration testing verifies that different modules or services work correctly together."
+  },
+  {
+    "id": 237,
+    "topic": "14. Web Testing & Debugging",
+    "question": "What is end-to-end (E2E) testing?",
+    "options": {
+      "A": "Testing a single function",
+      "B": "Testing the complete application flow from the user's perspective",
+      "C": "Testing only the backend",
+      "D": "Testing CSS responsiveness"
+    },
+    "correct_answer": "B",
+    "explanation": "E2E testing simulates real user scenarios, testing the entire application flow from start to finish."
+  },
+  {
+    "id": 238,
+    "topic": "14. Web Testing & Debugging",
+    "question": "Which is a popular JavaScript testing framework?",
+    "options": {
+      "A": "Bootstrap",
+      "B": "Jest",
+      "C": "MongoDB",
+      "D": "Nginx"
+    },
+    "correct_answer": "B",
+    "explanation": "Jest (by Facebook) is a popular JavaScript testing framework. Others: Mocha, Jasmine, Vitest."
+  },
+  {
+    "id": 239,
+    "topic": "14. Web Testing & Debugging",
+    "question": "Which tool is used for E2E testing?",
+    "options": {
+      "A": "Jest",
+      "B": "Cypress or Selenium",
+      "C": "npm",
+      "D": "VS Code"
+    },
+    "correct_answer": "B",
+    "explanation": "Cypress and Selenium are popular E2E testing tools that automate browser interactions."
+  },
+  {
+    "id": 240,
+    "topic": "14. Web Testing & Debugging",
+    "question": "What are browser DevTools used for?",
+    "options": {
+      "A": "Writing backend code",
+      "B": "Inspecting, debugging, and profiling web pages in the browser",
+      "C": "Managing servers",
+      "D": "Creating databases"
+    },
+    "correct_answer": "B",
+    "explanation": "Browser DevTools (F12) allow inspecting HTML/CSS, debugging JS, monitoring network, and profiling performance."
+  },
+  {
+    "id": 241,
+    "topic": "14. Web Testing & Debugging",
+    "question": "What is the Console tab in DevTools used for?",
+    "options": {
+      "A": "Editing HTML",
+      "B": "Viewing logs, errors, and running JavaScript commands",
+      "C": "Managing cookies",
+      "D": "Editing CSS"
+    },
+    "correct_answer": "B",
+    "explanation": "The Console displays console.log outputs, errors, warnings, and allows executing JS commands."
+  },
+  {
+    "id": 242,
+    "topic": "14. Web Testing & Debugging",
+    "question": "What is the Network tab in DevTools used for?",
+    "options": {
+      "A": "Editing CSS",
+      "B": "Monitoring HTTP requests, responses, load times, and network activity",
+      "C": "Creating HTML elements",
+      "D": "Running JavaScript"
+    },
+    "correct_answer": "B",
+    "explanation": "Network tab shows all HTTP requests, response codes, timings, headers, and payload data."
+  },
+  {
+    "id": 243,
+    "topic": "14. Web Testing & Debugging",
+    "question": "What is TDD?",
+    "options": {
+      "A": "Test-Driven Development — writing tests before writing the actual code",
+      "B": "Type-Driven Design",
+      "C": "Template-Driven Development",
+      "D": "Total Data Delivery"
+    },
+    "correct_answer": "A",
+    "explanation": "TDD: Write failing test → Write code to pass → Refactor. Tests drive the development process."
+  },
+  {
+    "id": 244,
+    "topic": "14. Web Testing & Debugging",
+    "question": "What is a breakpoint in debugging?",
+    "options": {
+      "A": "A CSS property",
+      "B": "A point in code where execution pauses to allow inspection of variables and state",
+      "C": "A media query value",
+      "D": "A JavaScript error"
+    },
+    "correct_answer": "B",
+    "explanation": "Breakpoints pause code execution at a specific line, allowing developers to inspect variables and step through code."
+  },
+  {
+    "id": 245,
+    "topic": "14. Web Testing & Debugging",
+    "question": "What is linting?",
+    "options": {
+      "A": "Minifying code",
+      "B": "Analyzing code for potential errors, bugs, and style issues",
+      "C": "Testing code performance",
+      "D": "Compressing files"
+    },
+    "correct_answer": "B",
+    "explanation": "Linting (ESLint for JS) analyzes code to find problems, enforce coding standards, and catch bugs early."
+  },
+  {
+    "id": 246,
+    "topic": "14. Web Testing & Debugging",
+    "question": "What is cross-browser testing?",
+    "options": {
+      "A": "Testing on only one browser",
+      "B": "Ensuring a website works correctly across different browsers (Chrome, Firefox, Safari, Edge)",
+      "C": "Testing server performance",
+      "D": "Testing database queries"
+    },
+    "correct_answer": "B",
+    "explanation": "Cross-browser testing ensures consistent functionality and appearance across different browsers and versions."
+  },
+  {
+    "id": 247,
+    "topic": "15. Deployment & Hosting",
+    "question": "What is web hosting?",
+    "options": {
+      "A": "Designing websites",
+      "B": "A service that stores website files on a server and makes them accessible on the internet",
+      "C": "A JavaScript framework",
+      "D": "A CSS property"
+    },
+    "correct_answer": "B",
+    "explanation": "Web hosting provides server space and internet connectivity to make websites publicly accessible."
+  },
+  {
+    "id": 248,
+    "topic": "15. Deployment & Hosting",
+    "question": "What is a domain name?",
+    "options": {
+      "A": "An IP address",
+      "B": "A human-readable address for a website (e.g., google.com)",
+      "C": "A server type",
+      "D": "A hosting plan"
+    },
+    "correct_answer": "B",
+    "explanation": "A domain name is the human-readable web address that maps to a server's IP address via DNS."
+  },
+  {
+    "id": 249,
+    "topic": "15. Deployment & Hosting",
+    "question": "What is shared hosting?",
+    "options": {
+      "A": "Hosting a site on your own hardware",
+      "B": "Multiple websites share the same server and its resources",
+      "C": "A dedicated server for one website",
+      "D": "Cloud-based hosting"
+    },
+    "correct_answer": "B",
+    "explanation": "Shared hosting: multiple sites share one server's resources. Cheap but limited performance."
+  },
+  {
+    "id": 250,
+    "topic": "15. Deployment & Hosting",
+    "question": "What is cloud hosting?",
+    "options": {
+      "A": "Hosting on a local computer",
+      "B": "Hosting on a network of virtual servers that can scale resources on demand",
+      "C": "Hosting using USB drives",
+      "D": "Free hosting"
+    },
+    "correct_answer": "B",
+    "explanation": "Cloud hosting (AWS, Azure, GCP) uses virtual servers with scalable resources and pay-as-you-go pricing."
+  },
+  {
+    "id": 251,
+    "topic": "15. Deployment & Hosting",
+    "question": "What is AWS?",
+    "options": {
+      "A": "A JavaScript framework",
+      "B": "Amazon Web Services — a cloud computing platform",
+      "C": "A database",
+      "D": "A web browser"
+    },
+    "correct_answer": "B",
+    "explanation": "AWS = Amazon Web Services, the most popular cloud platform offering compute, storage, databases, and more."
+  },
+  {
+    "id": 252,
+    "topic": "15. Deployment & Hosting",
+    "question": "What is Heroku?",
+    "options": {
+      "A": "A database",
+      "B": "A Platform as a Service (PaaS) for deploying web applications easily",
+      "C": "A CSS framework",
+      "D": "A version control system"
+    },
+    "correct_answer": "B",
+    "explanation": "Heroku is a PaaS that simplifies deployment — push code and it handles infrastructure."
+  },
+  {
+    "id": 253,
+    "topic": "15. Deployment & Hosting",
+    "question": "What is Vercel primarily used for?",
+    "options": {
+      "A": "Database management",
+      "B": "Deploying frontend and serverless applications (optimized for Next.js)",
+      "C": "Email hosting",
+      "D": "File storage"
+    },
+    "correct_answer": "B",
+    "explanation": "Vercel is a platform optimized for deploying frontend frameworks, especially Next.js, with serverless functions."
+  }
+]

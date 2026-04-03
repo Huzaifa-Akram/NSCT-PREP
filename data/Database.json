@@ -1,0 +1,2693 @@
+[
+  {
+    "id": 1,
+    "topic": "Introduction to Database Systems",
+    "question": "What is the main purpose of a DBMS?",
+    "options": {
+      "A": "To replace the operating system",
+      "B": "To manage and organize data efficiently while solving file system problems",
+      "C": "To only create backups of data",
+      "D": "To design web pages"
+    },
+    "correct_answer": "B",
+    "explanation": "DBMS manages data efficiently, solving problems like redundancy, inconsistency, and insecurity found in file systems. A is wrong (DBMS doesn't replace OS). C is wrong (backup is just one function). D is wrong (that's web development tools)."
+  },
+  {
+    "id": 2,
+    "topic": "Introduction to Database Systems",
+    "question": "Which of the following is NOT a problem of the traditional file processing system?",
+    "options": {
+      "A": "Data redundancy and inconsistency",
+      "B": "Difficulty in accessing data",
+      "C": "Data normalization",
+      "D": "Concurrent access anomalies"
+    },
+    "correct_answer": "C",
+    "explanation": "Normalization is a DBMS technique to reduce redundancy, not a file system problem. A, B, and D are all classic file system problems that DBMS was designed to solve."
+  },
+  {
+    "id": 3,
+    "topic": "Introduction to Database Systems",
+    "question": "Which user is responsible for managing the entire database system, security, and performance tuning?",
+    "options": {
+      "A": "End User",
+      "B": "Application Programmer",
+      "C": "Database Administrator (DBA)",
+      "D": "Database Designer"
+    },
+    "correct_answer": "C",
+    "explanation": "DBA manages the entire system including security, backup, recovery, and performance. A uses the DB. B writes programs. D designs schemas but doesn't manage the live system."
+  },
+  {
+    "id": 4,
+    "topic": "Introduction to Database Systems",
+    "question": "What does metadata mean in the context of databases?",
+    "options": {
+      "A": "The actual data stored in tables",
+      "B": "Data about data (table structures, column types, constraints)",
+      "C": "Encrypted data",
+      "D": "Backup data"
+    },
+    "correct_answer": "B",
+    "explanation": "Metadata is data about data — stored in the data dictionary/system catalog. It describes table names, column types, constraints. A is actual data, not metadata. C and D are unrelated concepts."
+  },
+  {
+    "id": 5,
+    "topic": "Introduction to Database Systems",
+    "question": "What is the difference between a database schema and a database instance?",
+    "options": {
+      "A": "Schema is temporary, instance is permanent",
+      "B": "Schema is the overall design/structure, instance is the data at a particular moment",
+      "C": "Schema is data, instance is design",
+      "D": "There is no difference"
+    },
+    "correct_answer": "B",
+    "explanation": "Schema = blueprint/structure (rarely changes). Instance = snapshot of data at a given time (changes frequently). A is reversed. C has them swapped. D is incorrect."
+  },
+  {
+    "id": 6,
+    "topic": "Introduction to Database Systems",
+    "question": "Which of the following is a disadvantage of DBMS?",
+    "options": {
+      "A": "Data consistency",
+      "B": "Data sharing",
+      "C": "High cost and complexity",
+      "D": "Data security"
+    },
+    "correct_answer": "C",
+    "explanation": "DBMS requires expensive hardware, software, and trained personnel making it costly and complex. A, B, D are all advantages of DBMS, not disadvantages."
+  },
+  {
+    "id": 7,
+    "topic": "Introduction to Database Systems",
+    "question": "A naive/parametric user is someone who:",
+    "options": {
+      "A": "Writes complex SQL queries",
+      "B": "Designs the database schema",
+      "C": "Uses predefined applications without knowing SQL (e.g., bank teller)",
+      "D": "Manages database security"
+    },
+    "correct_answer": "C",
+    "explanation": "Naive/parametric users use canned transactions through predefined applications. A describes sophisticated users. B describes designers. D describes DBA."
+  },
+  {
+    "id": 8,
+    "topic": "Introduction to Database Systems",
+    "question": "The component of DBMS that interprets and executes queries is called:",
+    "options": {
+      "A": "Storage Manager",
+      "B": "Buffer Manager",
+      "C": "Query Processor",
+      "D": "File Manager"
+    },
+    "correct_answer": "C",
+    "explanation": "Query Processor parses, optimizes, and executes queries. Storage Manager handles disk storage. Buffer Manager handles memory-disk transfer. File Manager manages file allocation."
+  },
+  {
+    "id": 9,
+    "topic": "Database System Architecture",
+    "question": "The Three-Schema Architecture (ANSI/SPARC) consists of which three levels?",
+    "options": {
+      "A": "User, Admin, System",
+      "B": "External (View), Conceptual (Logical), Internal (Physical)",
+      "C": "Input, Process, Output",
+      "D": "Primary, Secondary, Tertiary"
+    },
+    "correct_answer": "B",
+    "explanation": "ANSI/SPARC defines External (user views), Conceptual (logical structure of entire DB), and Internal (physical storage). Other options are not part of this architecture."
+  },
+  {
+    "id": 10,
+    "topic": "Database System Architecture",
+    "question": "Which type of data independence is easier to achieve?",
+    "options": {
+      "A": "Logical data independence",
+      "B": "Physical data independence",
+      "C": "Both are equally difficult",
+      "D": "Neither can be achieved"
+    },
+    "correct_answer": "B",
+    "explanation": "Physical data independence (changing storage without affecting logical schema) is easier because physical changes don't affect the logical design. Logical independence is harder because conceptual changes may affect external views."
+  },
+  {
+    "id": 11,
+    "topic": "Database System Architecture",
+    "question": "Physical data independence means:",
+    "options": {
+      "A": "Changing user views without affecting conceptual schema",
+      "B": "Changing internal/physical schema without changing conceptual schema",
+      "C": "Changing the database software",
+      "D": "Changing the data itself"
+    },
+    "correct_answer": "B",
+    "explanation": "Physical data independence = changing storage structures, indexes, file organization without affecting the logical schema. A describes aspects of logical independence. C and D are unrelated."
+  },
+  {
+    "id": 12,
+    "topic": "Database System Architecture",
+    "question": "In 3-Tier architecture, the middle tier handles:",
+    "options": {
+      "A": "Data storage",
+      "B": "User interface/presentation",
+      "C": "Business logic and application processing",
+      "D": "Network routing"
+    },
+    "correct_answer": "C",
+    "explanation": "Tier 1 = Presentation (UI). Tier 2 = Business Logic/Application Server (middle). Tier 3 = Database. A is Tier 3. B is Tier 1. D is networking, not part of DB architecture."
+  },
+  {
+    "id": 13,
+    "topic": "Database System Architecture",
+    "question": "The conceptual level of the three-schema architecture describes:",
+    "options": {
+      "A": "How data is physically stored on disk",
+      "B": "Individual user views",
+      "C": "The overall logical structure of the entire database",
+      "D": "Network topology"
+    },
+    "correct_answer": "C",
+    "explanation": "Conceptual level describes the entire database's logical structure — all entities, relationships, constraints. A = Internal level. B = External level. D is unrelated."
+  },
+  {
+    "id": 14,
+    "topic": "Database System Architecture",
+    "question": "Which DBMS component finds the most efficient execution plan for a query?",
+    "options": {
+      "A": "DDL Interpreter",
+      "B": "Buffer Manager",
+      "C": "Query Optimizer",
+      "D": "Authorization Manager"
+    },
+    "correct_answer": "C",
+    "explanation": "Query Optimizer evaluates multiple execution plans and selects the most efficient one. DDL Interpreter processes schema definitions. Buffer Manager handles memory. Authorization Manager checks permissions."
+  },
+  {
+    "id": 15,
+    "topic": "Database System Architecture",
+    "question": "The mapping between external and conceptual schemas is called:",
+    "options": {
+      "A": "Internal mapping",
+      "B": "External/Conceptual mapping",
+      "C": "Physical mapping",
+      "D": "Logical mapping"
+    },
+    "correct_answer": "B",
+    "explanation": "External/Conceptual mapping translates user views to the overall logical schema. The other mapping is Conceptual/Internal mapping. A, C, D are not standard terms for these mappings."
+  },
+  {
+    "id": 16,
+    "topic": "Data Models",
+    "question": "The Relational Model was proposed by:",
+    "options": {
+      "A": "Charles Bachman",
+      "B": "Peter Chen",
+      "C": "E.F. Codd in 1970",
+      "D": "Edgar Dijkstra"
+    },
+    "correct_answer": "C",
+    "explanation": "E.F. Codd proposed the relational model in 1970 at IBM. Bachman is associated with the network model. Peter Chen proposed the ER model. Dijkstra is known for algorithms/OS concepts."
+  },
+  {
+    "id": 17,
+    "topic": "Data Models",
+    "question": "In an ER diagram, a weak entity is represented by:",
+    "options": {
+      "A": "Single rectangle",
+      "B": "Diamond shape",
+      "C": "Double rectangle",
+      "D": "Dashed oval"
+    },
+    "correct_answer": "C",
+    "explanation": "Weak entity = double rectangle. Single rectangle = strong entity. Diamond = relationship. Dashed oval = derived attribute."
+  },
+  {
+    "id": 18,
+    "topic": "Data Models",
+    "question": "A multi-valued attribute in ER diagram is shown as:",
+    "options": {
+      "A": "Simple oval",
+      "B": "Double oval",
+      "C": "Dashed oval",
+      "D": "Rectangle"
+    },
+    "correct_answer": "B",
+    "explanation": "Multi-valued attribute = double oval (e.g., phone numbers). Simple oval = simple attribute. Dashed oval = derived attribute. Rectangle = entity."
+  },
+  {
+    "id": 19,
+    "topic": "Data Models",
+    "question": "A derived attribute is represented in ER diagram by:",
+    "options": {
+      "A": "Double oval",
+      "B": "Simple oval",
+      "C": "Dashed/dotted oval",
+      "D": "Underlined oval"
+    },
+    "correct_answer": "C",
+    "explanation": "Derived attribute (computed from other attributes, e.g., age from DOB) = dashed oval. Double oval = multi-valued. Simple oval = simple attribute. Underlined = key attribute."
+  },
+  {
+    "id": 20,
+    "topic": "Data Models",
+    "question": "Total participation in ER diagram is shown by:",
+    "options": {
+      "A": "Single line",
+      "B": "Double line",
+      "C": "Dashed line",
+      "D": "Dotted line"
+    },
+    "correct_answer": "B",
+    "explanation": "Total participation (every entity MUST participate) = double line. Single line = partial participation (entity MAY participate). Dashed and dotted lines are not standard participation notations."
+  },
+  {
+    "id": 21,
+    "topic": "Data Models",
+    "question": "Specialization in EER model is a:",
+    "options": {
+      "A": "Bottom-up approach",
+      "B": "Top-down approach of defining subclasses from superclass",
+      "C": "Left-right approach",
+      "D": "Random approach"
+    },
+    "correct_answer": "B",
+    "explanation": "Specialization = top-down (superclass → subclasses based on distinguishing features). Generalization = bottom-up (combining entities into a higher-level entity). A describes generalization."
+  },
+  {
+    "id": 22,
+    "topic": "Data Models",
+    "question": "In the Hierarchical data model, each child node can have:",
+    "options": {
+      "A": "Multiple parents",
+      "B": "Only one parent",
+      "C": "No parent",
+      "D": "Unlimited parents"
+    },
+    "correct_answer": "B",
+    "explanation": "Hierarchical model = tree structure where each child has exactly one parent. Multiple parents are allowed in the Network model. This is the main limitation of hierarchical model."
+  },
+  {
+    "id": 23,
+    "topic": "Data Models",
+    "question": "The ER model was proposed by:",
+    "options": {
+      "A": "E.F. Codd",
+      "B": "Peter Chen",
+      "C": "Edgar Dijkstra",
+      "D": "Donald Knuth"
+    },
+    "correct_answer": "B",
+    "explanation": "Peter Chen proposed the Entity-Relationship model in 1976. Codd proposed the Relational model. Dijkstra is known for algorithms. Knuth is known for The Art of Computer Programming."
+  },
+  {
+    "id": 24,
+    "topic": "Data Models",
+    "question": "An identifying relationship connects:",
+    "options": {
+      "A": "Two strong entities",
+      "B": "A weak entity to its owner/strong entity",
+      "C": "Two weak entities",
+      "D": "An entity to an attribute"
+    },
+    "correct_answer": "B",
+    "explanation": "Identifying relationship (double diamond) connects a weak entity to its owner strong entity. Weak entity depends on strong entity for identification. A uses regular relationships. C and D are incorrect."
+  },
+  {
+    "id": 25,
+    "topic": "Data Models",
+    "question": "A relationship between an entity and itself is called:",
+    "options": {
+      "A": "Binary relationship",
+      "B": "Ternary relationship",
+      "C": "Unary/Recursive relationship",
+      "D": "Quaternary relationship"
+    },
+    "correct_answer": "C",
+    "explanation": "Unary/Recursive = entity related to itself (e.g., Employee MANAGES Employee). Binary = 2 entities. Ternary = 3 entities. Quaternary = 4 entities."
+  },
+  {
+    "id": 26,
+    "topic": "Data Models",
+    "question": "In EER, if an entity can be a member of only one subclass, the constraint is called:",
+    "options": {
+      "A": "Overlapping",
+      "B": "Disjoint",
+      "C": "Total",
+      "D": "Partial"
+    },
+    "correct_answer": "B",
+    "explanation": "Disjoint (d) = entity belongs to only ONE subclass. Overlapping (o) = entity can belong to multiple subclasses. Total/Partial refer to completeness constraints, not disjointness."
+  },
+  {
+    "id": 27,
+    "topic": "Data Models",
+    "question": "Generalization in EER is a:",
+    "options": {
+      "A": "Top-down approach",
+      "B": "Bottom-up approach of combining entities into higher-level entity",
+      "C": "Horizontal approach",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "explanation": "Generalization = bottom-up (e.g., CAR + TRUCK → VEHICLE). Specialization = top-down. They are inverses of each other."
+  },
+  {
+    "id": 28,
+    "topic": "Relational Database Concepts",
+    "question": "In relational model terminology, a row is called a:",
+    "options": {
+      "A": "Attribute",
+      "B": "Relation",
+      "C": "Tuple",
+      "D": "Domain"
+    },
+    "correct_answer": "C",
+    "explanation": "Tuple = row/record. Attribute = column/field. Relation = table. Domain = set of allowed values for an attribute."
+  },
+  {
+    "id": 29,
+    "topic": "Relational Database Concepts",
+    "question": "The number of attributes (columns) in a relation is called its:",
+    "options": {
+      "A": "Cardinality",
+      "B": "Degree",
+      "C": "Domain",
+      "D": "Schema"
+    },
+    "correct_answer": "B",
+    "explanation": "Degree = number of columns/attributes. Cardinality = number of rows/tuples. Domain = set of valid values. Schema = structure/design."
+  },
+  {
+    "id": 30,
+    "topic": "Relational Database Concepts",
+    "question": "The number of tuples (rows) in a relation is called its:",
+    "options": {
+      "A": "Degree",
+      "B": "Domain",
+      "C": "Cardinality",
+      "D": "Arity"
+    },
+    "correct_answer": "C",
+    "explanation": "Cardinality = number of tuples/rows. Degree/Arity = number of columns. Domain = allowed values."
+  },
+  {
+    "id": 31,
+    "topic": "Relational Database Concepts",
+    "question": "Entity Integrity constraint states that:",
+    "options": {
+      "A": "Foreign keys cannot be NULL",
+      "B": "Primary key CANNOT be NULL",
+      "C": "All attributes must have values",
+      "D": "No duplicate rows are allowed"
+    },
+    "correct_answer": "B",
+    "explanation": "Entity Integrity = PK cannot be NULL (must uniquely identify each tuple). A is wrong — FK CAN be NULL. C is too broad. D relates to key constraint."
+  },
+  {
+    "id": 32,
+    "topic": "Relational Database Concepts",
+    "question": "Referential Integrity constraint states that:",
+    "options": {
+      "A": "Primary key must be an integer",
+      "B": "Foreign key must match an existing primary key value or be NULL",
+      "C": "Every table must have a foreign key",
+      "D": "All columns must be unique"
+    },
+    "correct_answer": "B",
+    "explanation": "Referential integrity ensures FK values either match an existing PK in the referenced table or are NULL. A, C, D are incorrect constraints."
+  },
+  {
+    "id": 33,
+    "topic": "Relational Database Concepts",
+    "question": "A candidate key is:",
+    "options": {
+      "A": "Any set of attributes",
+      "B": "A minimal super key with no proper subset being a super key",
+      "C": "Always a single attribute",
+      "D": "The same as a foreign key"
+    },
+    "correct_answer": "B",
+    "explanation": "Candidate key = minimal super key (removing any attribute would make it lose uniqueness). A is too broad. C is wrong — can be composite. D is a different concept."
+  },
+  {
+    "id": 34,
+    "topic": "Relational Database Concepts",
+    "question": "Which key relationship is correct?",
+    "options": {
+      "A": "Primary Key ⊇ Candidate Key ⊇ Super Key",
+      "B": "Super Key ⊇ Candidate Key ⊇ Primary Key",
+      "C": "Candidate Key ⊇ Super Key ⊇ Primary Key",
+      "D": "Foreign Key ⊇ Primary Key ⊇ Super Key"
+    },
+    "correct_answer": "B",
+    "explanation": "Super Key (largest set) ⊇ Candidate Key (minimal super keys) ⊇ Primary Key (one chosen candidate key). Every PK is a CK, every CK is a SK, but not vice versa."
+  },
+  {
+    "id": 35,
+    "topic": "Relational Database Concepts",
+    "question": "ON DELETE CASCADE means:",
+    "options": {
+      "A": "Prevent deletion if referenced",
+      "B": "Set foreign key to NULL when referenced row is deleted",
+      "C": "Automatically delete referencing rows when referenced row is deleted",
+      "D": "Do nothing"
+    },
+    "correct_answer": "C",
+    "explanation": "CASCADE automatically deletes child rows when parent is deleted. A = RESTRICT. B = SET NULL. D = NO ACTION."
+  },
+  {
+    "id": 36,
+    "topic": "Relational Database Concepts",
+    "question": "When mapping a M:N relationship to relational model, you should:",
+    "options": {
+      "A": "Add FK to either table",
+      "B": "Create a new junction/bridge table with FKs from both entities",
+      "C": "Merge both tables",
+      "D": "Ignore the relationship"
+    },
+    "correct_answer": "B",
+    "explanation": "M:N relationships require a new junction table with composite PK made of FKs from both entities. A works for 1:N. C might work for 1:1. D loses data."
+  },
+  {
+    "id": 37,
+    "topic": "Relational Database Concepts",
+    "question": "When mapping a 1:N relationship, the foreign key is placed on:",
+    "options": {
+      "A": "The 1-side (one side)",
+      "B": "The N-side (many side)",
+      "C": "A new table",
+      "D": "Both sides"
+    },
+    "correct_answer": "B",
+    "explanation": "In 1:N, FK goes to the N-side (many side). Placing it on 1-side would require multi-valued attributes which violates relational model. C is for M:N. D is unnecessary."
+  },
+  {
+    "id": 38,
+    "topic": "Relational Database Concepts",
+    "question": "A surrogate key is:",
+    "options": {
+      "A": "A natural business key",
+      "B": "A system-generated artificial key with no business meaning",
+      "C": "A foreign key",
+      "D": "A composite key"
+    },
+    "correct_answer": "B",
+    "explanation": "Surrogate key = artificial, system-generated (e.g., auto-increment ID) with no business meaning. A is the opposite. C references other tables. D combines multiple attributes."
+  },
+  {
+    "id": 39,
+    "topic": "Relational Database Concepts",
+    "question": "Which property of relations states that no two tuples can be identical?",
+    "options": {
+      "A": "Domain constraint",
+      "B": "A relation is a set of tuples — no duplicates allowed",
+      "C": "Entity integrity",
+      "D": "Referential integrity"
+    },
+    "correct_answer": "B",
+    "explanation": "By definition, a relation is a SET, and sets don't have duplicates. Domain constraint is about valid values. Entity integrity is about PK not being NULL. Referential integrity is about FK matching PK."
+  },
+  {
+    "id": 40,
+    "topic": "Relational Database Concepts",
+    "question": "Multi-valued attributes in ER model are mapped to relational model by:",
+    "options": {
+      "A": "Adding multiple columns in the same table",
+      "B": "Creating a separate table with FK referencing the original entity",
+      "C": "Ignoring them",
+      "D": "Storing as comma-separated values"
+    },
+    "correct_answer": "B",
+    "explanation": "Multi-valued attributes get a separate table because relational model requires atomic values. A violates 1NF if you don't know the count. C loses data. D violates atomicity/1NF."
+  },
+  {
+    "id": 41,
+    "topic": "Relational Algebra & Calculus",
+    "question": "The Selection operation (σ) in relational algebra selects:",
+    "options": {
+      "A": "Columns",
+      "B": "Rows/tuples that satisfy a condition",
+      "C": "Tables",
+      "D": "Databases"
+    },
+    "correct_answer": "B",
+    "explanation": "Selection (σ) = horizontal operation, filters ROWS based on condition (like WHERE). Projection (π) selects COLUMNS. Don't confuse the two!"
+  },
+  {
+    "id": 42,
+    "topic": "Relational Algebra & Calculus",
+    "question": "The Projection operation (π) in relational algebra selects:",
+    "options": {
+      "A": "Rows based on conditions",
+      "B": "Specific columns/attributes",
+      "C": "Entire tables",
+      "D": "Foreign keys only"
+    },
+    "correct_answer": "B",
+    "explanation": "Projection (π) = vertical operation, selects specific COLUMNS (like SELECT column_list). Selection (σ) selects rows. A describes selection."
+  },
+  {
+    "id": 43,
+    "topic": "Relational Algebra & Calculus",
+    "question": "Cartesian Product of a table with 5 rows and another with 4 rows produces:",
+    "options": {
+      "A": "9 rows",
+      "B": "20 rows",
+      "C": "5 rows",
+      "D": "4 rows"
+    },
+    "correct_answer": "B",
+    "explanation": "Cartesian Product = m × n rows. 5 × 4 = 20 rows. Every row from first table is combined with every row from second table. A (addition) is wrong."
+  },
+  {
+    "id": 44,
+    "topic": "Relational Algebra & Calculus",
+    "question": "For Union, Intersection, and Set Difference, relations must be:",
+    "options": {
+      "A": "From the same database",
+      "B": "Union-compatible (same degree and corresponding domains)",
+      "C": "Having the same name",
+      "D": "Empty"
+    },
+    "correct_answer": "B",
+    "explanation": "Union compatibility requires same number of attributes (degree) and compatible domains for corresponding attributes. A, C, D are not requirements."
+  },
+  {
+    "id": 45,
+    "topic": "Relational Algebra & Calculus",
+    "question": "The Division operation (÷) is used for queries of type:",
+    "options": {
+      "A": "Find any matching record",
+      "B": "Find records associated with ALL values in another relation",
+      "C": "Find the first record",
+      "D": "Count records"
+    },
+    "correct_answer": "B",
+    "explanation": "Division answers 'for all' queries (e.g., find students enrolled in ALL courses). A is simple selection/join. C and D are not division operations."
+  },
+  {
+    "id": 46,
+    "topic": "Relational Algebra & Calculus",
+    "question": "Natural Join (⋈) automatically joins on:",
+    "options": {
+      "A": "Primary keys only",
+      "B": "Foreign keys only",
+      "C": "All attributes with the same name",
+      "D": "The first column"
+    },
+    "correct_answer": "C",
+    "explanation": "Natural Join matches on all columns with the same name in both relations. It doesn't specifically look for PK/FK — just matching attribute names. A, B, D are incorrect."
+  },
+  {
+    "id": 47,
+    "topic": "Relational Algebra & Calculus",
+    "question": "Relational Algebra is:",
+    "options": {
+      "A": "Declarative (specifies WHAT)",
+      "B": "Procedural (specifies HOW to get data step by step)",
+      "C": "Neither procedural nor declarative",
+      "D": "A programming language"
+    },
+    "correct_answer": "B",
+    "explanation": "Relational Algebra = procedural (step by step HOW). Relational Calculus = declarative (WHAT you want). SQL is mostly declarative. D is incorrect — it's a formal query language."
+  },
+  {
+    "id": 48,
+    "topic": "Relational Algebra & Calculus",
+    "question": "Relational Calculus is:",
+    "options": {
+      "A": "Procedural",
+      "B": "Non-procedural/Declarative (specifies WHAT data is needed)",
+      "C": "Object-oriented",
+      "D": "A physical storage method"
+    },
+    "correct_answer": "B",
+    "explanation": "Relational Calculus = declarative, you specify WHAT you want without specifying HOW. Based on predicate logic. A describes relational algebra."
+  },
+  {
+    "id": 49,
+    "topic": "Relational Algebra & Calculus",
+    "question": "Codd's Theorem states that:",
+    "options": {
+      "A": "SQL is the only query language",
+      "B": "Relational Algebra and Relational Calculus are equivalent in expressive power",
+      "C": "Relational algebra is more powerful than calculus",
+      "D": "Only procedural languages can query databases"
+    },
+    "correct_answer": "B",
+    "explanation": "Codd's Theorem proves RA = TRC = DRC in expressive power. A language is relationally complete if it can express everything RA can. C is wrong — they're equal. A and D are incorrect."
+  },
+  {
+    "id": 50,
+    "topic": "Relational Algebra & Calculus",
+    "question": "The existential quantifier (∃) in relational calculus means:",
+    "options": {
+      "A": "For all",
+      "B": "There exists at least one",
+      "C": "There exists none",
+      "D": "Exactly one"
+    },
+    "correct_answer": "B",
+    "explanation": "∃ = there exists (at least one value satisfies). ∀ = for all (every value satisfies). C and D are not what ∃ represents."
+  },
+  {
+    "id": 51,
+    "topic": "Relational Algebra & Calculus",
+    "question": "Left Outer Join returns:",
+    "options": {
+      "A": "Only matching rows",
+      "B": "All rows from left table + matching rows from right (NULL if no match)",
+      "C": "All rows from right table",
+      "D": "Cartesian product"
+    },
+    "correct_answer": "B",
+    "explanation": "Left Outer Join keeps ALL left table rows, fills NULLs for non-matching right table columns. A = Inner Join. C = Right Outer Join. D = Cross Join."
+  },
+  {
+    "id": 52,
+    "topic": "Structured Query Language (SQL)",
+    "question": "SQL was originally developed at:",
+    "options": {
+      "A": "Microsoft",
+      "B": "IBM's San Jose Research Lab",
+      "C": "Oracle Corporation",
+      "D": "Google"
+    },
+    "correct_answer": "B",
+    "explanation": "SQL (originally SEQUEL) was developed at IBM's San Jose Research Lab in 1970s. Oracle later commercialized it. Microsoft and Google came later."
+  },
+  {
+    "id": 53,
+    "topic": "Structured Query Language (SQL)",
+    "question": "Which of the following is a DDL command?",
+    "options": {
+      "A": "SELECT",
+      "B": "INSERT",
+      "C": "CREATE",
+      "D": "GRANT"
+    },
+    "correct_answer": "C",
+    "explanation": "DDL (Data Definition Language) = CREATE, ALTER, DROP, TRUNCATE. SELECT = DQL/DML. INSERT = DML. GRANT = DCL."
+  },
+  {
+    "id": 54,
+    "topic": "Structured Query Language (SQL)",
+    "question": "GRANT and REVOKE belong to which SQL sub-language?",
+    "options": {
+      "A": "DDL",
+      "B": "DML",
+      "C": "DCL (Data Control Language)",
+      "D": "TCL"
+    },
+    "correct_answer": "C",
+    "explanation": "GRANT and REVOKE control access permissions = DCL. DDL defines structure. DML manipulates data. TCL manages transactions (COMMIT, ROLLBACK)."
+  },
+  {
+    "id": 55,
+    "topic": "Structured Query Language (SQL)",
+    "question": "COMMIT and ROLLBACK belong to which SQL sub-language?",
+    "options": {
+      "A": "DDL",
+      "B": "DML",
+      "C": "DCL",
+      "D": "TCL (Transaction Control Language)"
+    },
+    "correct_answer": "D",
+    "explanation": "COMMIT, ROLLBACK, SAVEPOINT = TCL (manage transactions). DDL = structure. DML = data manipulation. DCL = permissions."
+  },
+  {
+    "id": 56,
+    "topic": "Structured Query Language (SQL)",
+    "question": "What is the difference between DROP and TRUNCATE?",
+    "options": {
+      "A": "No difference",
+      "B": "DROP removes structure + data; TRUNCATE removes all data but keeps structure",
+      "C": "TRUNCATE removes structure; DROP removes data",
+      "D": "Both can use WHERE clause"
+    },
+    "correct_answer": "B",
+    "explanation": "DROP = removes entire table (structure + data). TRUNCATE = removes all rows but keeps table structure. C is reversed. D is wrong — neither supports WHERE (DELETE does)."
+  },
+  {
+    "id": 57,
+    "topic": "Structured Query Language (SQL)",
+    "question": "Which is faster for removing all rows — TRUNCATE or DELETE?",
+    "options": {
+      "A": "DELETE is faster",
+      "B": "TRUNCATE is faster because it doesn't log individual row deletions",
+      "C": "Both are equal",
+      "D": "Neither removes rows"
+    },
+    "correct_answer": "B",
+    "explanation": "TRUNCATE is faster — it deallocates data pages without logging each row. DELETE logs each row deletion and can be rolled back. DELETE also fires triggers; TRUNCATE usually doesn't."
+  },
+  {
+    "id": 58,
+    "topic": "Structured Query Language (SQL)",
+    "question": "The correct SQL execution order is:",
+    "options": {
+      "A": "SELECT → FROM → WHERE → GROUP BY → ORDER BY",
+      "B": "FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY",
+      "C": "ORDER BY → SELECT → FROM → WHERE",
+      "D": "GROUP BY → FROM → SELECT → WHERE"
+    },
+    "correct_answer": "B",
+    "explanation": "Execution order: FROM → WHERE → GROUP BY → HAVING → SELECT → DISTINCT → ORDER BY → LIMIT. SQL is written SELECT first but executed FROM first."
+  },
+  {
+    "id": 59,
+    "topic": "Structured Query Language (SQL)",
+    "question": "HAVING clause is used to:",
+    "options": {
+      "A": "Filter individual rows before grouping",
+      "B": "Filter groups after GROUP BY, can use aggregate functions",
+      "C": "Sort results",
+      "D": "Join tables"
+    },
+    "correct_answer": "B",
+    "explanation": "HAVING filters groups (after GROUP BY) and can use aggregate functions. WHERE filters individual rows (before GROUP BY) and cannot use aggregates. C = ORDER BY. D = JOIN."
+  },
+  {
+    "id": 60,
+    "topic": "Structured Query Language (SQL)",
+    "question": "Aggregate functions in SQL ignore NULL values except:",
+    "options": {
+      "A": "SUM()",
+      "B": "AVG()",
+      "C": "COUNT(*)",
+      "D": "MAX()"
+    },
+    "correct_answer": "C",
+    "explanation": "COUNT(*) counts all rows including NULLs. COUNT(column) ignores NULLs. All other aggregates (SUM, AVG, MIN, MAX) ignore NULLs."
+  },
+  {
+    "id": 61,
+    "topic": "Structured Query Language (SQL)",
+    "question": "The LIKE operator wildcard '%' matches:",
+    "options": {
+      "A": "Exactly one character",
+      "B": "Zero or more characters",
+      "C": "Only alphabetic characters",
+      "D": "Only numeric characters"
+    },
+    "correct_answer": "B",
+    "explanation": "% = zero or more characters (e.g., 'A%' matches A, Ali, Ahmed). _ = exactly one character. C and D are not how wildcards work."
+  },
+  {
+    "id": 62,
+    "topic": "Structured Query Language (SQL)",
+    "question": "The LIKE operator wildcard '_' matches:",
+    "options": {
+      "A": "Zero or more characters",
+      "B": "Exactly one character",
+      "C": "Only spaces",
+      "D": "Only digits"
+    },
+    "correct_answer": "B",
+    "explanation": "_ = exactly one character (e.g., 'A_i' matches Ali, Ari but not Ai or Ahmi). % = zero or more characters."
+  },
+  {
+    "id": 63,
+    "topic": "Structured Query Language (SQL)",
+    "question": "Which JOIN returns only matching rows from both tables?",
+    "options": {
+      "A": "LEFT JOIN",
+      "B": "RIGHT JOIN",
+      "C": "INNER JOIN",
+      "D": "FULL OUTER JOIN"
+    },
+    "correct_answer": "C",
+    "explanation": "INNER JOIN = only matching rows. LEFT JOIN = all left + matching right. RIGHT JOIN = all right + matching left. FULL OUTER JOIN = all from both sides."
+  },
+  {
+    "id": 64,
+    "topic": "Structured Query Language (SQL)",
+    "question": "UNION vs UNION ALL:",
+    "options": {
+      "A": "No difference",
+      "B": "UNION removes duplicates; UNION ALL keeps duplicates and is faster",
+      "C": "UNION ALL removes duplicates; UNION keeps them",
+      "D": "Both remove duplicates"
+    },
+    "correct_answer": "B",
+    "explanation": "UNION removes duplicate rows (slower due to extra processing). UNION ALL keeps all rows including duplicates (faster). C is reversed."
+  },
+  {
+    "id": 65,
+    "topic": "Structured Query Language (SQL)",
+    "question": "A correlated subquery:",
+    "options": {
+      "A": "Runs once independently",
+      "B": "References the outer query and runs for each row of the outer query",
+      "C": "Is always faster than non-correlated",
+      "D": "Cannot use WHERE clause"
+    },
+    "correct_answer": "B",
+    "explanation": "Correlated subquery references outer query and executes once per outer row (slower). Non-correlated runs once independently (faster). C is opposite — correlated is generally slower."
+  },
+  {
+    "id": 66,
+    "topic": "Structured Query Language (SQL)",
+    "question": "A View in SQL is:",
+    "options": {
+      "A": "A physical table that stores data",
+      "B": "A virtual table based on a query that doesn't store data physically",
+      "C": "A backup of a table",
+      "D": "An index"
+    },
+    "correct_answer": "B",
+    "explanation": "View = virtual table defined by a query. It doesn't store data (except materialized views). A = regular table. C = backup concept. D = index for performance."
+  },
+  {
+    "id": 67,
+    "topic": "Structured Query Language (SQL)",
+    "question": "A materialized view:",
+    "options": {
+      "A": "Never stores data",
+      "B": "Physically stores precomputed results and needs periodic refresh",
+      "C": "Is the same as a regular view",
+      "D": "Cannot be queried"
+    },
+    "correct_answer": "B",
+    "explanation": "Materialized view physically stores query results for performance. It needs to be refreshed when base data changes. Regular view computes results on each access. A and C describe regular views."
+  },
+  {
+    "id": 68,
+    "topic": "Structured Query Language (SQL)",
+    "question": "Which SQL function returns the first non-NULL value from a list?",
+    "options": {
+      "A": "IFNULL()",
+      "B": "NULLIF()",
+      "C": "COALESCE()",
+      "D": "ISNULL()"
+    },
+    "correct_answer": "C",
+    "explanation": "COALESCE(val1, val2, ...) returns first non-NULL value. IFNULL takes only 2 args (MySQL). NULLIF returns NULL if two args are equal. ISNULL is SQL Server specific."
+  },
+  {
+    "id": 69,
+    "topic": "Structured Query Language (SQL)",
+    "question": "CROSS JOIN produces:",
+    "options": {
+      "A": "Only matching rows",
+      "B": "Cartesian product — every row paired with every row",
+      "C": "Only left table rows",
+      "D": "Empty result"
+    },
+    "correct_answer": "B",
+    "explanation": "CROSS JOIN = Cartesian product (m × n rows). No join condition needed. A = INNER JOIN. C = LEFT JOIN (partial). D is incorrect."
+  },
+  {
+    "id": 70,
+    "topic": "Structured Query Language (SQL)",
+    "question": "Self Join is used when:",
+    "options": {
+      "A": "Joining two different databases",
+      "B": "A table is joined with itself",
+      "C": "No join is needed",
+      "D": "Joining more than 5 tables"
+    },
+    "correct_answer": "B",
+    "explanation": "Self Join = table joined with itself using aliases. Common example: Employee-Manager relationship where both are in same table. A, C, D are incorrect."
+  },
+  {
+    "id": 71,
+    "topic": "Advanced SQL",
+    "question": "A stored procedure is:",
+    "options": {
+      "A": "A single SQL query",
+      "B": "A precompiled collection of SQL statements stored in the database for reuse",
+      "C": "A type of index",
+      "D": "A constraint"
+    },
+    "correct_answer": "B",
+    "explanation": "Stored procedure = precompiled, reusable set of SQL statements stored in DB. Reduces network traffic, improves performance. A is too simple. C and D are different concepts."
+  },
+  {
+    "id": 72,
+    "topic": "Advanced SQL",
+    "question": "A trigger in SQL is:",
+    "options": {
+      "A": "A manual query run by user",
+      "B": "An automatic action executed in response to certain events (INSERT, UPDATE, DELETE)",
+      "C": "A type of JOIN",
+      "D": "A data type"
+    },
+    "correct_answer": "B",
+    "explanation": "Trigger = automatically fires before/after INSERT, UPDATE, DELETE events. Used for auditing, validation, maintaining derived data. A is manual. C and D are unrelated."
+  },
+  {
+    "id": 73,
+    "topic": "Advanced SQL",
+    "question": "What is a cursor in SQL?",
+    "options": {
+      "A": "A pointer to the database file",
+      "B": "A database object used to retrieve and process rows one at a time",
+      "C": "A type of key",
+      "D": "A graphical element"
+    },
+    "correct_answer": "B",
+    "explanation": "Cursor allows row-by-row processing of query results. Steps: DECLARE → OPEN → FETCH → CLOSE → DEALLOCATE. A, C, D are incorrect concepts."
+  },
+  {
+    "id": 74,
+    "topic": "Advanced SQL",
+    "question": "Which of the following is true about a function vs stored procedure?",
+    "options": {
+      "A": "Functions cannot return values",
+      "B": "Functions MUST return a value; procedures may or may not",
+      "C": "Procedures must return a value",
+      "D": "No difference exists"
+    },
+    "correct_answer": "B",
+    "explanation": "Functions MUST return a value and can be used in SELECT. Procedures may return values via OUT parameters but don't have to. Functions have more restrictions (no DML in some DBs)."
+  },
+  {
+    "id": 75,
+    "topic": "Advanced SQL",
+    "question": "Window functions in SQL operate on:",
+    "options": {
+      "A": "The entire table always",
+      "B": "A set of rows related to the current row (window/partition) without collapsing rows",
+      "C": "Only NULL values",
+      "D": "Only the first row"
+    },
+    "correct_answer": "B",
+    "explanation": "Window functions (ROW_NUMBER, RANK, DENSE_RANK, LEAD, LAG, etc.) operate over a partition/window of rows without collapsing them like GROUP BY does. A, C, D are incorrect."
+  },
+  {
+    "id": 76,
+    "topic": "Advanced SQL",
+    "question": "What is the difference between RANK() and DENSE_RANK()?",
+    "options": {
+      "A": "No difference",
+      "B": "RANK() leaves gaps after ties; DENSE_RANK() does not leave gaps",
+      "C": "DENSE_RANK() leaves gaps; RANK() does not",
+      "D": "Both always produce sequential numbers"
+    },
+    "correct_answer": "B",
+    "explanation": "With values 100,100,90: RANK gives 1,1,3 (gap at 2). DENSE_RANK gives 1,1,2 (no gap). ROW_NUMBER gives 1,2,3 (unique). C is reversed."
+  },
+  {
+    "id": 77,
+    "topic": "Advanced SQL",
+    "question": "A CTE (Common Table Expression) is defined using:",
+    "options": {
+      "A": "CREATE CTE",
+      "B": "WITH clause",
+      "C": "FROM clause only",
+      "D": "HAVING clause"
+    },
+    "correct_answer": "B",
+    "explanation": "CTE is defined using WITH keyword: WITH cte_name AS (SELECT ...) SELECT * FROM cte_name. CTEs improve readability and can be recursive. A, C, D are incorrect syntax."
+  },
+  {
+    "id": 78,
+    "topic": "Advanced SQL",
+    "question": "BEFORE and AFTER in triggers refer to:",
+    "options": {
+      "A": "Before and after database creation",
+      "B": "Timing of trigger execution relative to the triggering event (INSERT/UPDATE/DELETE)",
+      "C": "Before and after login",
+      "D": "Before and after backup"
+    },
+    "correct_answer": "B",
+    "explanation": "BEFORE trigger fires before the event (can modify/cancel operation). AFTER trigger fires after the event (good for logging/auditing). A, C, D are unrelated."
+  },
+  {
+    "id": 79,
+    "topic": "Advanced SQL",
+    "question": "An assertion in SQL is:",
+    "options": {
+      "A": "A type of index",
+      "B": "A database-level constraint that must always be true",
+      "C": "A type of join",
+      "D": "A backup method"
+    },
+    "correct_answer": "B",
+    "explanation": "Assertion = database-wide constraint checked whenever data changes. More general than CHECK (which applies to single table). Not widely supported in practice. A, C, D are wrong."
+  },
+  {
+    "id": 80,
+    "topic": "Advanced SQL",
+    "question": "CASE expression in SQL is used for:",
+    "options": {
+      "A": "Creating tables",
+      "B": "Conditional logic (if-then-else) within SQL queries",
+      "C": "Deleting data",
+      "D": "Creating indexes"
+    },
+    "correct_answer": "B",
+    "explanation": "CASE provides conditional/if-then-else logic in SELECT, WHERE, ORDER BY: CASE WHEN condition THEN result ELSE default END. A, C, D are unrelated operations."
+  },
+  {
+    "id": 81,
+    "topic": "Database Design & Normalization",
+    "question": "The purpose of normalization is to:",
+    "options": {
+      "A": "Add more data to the database",
+      "B": "Reduce data redundancy and eliminate insertion, update, and deletion anomalies",
+      "C": "Increase data redundancy",
+      "D": "Remove all tables"
+    },
+    "correct_answer": "B",
+    "explanation": "Normalization reduces redundancy and eliminates anomalies by decomposing tables. C is opposite. A and D are unrelated to normalization's purpose."
+  },
+  {
+    "id": 82,
+    "topic": "Database Design & Normalization",
+    "question": "A table is in 1NF (First Normal Form) if:",
+    "options": {
+      "A": "It has no foreign keys",
+      "B": "All attributes contain only atomic (indivisible) values and each cell has a single value",
+      "C": "It has at least 3 columns",
+      "D": "It has no primary key"
+    },
+    "correct_answer": "B",
+    "explanation": "1NF requires atomic values (no repeating groups, no multi-valued attributes, no nested tables). Each cell = single value. A, C, D are not 1NF requirements."
+  },
+  {
+    "id": 83,
+    "topic": "Database Design & Normalization",
+    "question": "A table is in 2NF if:",
+    "options": {
+      "A": "It is in 1NF and has no multi-valued attributes",
+      "B": "It is in 1NF and has no partial dependencies (non-key attribute depends on full PK, not part of it)",
+      "C": "It has no attributes",
+      "D": "It is in 3NF"
+    },
+    "correct_answer": "B",
+    "explanation": "2NF = 1NF + no partial dependencies. Partial dependency = non-key attribute depends on PART of composite PK. Relevant only when PK is composite. D is a higher form."
+  },
+  {
+    "id": 84,
+    "topic": "Database Design & Normalization",
+    "question": "A table is in 3NF if:",
+    "options": {
+      "A": "It is in 2NF and has no transitive dependencies",
+      "B": "It is only in 1NF",
+      "C": "It has no primary key",
+      "D": "It has no columns"
+    },
+    "correct_answer": "A",
+    "explanation": "3NF = 2NF + no transitive dependencies. Transitive dependency: A→B→C (non-key attribute depends on another non-key attribute). B, C, D are incorrect."
+  },
+  {
+    "id": 85,
+    "topic": "Database Design & Normalization",
+    "question": "Transitive dependency means:",
+    "options": {
+      "A": "An attribute depends on the primary key",
+      "B": "A non-key attribute depends on another non-key attribute (A→B→C)",
+      "C": "An attribute depends on a foreign key",
+      "D": "All attributes are independent"
+    },
+    "correct_answer": "B",
+    "explanation": "Transitive: if A→B and B→C, then A→C transitively. In 3NF context: non-key depends on non-key. Example: StudentID→DeptID→DeptName. A is normal dependency. C and D are wrong."
+  },
+  {
+    "id": 86,
+    "topic": "Database Design & Normalization",
+    "question": "BCNF (Boyce-Codd Normal Form) requires that:",
+    "options": {
+      "A": "For every functional dependency X→Y, X must be a super key",
+      "B": "There are no attributes",
+      "C": "The table must be empty",
+      "D": "Only one column exists"
+    },
+    "correct_answer": "A",
+    "explanation": "BCNF: for every non-trivial FD X→Y, X must be a super key. Stricter than 3NF. 3NF allows non-key→key dependencies that BCNF doesn't. B, C, D are absurd."
+  },
+  {
+    "id": 87,
+    "topic": "Database Design & Normalization",
+    "question": "The correct order of normal forms (least to most strict) is:",
+    "options": {
+      "A": "3NF → 2NF → 1NF → BCNF",
+      "B": "1NF → 2NF → 3NF → BCNF → 4NF → 5NF",
+      "C": "BCNF → 3NF → 2NF → 1NF",
+      "D": "5NF → 1NF → 3NF → 2NF"
+    },
+    "correct_answer": "B",
+    "explanation": "Order from least strict to most: 1NF → 2NF → 3NF → BCNF → 4NF → 5NF. Each higher form satisfies all lower forms plus additional conditions."
+  },
+  {
+    "id": 88,
+    "topic": "Database Design & Normalization",
+    "question": "A functional dependency X → Y means:",
+    "options": {
+      "A": "Y determines X",
+      "B": "The value of X uniquely determines the value of Y",
+      "C": "X and Y are the same",
+      "D": "X depends on Y"
+    },
+    "correct_answer": "B",
+    "explanation": "X→Y means if two tuples have same X value, they must have same Y value. X determines Y. A and D are reversed. C is not what FD means."
+  },
+  {
+    "id": 89,
+    "topic": "Database Design & Normalization",
+    "question": "4NF deals with:",
+    "options": {
+      "A": "Partial dependencies",
+      "B": "Transitive dependencies",
+      "C": "Multi-valued dependencies",
+      "D": "Functional dependencies only"
+    },
+    "correct_answer": "C",
+    "explanation": "4NF = BCNF + no non-trivial multi-valued dependencies. Multi-valued dependency: one attribute determines a set of values independently. A = 2NF. B = 3NF. D = BCNF."
+  },
+  {
+    "id": 90,
+    "topic": "Database Design & Normalization",
+    "question": "Denormalization is:",
+    "options": {
+      "A": "Removing all data from database",
+      "B": "Intentionally adding redundancy to improve read/query performance",
+      "C": "Same as normalization",
+      "D": "Dropping the database"
+    },
+    "correct_answer": "B",
+    "explanation": "Denormalization = intentionally adding redundancy (reversing normalization) to speed up read queries at the cost of write complexity. Trade-off: read performance vs. data integrity."
+  },
+  {
+    "id": 91,
+    "topic": "Database Design & Normalization",
+    "question": "Partial dependency exists when:",
+    "options": {
+      "A": "A non-key attribute depends on the entire composite primary key",
+      "B": "A non-key attribute depends on only PART of a composite primary key",
+      "C": "A key attribute depends on a non-key attribute",
+      "D": "No dependencies exist"
+    },
+    "correct_answer": "B",
+    "explanation": "Partial dependency = non-key attribute depends on a subset of composite PK. This violates 2NF. Only relevant when PK is composite. A is a full dependency (allowed)."
+  },
+  {
+    "id": 92,
+    "topic": "Database Design & Normalization",
+    "question": "Lossless join decomposition means:",
+    "options": {
+      "A": "Some data is lost after decomposition",
+      "B": "Original relation can be perfectly reconstructed by joining decomposed relations",
+      "C": "All data is deleted",
+      "D": "Tables cannot be joined"
+    },
+    "correct_answer": "B",
+    "explanation": "Lossless = no information is lost; joining decomposed tables gives back the original table exactly. Normalization should always produce lossless decompositions. A is lossy (bad)."
+  },
+  {
+    "id": 93,
+    "topic": "Database Design & Normalization",
+    "question": "Dependency preservation means:",
+    "options": {
+      "A": "All dependencies are removed",
+      "B": "All functional dependencies can be checked within individual decomposed relations without needing joins",
+      "C": "Dependencies are encrypted",
+      "D": "Only primary keys are preserved"
+    },
+    "correct_answer": "B",
+    "explanation": "Dependency preservation ensures all FDs can be verified in individual tables without costly joins. Important for efficient constraint checking. A, C, D are wrong."
+  },
+  {
+    "id": 94,
+    "topic": "Database Design & Normalization",
+    "question": "Armstrong's Axioms include:",
+    "options": {
+      "A": "Reflexivity, Augmentation, Transitivity",
+      "B": "Selection, Projection, Join",
+      "C": "INSERT, UPDATE, DELETE",
+      "D": "COMMIT, ROLLBACK, SAVEPOINT"
+    },
+    "correct_answer": "A",
+    "explanation": "Armstrong's Axioms for FDs: Reflexivity (if Y⊆X then X→Y), Augmentation (if X→Y then XZ→YZ), Transitivity (if X→Y and Y→Z then X→Z). B = relational algebra. C = DML. D = TCL."
+  },
+  {
+    "id": 95,
+    "topic": "Database Design & Normalization",
+    "question": "Closure of attribute set X (X+) is:",
+    "options": {
+      "A": "Set of all tables in database",
+      "B": "Set of all attributes that can be functionally determined by X",
+      "C": "Set of all primary keys",
+      "D": "Set of all foreign keys"
+    },
+    "correct_answer": "B",
+    "explanation": "X+ (closure) = all attributes that X can determine using given FDs. Used to find candidate keys and check if a decomposition is lossless. A, C, D are incorrect."
+  },
+  {
+    "id": 96,
+    "topic": "Database Design & Normalization",
+    "question": "5NF (Fifth Normal Form / PJNF) deals with:",
+    "options": {
+      "A": "Partial dependencies",
+      "B": "Transitive dependencies",
+      "C": "Join dependencies — no data loss when decomposed into smaller tables",
+      "D": "Multi-valued dependencies"
+    },
+    "correct_answer": "C",
+    "explanation": "5NF / Project-Join Normal Form eliminates join dependencies. A table in 5NF cannot be further decomposed without loss. A = 2NF. B = 3NF. D = 4NF."
+  },
+  {
+    "id": 97,
+    "topic": "Transaction Management",
+    "question": "ACID properties of transactions stand for:",
+    "options": {
+      "A": "Addition, Calculation, Iteration, Deletion",
+      "B": "Atomicity, Consistency, Isolation, Durability",
+      "C": "Access, Control, Index, Data",
+      "D": "Authentication, Confidentiality, Integrity, Delivery"
+    },
+    "correct_answer": "B",
+    "explanation": "ACID: Atomicity (all or nothing), Consistency (valid state to valid state), Isolation (concurrent transactions don't interfere), Durability (committed data persists). Other options are fabricated."
+  },
+  {
+    "id": 98,
+    "topic": "Transaction Management",
+    "question": "Atomicity means:",
+    "options": {
+      "A": "Transactions run in isolation",
+      "B": "A transaction is all-or-nothing — either fully completes or fully rolls back",
+      "C": "Data is stored permanently",
+      "D": "Database remains consistent"
+    },
+    "correct_answer": "B",
+    "explanation": "Atomicity = all or nothing. If any part fails, entire transaction rolls back. C = Durability. D = Consistency. A = Isolation."
+  },
+  {
+    "id": 99,
+    "topic": "Transaction Management",
+    "question": "Durability means:",
+    "options": {
+      "A": "Transaction can be undone anytime",
+      "B": "Once committed, changes persist even after system failures",
+      "C": "Data is temporary",
+      "D": "Transactions run sequentially"
+    },
+    "correct_answer": "B",
+    "explanation": "Durability = committed data survives crashes/power failures (written to non-volatile storage). A contradicts durability. C is opposite. D describes serial execution, not durability."
+  },
+  {
+    "id": 100,
+    "topic": "Transaction Management",
+    "question": "Isolation ensures that:",
+    "options": {
+      "A": "Data is backed up",
+      "B": "Concurrent transactions do not interfere with each other",
+      "C": "Only one user can use the database",
+      "D": "Data is encrypted"
+    },
+    "correct_answer": "B",
+    "explanation": "Isolation = each transaction executes as if it's the only one. Intermediate states are invisible to others. A = backup. C is too restrictive. D = security, not isolation."
+  },
+  {
+    "id": 101,
+    "topic": "Transaction Management",
+    "question": "A transaction that has completed successfully is said to be:",
+    "options": {
+      "A": "Aborted",
+      "B": "Committed",
+      "C": "Active",
+      "D": "Failed"
+    },
+    "correct_answer": "B",
+    "explanation": "Committed = successfully completed and changes are permanent. Aborted = rolled back. Active = currently executing. Failed = encountered an error."
+  },
+  {
+    "id": 102,
+    "topic": "Transaction Management",
+    "question": "The states of a transaction are:",
+    "options": {
+      "A": "Start, End",
+      "B": "Active, Partially Committed, Committed, Failed, Aborted",
+      "C": "Open, Closed",
+      "D": "Read, Write"
+    },
+    "correct_answer": "B",
+    "explanation": "Transaction states: Active → Partially Committed → Committed (success) OR Active → Failed → Aborted (failure). A, C, D are oversimplified or wrong."
+  },
+  {
+    "id": 103,
+    "topic": "Transaction Management",
+    "question": "A schedule is serializable if:",
+    "options": {
+      "A": "It runs only one transaction",
+      "B": "Its result is equivalent to some serial schedule",
+      "C": "It uses no locks",
+      "D": "It has no transactions"
+    },
+    "correct_answer": "B",
+    "explanation": "Serializable schedule = produces same result as if transactions were executed one after another (serial). This ensures correctness of concurrent execution. A is serial, not serializable."
+  },
+  {
+    "id": 104,
+    "topic": "Transaction Management",
+    "question": "Conflict serializability is tested using:",
+    "options": {
+      "A": "ER diagram",
+      "B": "Precedence graph (serialization graph) — if acyclic, it's conflict serializable",
+      "C": "Normalization",
+      "D": "SQL queries"
+    },
+    "correct_answer": "B",
+    "explanation": "Draw precedence graph: nodes = transactions, edges = conflicts. If the graph is ACYCLIC → conflict serializable. If CYCLIC → NOT conflict serializable. A, C, D are unrelated."
+  },
+  {
+    "id": 105,
+    "topic": "Transaction Management",
+    "question": "Which of the following is NOT a problem caused by concurrent transactions?",
+    "options": {
+      "A": "Lost Update",
+      "B": "Dirty Read",
+      "C": "Data Normalization",
+      "D": "Unrepeatable Read"
+    },
+    "correct_answer": "C",
+    "explanation": "Concurrency problems: Lost Update, Dirty Read, Unrepeatable/Non-repeatable Read, Phantom Read. Normalization is a design technique, not a concurrency problem."
+  },
+  {
+    "id": 106,
+    "topic": "Transaction Management",
+    "question": "A Dirty Read occurs when:",
+    "options": {
+      "A": "A transaction reads data written by a committed transaction",
+      "B": "A transaction reads data written by an uncommitted transaction that may later rollback",
+      "C": "A transaction reads its own data",
+      "D": "No reading occurs"
+    },
+    "correct_answer": "B",
+    "explanation": "Dirty Read = reading uncommitted data. If that transaction rolls back, the read data was never valid. A is a normal read (clean). C is fine. D is unrelated."
+  },
+  {
+    "id": 107,
+    "topic": "Transaction Management",
+    "question": "A Phantom Read occurs when:",
+    "options": {
+      "A": "Same query returns different number of rows because another transaction inserted/deleted rows",
+      "B": "Data cannot be read at all",
+      "C": "Database is offline",
+      "D": "A transaction reads its own writes"
+    },
+    "correct_answer": "A",
+    "explanation": "Phantom Read = re-executing a query gets different rows because another transaction inserted/deleted rows matching the condition. B, C, D are not phantom reads."
+  },
+  {
+    "id": 108,
+    "topic": "Transaction Management",
+    "question": "SAVEPOINT is used to:",
+    "options": {
+      "A": "Permanently save all changes",
+      "B": "Set a point within a transaction to which you can later rollback",
+      "C": "Delete the transaction",
+      "D": "Create a new table"
+    },
+    "correct_answer": "B",
+    "explanation": "SAVEPOINT creates a checkpoint within a transaction. ROLLBACK TO savepoint undoes changes to that point without aborting the entire transaction. A = COMMIT. C, D are unrelated."
+  },
+  {
+    "id": 109,
+    "topic": "Transaction Management",
+    "question": "The highest SQL isolation level that prevents all concurrency problems is:",
+    "options": {
+      "A": "READ UNCOMMITTED",
+      "B": "READ COMMITTED",
+      "C": "REPEATABLE READ",
+      "D": "SERIALIZABLE"
+    },
+    "correct_answer": "D",
+    "explanation": "SERIALIZABLE prevents dirty reads, non-repeatable reads, and phantom reads (all problems). READ UNCOMMITTED allows all. READ COMMITTED prevents dirty reads only. REPEATABLE READ prevents dirty + non-repeatable reads."
+  },
+  {
+    "id": 110,
+    "topic": "Transaction Management",
+    "question": "READ UNCOMMITTED isolation level allows:",
+    "options": {
+      "A": "No concurrency problems",
+      "B": "Dirty reads, non-repeatable reads, and phantom reads",
+      "C": "Only phantom reads",
+      "D": "Only dirty reads"
+    },
+    "correct_answer": "B",
+    "explanation": "READ UNCOMMITTED = lowest isolation, allows all concurrency problems (dirty, non-repeatable, phantom reads). Fastest but least safe."
+  },
+  {
+    "id": 111,
+    "topic": "Concurrency Control",
+    "question": "Two-Phase Locking (2PL) protocol has two phases:",
+    "options": {
+      "A": "Read and Write",
+      "B": "Growing phase (acquire locks) and Shrinking phase (release locks)",
+      "C": "Start and End",
+      "D": "Lock and Unlock simultaneously"
+    },
+    "correct_answer": "B",
+    "explanation": "2PL: Growing phase = only acquire locks (no release). Shrinking phase = only release locks (no acquire). Ensures conflict serializability. A, C, D don't describe 2PL correctly."
+  },
+  {
+    "id": 112,
+    "topic": "Concurrency Control",
+    "question": "The 2PL protocol guarantees:",
+    "options": {
+      "A": "Deadlock freedom",
+      "B": "Conflict serializability",
+      "C": "No starvation",
+      "D": "Maximum performance"
+    },
+    "correct_answer": "B",
+    "explanation": "2PL guarantees conflict serializability but does NOT prevent deadlocks. Strict 2PL additionally prevents cascading rollbacks. A is wrong — 2PL can still have deadlocks."
+  },
+  {
+    "id": 113,
+    "topic": "Concurrency Control",
+    "question": "A deadlock occurs when:",
+    "options": {
+      "A": "All transactions commit successfully",
+      "B": "Two or more transactions are waiting for each other to release locks, forming a cycle",
+      "C": "No transactions are running",
+      "D": "The database runs out of storage"
+    },
+    "correct_answer": "B",
+    "explanation": "Deadlock = circular wait. T1 holds lock on A, waits for B. T2 holds lock on B, waits for A. Neither can proceed. A is normal operation. C and D are unrelated."
+  },
+  {
+    "id": 114,
+    "topic": "Concurrency Control",
+    "question": "Deadlock can be detected using:",
+    "options": {
+      "A": "ER diagram",
+      "B": "Wait-for graph — if it contains a cycle, deadlock exists",
+      "C": "Normalization",
+      "D": "SQL SELECT statement"
+    },
+    "correct_answer": "B",
+    "explanation": "Wait-for graph: nodes = transactions, edge Ti→Tj means Ti waits for Tj. Cycle = deadlock. Resolution: abort one transaction (victim). A, C, D are unrelated."
+  },
+  {
+    "id": 115,
+    "topic": "Concurrency Control",
+    "question": "Deadlock prevention schemes include:",
+    "options": {
+      "A": "Wait-Die and Wound-Wait",
+      "B": "INNER JOIN and OUTER JOIN",
+      "C": "1NF and 2NF",
+      "D": "GRANT and REVOKE"
+    },
+    "correct_answer": "A",
+    "explanation": "Wait-Die: older waits, younger dies/aborts. Wound-Wait: older wounds/forces younger to abort, younger waits. Both use timestamps. B = joins. C = normalization. D = DCL."
+  },
+  {
+    "id": 116,
+    "topic": "Concurrency Control",
+    "question": "In Wait-Die scheme:",
+    "options": {
+      "A": "Older transaction aborts, younger waits",
+      "B": "Older transaction waits, younger transaction is aborted (dies)",
+      "C": "Both transactions wait",
+      "D": "Both transactions abort"
+    },
+    "correct_answer": "B",
+    "explanation": "Wait-Die: if requesting transaction is OLDER → it WAITS. If requesting transaction is YOUNGER → it DIES (aborted). Non-preemptive scheme."
+  },
+  {
+    "id": 117,
+    "topic": "Concurrency Control",
+    "question": "Shared lock (S-lock) allows:",
+    "options": {
+      "A": "Only writing",
+      "B": "Reading only — multiple transactions can hold S-lock simultaneously",
+      "C": "Both reading and writing",
+      "D": "Deleting only"
+    },
+    "correct_answer": "B",
+    "explanation": "Shared lock = read lock. Multiple transactions can read simultaneously. Exclusive lock (X-lock) = write lock, only one transaction can hold it. C describes no lock. A and D describe X-lock partially."
+  },
+  {
+    "id": 118,
+    "topic": "Concurrency Control",
+    "question": "Exclusive lock (X-lock) allows:",
+    "options": {
+      "A": "Multiple transactions to read",
+      "B": "Only the holding transaction to read AND write; no other can access",
+      "C": "Everyone to write",
+      "D": "Only deletion"
+    },
+    "correct_answer": "B",
+    "explanation": "X-lock = exclusive access for both read and write. No other transaction can get any lock (S or X) on the item. A describes S-lock. C and D are incorrect."
+  },
+  {
+    "id": 119,
+    "topic": "Concurrency Control",
+    "question": "Timestamp-based concurrency control uses:",
+    "options": {
+      "A": "Locks",
+      "B": "Transaction timestamps to determine order — no locks needed",
+      "C": "ER diagrams",
+      "D": "Foreign keys"
+    },
+    "correct_answer": "B",
+    "explanation": "Timestamp protocol assigns timestamps to transactions and uses them to ensure serializability without locks. If conflict detected, younger transaction is rolled back and restarted."
+  },
+  {
+    "id": 120,
+    "topic": "Concurrency Control",
+    "question": "Optimistic concurrency control assumes:",
+    "options": {
+      "A": "Conflicts are very common",
+      "B": "Conflicts are rare — validate at commit time, rollback if conflict found",
+      "C": "All transactions will fail",
+      "D": "No transactions will ever run"
+    },
+    "correct_answer": "B",
+    "explanation": "Optimistic = assumes conflicts are rare. Three phases: Read → Validate → Write. If validation fails, abort. Good for read-heavy workloads. A describes pessimistic approach."
+  },
+  {
+    "id": 121,
+    "topic": "Concurrency Control",
+    "question": "Strict 2PL additionally requires:",
+    "options": {
+      "A": "No locks at all",
+      "B": "All exclusive locks held until transaction commits or aborts",
+      "C": "Locks are released immediately",
+      "D": "Only shared locks"
+    },
+    "correct_answer": "B",
+    "explanation": "Strict 2PL = 2PL + hold all X-locks until commit/abort. Prevents cascading rollbacks. Rigorous 2PL holds ALL locks (S and X) until commit. C violates 2PL. A and D are wrong."
+  },
+  {
+    "id": 122,
+    "topic": "Concurrency Control",
+    "question": "Multiple Granularity Locking allows locking at different levels such as:",
+    "options": {
+      "A": "Only row level",
+      "B": "Database, table, page, row levels — a hierarchy",
+      "C": "Only database level",
+      "D": "Only column level"
+    },
+    "correct_answer": "B",
+    "explanation": "Granularity hierarchy: Database → Table → Page → Row. Coarser granularity = less overhead, less concurrency. Finer granularity = more overhead, more concurrency. A, C, D are too restrictive."
+  },
+  {
+    "id": 123,
+    "topic": "Recovery Management",
+    "question": "The transaction log (write-ahead log) records:",
+    "options": {
+      "A": "Only successful queries",
+      "B": "All changes (before/after values) for recovery purposes before writing to disk",
+      "C": "User login information only",
+      "D": "ER diagrams"
+    },
+    "correct_answer": "B",
+    "explanation": "WAL (Write-Ahead Logging) records changes BEFORE they're applied to the database. Contains old values (for UNDO) and new values (for REDO). Essential for recovery."
+  },
+  {
+    "id": 124,
+    "topic": "Recovery Management",
+    "question": "Write-Ahead Logging (WAL) rule states:",
+    "options": {
+      "A": "Write data to disk first, then log",
+      "B": "Log record must be written to stable storage BEFORE the corresponding data is written to disk",
+      "C": "No logging is needed",
+      "D": "Logs are optional"
+    },
+    "correct_answer": "B",
+    "explanation": "WAL = log first, then write data. This ensures that if a crash occurs, the log has enough info to redo or undo changes. A is opposite and unsafe. C and D defeat recovery purpose."
+  },
+  {
+    "id": 125,
+    "topic": "Recovery Management",
+    "question": "UNDO recovery is needed for:",
+    "options": {
+      "A": "Transactions that committed before crash",
+      "B": "Transactions that were active (uncommitted) at the time of crash — roll them back",
+      "C": "All transactions",
+      "D": "No transactions"
+    },
+    "correct_answer": "B",
+    "explanation": "UNDO = rollback uncommitted transactions (they may have partially written to disk). REDO = re-apply committed transactions (they may not have fully written to disk). A needs REDO."
+  },
+  {
+    "id": 126,
+    "topic": "Recovery Management",
+    "question": "REDO recovery is needed for:",
+    "options": {
+      "A": "Transactions that were uncommitted at crash time",
+      "B": "Transactions that committed before crash but may not have been fully written to disk",
+      "C": "Transactions that were never started",
+      "D": "Only SELECT queries"
+    },
+    "correct_answer": "B",
+    "explanation": "REDO = re-apply committed transactions whose changes may not have reached disk before crash. UNDO = rollback uncommitted. A needs UNDO. C and D don't need recovery."
+  },
+  {
+    "id": 127,
+    "topic": "Recovery Management",
+    "question": "A checkpoint is:",
+    "options": {
+      "A": "A security mechanism",
+      "B": "A point where all in-memory changes are flushed to disk and recorded in log, reducing recovery time",
+      "C": "A type of lock",
+      "D": "A type of index"
+    },
+    "correct_answer": "B",
+    "explanation": "Checkpoint forces dirty pages to disk and records active transactions. During recovery, only need to process log entries after the last checkpoint. Reduces recovery time significantly."
+  },
+  {
+    "id": 128,
+    "topic": "Recovery Management",
+    "question": "Shadow paging recovery technique:",
+    "options": {
+      "A": "Uses logging",
+      "B": "Maintains two page tables — current and shadow (no-undo/no-redo for some implementations)",
+      "C": "Is the same as WAL",
+      "D": "Uses only locks"
+    },
+    "correct_answer": "B",
+    "explanation": "Shadow paging: shadow page table = backup. Current page table = working copy. On commit, current becomes shadow. On abort, discard current, use shadow. No log needed in simple form."
+  },
+  {
+    "id": 129,
+    "topic": "Recovery Management",
+    "question": "Immediate update recovery approach:",
+    "options": {
+      "A": "Changes are written to disk only after commit",
+      "B": "Changes may be written to disk before transaction commits (needs both UNDO and REDO)",
+      "C": "No changes are ever written",
+      "D": "Changes are written to log only"
+    },
+    "correct_answer": "B",
+    "explanation": "Immediate update allows writing to disk before commit. Needs UNDO (for uncommitted) and REDO (for committed but lost). Deferred update writes only after commit (needs only REDO). A describes deferred."
+  },
+  {
+    "id": 130,
+    "topic": "Recovery Management",
+    "question": "Deferred update recovery approach:",
+    "options": {
+      "A": "Writes changes to disk immediately",
+      "B": "Defers all writes to disk until transaction commits — only REDO needed (no UNDO)",
+      "C": "Never writes anything",
+      "D": "Uses shadow paging"
+    },
+    "correct_answer": "B",
+    "explanation": "Deferred update: no actual writes until commit. If crash before commit, nothing to undo (changes only in log). After commit, if crash, need to REDO. No UNDO needed."
+  },
+  {
+    "id": 131,
+    "topic": "Recovery Management",
+    "question": "ARIES recovery algorithm stands for:",
+    "options": {
+      "A": "Advanced Recovery In Enterprise Systems",
+      "B": "Algorithm for Recovery and Isolation Exploiting Semantics",
+      "C": "Automatic Recovery and Index System",
+      "D": "Advanced Relational Index and Execution System"
+    },
+    "correct_answer": "B",
+    "explanation": "ARIES = Algorithm for Recovery and Isolation Exploiting Semantics. It uses WAL, has 3 phases: Analysis, REDO, UNDO. Most widely used recovery algorithm in practice."
+  },
+  {
+    "id": 132,
+    "topic": "Recovery Management",
+    "question": "The three phases of ARIES recovery are:",
+    "options": {
+      "A": "Read, Write, Execute",
+      "B": "Analysis, REDO, UNDO",
+      "C": "Lock, Unlock, Commit",
+      "D": "CREATE, ALTER, DROP"
+    },
+    "correct_answer": "B",
+    "explanation": "ARIES: 1) Analysis = determine dirty pages and active transactions at crash. 2) REDO = replay all changes. 3) UNDO = rollback uncommitted transactions. A, C, D are unrelated."
+  },
+  {
+    "id": 133,
+    "topic": "Indexing & File Organization",
+    "question": "An index in a database is used to:",
+    "options": {
+      "A": "Store actual data",
+      "B": "Speed up data retrieval by providing quick access paths",
+      "C": "Delete data faster",
+      "D": "Encrypt data"
+    },
+    "correct_answer": "B",
+    "explanation": "Index = data structure that speeds up SELECT/search operations. Like a book index pointing to pages. A = data files. C is not primary purpose. D = encryption/security."
+  },
+  {
+    "id": 134,
+    "topic": "Indexing & File Organization",
+    "question": "A primary index is created on:",
+    "options": {
+      "A": "Any random column",
+      "B": "The ordering key field of a sequentially ordered file",
+      "C": "Foreign keys only",
+      "D": "Non-key attributes only"
+    },
+    "correct_answer": "B",
+    "explanation": "Primary index = on the field used to physically order the file (usually PK). One entry per disk block (sparse). A is too vague. C and D are for secondary indexes."
+  },
+  {
+    "id": 135,
+    "topic": "Indexing & File Organization",
+    "question": "A dense index has:",
+    "options": {
+      "A": "One entry for each disk block",
+      "B": "One index entry for every record in the file",
+      "C": "No entries",
+      "D": "Only one entry total"
+    },
+    "correct_answer": "B",
+    "explanation": "Dense index = one entry per record (every search key value has an entry). Sparse index = one entry per block (only some values). Dense is larger but more precise."
+  },
+  {
+    "id": 136,
+    "topic": "Indexing & File Organization",
+    "question": "A sparse index has:",
+    "options": {
+      "A": "One entry for every record",
+      "B": "One entry for each disk block (not every record)",
+      "C": "No entries",
+      "D": "Entries for NULL values only"
+    },
+    "correct_answer": "B",
+    "explanation": "Sparse index = one entry per block. Requires the file to be sorted. Smaller than dense index. Works because binary search can find the right block, then scan within it."
+  },
+  {
+    "id": 137,
+    "topic": "Indexing & File Organization",
+    "question": "B-Tree and B+ Tree are used for:",
+    "options": {
+      "A": "Encrypting data",
+      "B": "Multilevel indexing — balanced tree structure for efficient search, insert, delete",
+      "C": "Network routing",
+      "D": "User authentication"
+    },
+    "correct_answer": "B",
+    "explanation": "B-Tree/B+ Tree = balanced tree structures used for indexes. O(log n) search. B+ Tree stores data pointers only at leaf level and leaves are linked. A, C, D are unrelated."
+  },
+  {
+    "id": 138,
+    "topic": "Indexing & File Organization",
+    "question": "In a B+ Tree, data pointers are stored:",
+    "options": {
+      "A": "At all nodes",
+      "B": "Only at leaf nodes, and leaf nodes are linked together",
+      "C": "Only at root",
+      "D": "Nowhere"
+    },
+    "correct_answer": "B",
+    "explanation": "B+ Tree: internal nodes have only keys (for routing). Leaf nodes have keys + data pointers + are linked (for range queries). B-Tree stores data pointers at all nodes."
+  },
+  {
+    "id": 139,
+    "topic": "Indexing & File Organization",
+    "question": "B+ Tree is preferred over B-Tree for databases because:",
+    "options": {
+      "A": "It uses more space",
+      "B": "Leaf nodes are linked, enabling efficient range queries and sequential access",
+      "C": "It is slower",
+      "D": "It doesn't support search"
+    },
+    "correct_answer": "B",
+    "explanation": "B+ Tree advantages: linked leaves for range queries, all data at leaves (consistent search time), higher fanout in internal nodes (more keys per node). C and D are wrong. A is a trade-off, not an advantage."
+  },
+  {
+    "id": 140,
+    "topic": "Indexing & File Organization",
+    "question": "A hash index uses:",
+    "options": {
+      "A": "Tree structure",
+      "B": "A hash function to map keys to bucket locations for O(1) average lookup",
+      "C": "Sequential search",
+      "D": "No data structures"
+    },
+    "correct_answer": "B",
+    "explanation": "Hash index applies hash function to search key → bucket address. O(1) average lookup. Not good for range queries (only equality). A = B-Tree. C = unindexed file."
+  },
+  {
+    "id": 141,
+    "topic": "Indexing & File Organization",
+    "question": "Hash indexes are NOT suitable for:",
+    "options": {
+      "A": "Equality searches (=)",
+      "B": "Range queries (<, >, BETWEEN)",
+      "C": "Point lookups",
+      "D": "Primary key lookups"
+    },
+    "correct_answer": "B",
+    "explanation": "Hash indexes are great for equality (=) lookups but cannot handle range queries because hashing destroys ordering. B-Tree/B+ Tree are better for ranges. A, C, D work well with hashing."
+  },
+  {
+    "id": 142,
+    "topic": "Indexing & File Organization",
+    "question": "A clustered index:",
+    "options": {
+      "A": "Does not affect physical order",
+      "B": "Determines the physical order of data in the table — only ONE per table",
+      "C": "Can be many per table",
+      "D": "Is always a hash index"
+    },
+    "correct_answer": "B",
+    "explanation": "Clustered index sorts the actual data rows. Only ONE per table (data can only be physically ordered one way). Non-clustered = separate structure pointing to data, multiple allowed."
+  },
+  {
+    "id": 143,
+    "topic": "Indexing & File Organization",
+    "question": "A secondary (non-clustered) index:",
+    "options": {
+      "A": "Changes physical order of data",
+      "B": "Is a separate structure with pointers to actual data rows — multiple allowed per table",
+      "C": "Can only exist if no primary index exists",
+      "D": "Is always sparse"
+    },
+    "correct_answer": "B",
+    "explanation": "Secondary/non-clustered index is separate from data. Multiple can exist per table. Usually dense (one entry per record). A describes clustered. D is wrong — usually dense."
+  },
+  {
+    "id": 144,
+    "topic": "Indexing & File Organization",
+    "question": "File organization types include:",
+    "options": {
+      "A": "Heap, Sequential, Hashed, Clustered",
+      "B": "Only heap",
+      "C": "Only sequential",
+      "D": "Only hashed"
+    },
+    "correct_answer": "A",
+    "explanation": "Heap = unordered. Sequential = ordered by some key. Hashed = hash function determines location. Clustered = related records stored together. B, C, D are incomplete."
+  },
+  {
+    "id": 145,
+    "topic": "Indexing & File Organization",
+    "question": "In a heap file organization, records are:",
+    "options": {
+      "A": "Sorted by primary key",
+      "B": "Stored in no particular order — new records added at end",
+      "C": "Stored using hash function",
+      "D": "Stored in a tree"
+    },
+    "correct_answer": "B",
+    "explanation": "Heap = unordered file. Records placed wherever space is available. Fast insertion, slow search (linear scan needed). A = sequential. C = hash. D = indexed."
+  },
+  {
+    "id": 146,
+    "topic": "Indexing & File Organization",
+    "question": "A composite index is an index on:",
+    "options": {
+      "A": "A single column",
+      "B": "Two or more columns combined",
+      "C": "All columns in the table",
+      "D": "No columns"
+    },
+    "correct_answer": "B",
+    "explanation": "Composite/concatenated index = index on multiple columns (e.g., INDEX(LastName, FirstName)). Order matters — leftmost prefix rule applies. A = single-column index."
+  },
+  {
+    "id": 147,
+    "topic": "Query Processing & Optimization",
+    "question": "Query optimization aims to:",
+    "options": {
+      "A": "Make queries more complex",
+      "B": "Find the most efficient execution plan to minimize cost (I/O, CPU, memory)",
+      "C": "Delete queries",
+      "D": "Add more tables"
+    },
+    "correct_answer": "B",
+    "explanation": "Query optimizer evaluates multiple plans and chooses the one with lowest estimated cost (disk I/O is usually the dominant factor). A, C, D are not optimization goals."
+  },
+  {
+    "id": 148,
+    "topic": "Query Processing & Optimization",
+    "question": "The three main steps of query processing are:",
+    "options": {
+      "A": "CREATE, ALTER, DROP",
+      "B": "Parsing/Translation, Optimization, Evaluation/Execution",
+      "C": "INSERT, UPDATE, DELETE",
+      "D": "GRANT, REVOKE, COMMIT"
+    },
+    "correct_answer": "B",
+    "explanation": "1) Parsing: check syntax, translate to relational algebra. 2) Optimization: choose best plan. 3) Evaluation: execute the plan. A = DDL. C = DML. D = DCL+TCL."
+  },
+  {
+    "id": 149,
+    "topic": "Query Processing & Optimization",
+    "question": "Cost-based optimization uses:",
+    "options": {
+      "A": "Random selection of plans",
+      "B": "Statistical information (catalog data) to estimate cost of different plans",
+      "C": "User preferences only",
+      "D": "No information at all"
+    },
+    "correct_answer": "B",
+    "explanation": "Cost-based optimizer uses statistics (table sizes, distinct values, index info) from the system catalog to estimate I/O and CPU costs for different execution plans."
+  },
+  {
+    "id": 150,
+    "topic": "Query Processing & Optimization",
+    "question": "Rule-based optimization uses:",
+    "options": {
+      "A": "Statistical information",
+      "B": "Predefined heuristic rules (e.g., perform selection before join)",
+      "C": "Machine learning",
+      "D": "Random decisions"
+    },
+    "correct_answer": "B",
+    "explanation": "Rule/heuristic-based optimizer applies general rules like: push selections down, perform selections before joins, use indexes when available. No cost estimation. A = cost-based."
+  },
+  {
+    "id": 151,
+    "topic": "Query Processing & Optimization",
+    "question": "A common heuristic optimization rule is:",
+    "options": {
+      "A": "Perform joins before selections",
+      "B": "Perform selections as early as possible to reduce tuple count",
+      "C": "Avoid using indexes",
+      "D": "Always use Cartesian product"
+    },
+    "correct_answer": "B",
+    "explanation": "Push selections down = filter rows early to reduce data size before expensive joins. A is opposite (wasteful). C defeats optimization. D creates huge intermediate results."
+  },
+  {
+    "id": 152,
+    "topic": "Query Processing & Optimization",
+    "question": "An execution plan (query plan) shows:",
+    "options": {
+      "A": "Database schema",
+      "B": "The sequence of operations the DBMS will perform to execute a query",
+      "C": "User credentials",
+      "D": "Backup schedule"
+    },
+    "correct_answer": "B",
+    "explanation": "Execution plan shows what algorithms (nested loop join, hash join, etc.), what indexes, and what order operations will be performed. EXPLAIN command shows this in SQL."
+  },
+  {
+    "id": 153,
+    "topic": "Query Processing & Optimization",
+    "question": "The EXPLAIN command in SQL is used to:",
+    "options": {
+      "A": "Delete a table",
+      "B": "Show the query execution plan chosen by the optimizer",
+      "C": "Create an index",
+      "D": "Grant permissions"
+    },
+    "correct_answer": "B",
+    "explanation": "EXPLAIN displays the execution plan including operations, indexes used, estimated costs/rows. Essential for query tuning. A = DROP. C = CREATE INDEX. D = GRANT."
+  },
+  {
+    "id": 154,
+    "topic": "Query Processing & Optimization",
+    "question": "Join algorithms include:",
+    "options": {
+      "A": "Nested Loop Join, Sort-Merge Join, Hash Join",
+      "B": "Only Nested Loop Join",
+      "C": "Only Sort-Merge Join",
+      "D": "UNION, INTERSECT, EXCEPT"
+    },
+    "correct_answer": "A",
+    "explanation": "Main join algorithms: Nested Loop (simple, slow for large tables), Sort-Merge (sort both, merge), Hash Join (build hash table on smaller, probe with larger). D = set operations, not join algorithms."
+  },
+  {
+    "id": 155,
+    "topic": "Query Processing & Optimization",
+    "question": "Which join algorithm is generally best for equality joins on large unsorted tables?",
+    "options": {
+      "A": "Nested Loop Join",
+      "B": "Sort-Merge Join",
+      "C": "Hash Join",
+      "D": "Cross Join"
+    },
+    "correct_answer": "C",
+    "explanation": "Hash Join: build hash table on smaller table, probe with larger. O(n+m). Best for equality joins on large unsorted data. Nested Loop is O(n×m). Sort-Merge needs sorting first."
+  },
+  {
+    "id": 156,
+    "topic": "Query Processing & Optimization",
+    "question": "Materialized evaluation in query processing means:",
+    "options": {
+      "A": "Results are never stored",
+      "B": "Each operation produces a temporary result that is stored before the next operation uses it",
+      "C": "Results are passed directly without storage",
+      "D": "Only final result is stored"
+    },
+    "correct_answer": "B",
+    "explanation": "Materialized = store intermediate results (temporary tables). Pipelined = pass results directly to next operation without storing (more efficient, less I/O). C describes pipelining."
+  },
+  {
+    "id": 157,
+    "topic": "Query Processing & Optimization",
+    "question": "Pipelined evaluation in query processing means:",
+    "options": {
+      "A": "Each intermediate result is fully stored on disk",
+      "B": "Results are passed directly from one operation to the next without full materialization",
+      "C": "No operations are performed",
+      "D": "All queries are rejected"
+    },
+    "correct_answer": "B",
+    "explanation": "Pipelining passes tuples directly to the next operation as they're produced. Reduces I/O and memory usage. More efficient than materialization for many queries. A = materialized evaluation."
+  },
+  {
+    "id": 158,
+    "topic": "Database Security",
+    "question": "SQL Injection is:",
+    "options": {
+      "A": "A type of backup",
+      "B": "An attack where malicious SQL code is inserted into input fields to manipulate the database",
+      "C": "A type of index",
+      "D": "A join operation"
+    },
+    "correct_answer": "B",
+    "explanation": "SQL Injection: attacker inserts SQL code through user input (e.g., ' OR 1=1 --). Prevention: parameterized queries/prepared statements, input validation. A, C, D are unrelated."
+  },
+  {
+    "id": 159,
+    "topic": "Database Security",
+    "question": "The best defense against SQL Injection is:",
+    "options": {
+      "A": "Using longer passwords",
+      "B": "Using parameterized queries / prepared statements",
+      "C": "Using more tables",
+      "D": "Disabling the database"
+    },
+    "correct_answer": "B",
+    "explanation": "Parameterized queries separate SQL code from data, preventing injection. Also: input validation, stored procedures, least privilege. A helps with password attacks, not injection. C and D are impractical."
+  },
+  {
+    "id": 160,
+    "topic": "Database Security",
+    "question": "GRANT command is used to:",
+    "options": {
+      "A": "Remove permissions",
+      "B": "Give specific permissions/privileges to users or roles",
+      "C": "Delete tables",
+      "D": "Create indexes"
+    },
+    "correct_answer": "B",
+    "explanation": "GRANT gives permissions (SELECT, INSERT, UPDATE, DELETE, etc.) to users/roles. REVOKE removes permissions. A = REVOKE. C = DROP. D = CREATE INDEX."
+  },
+  {
+    "id": 161,
+    "topic": "Database Security",
+    "question": "REVOKE command is used to:",
+    "options": {
+      "A": "Give permissions",
+      "B": "Take away previously granted permissions from users or roles",
+      "C": "Create users",
+      "D": "Insert data"
+    },
+    "correct_answer": "B",
+    "explanation": "REVOKE removes previously granted privileges. Syntax: REVOKE privilege ON object FROM user. A = GRANT. C = CREATE USER. D = INSERT."
+  },
+  {
+    "id": 162,
+    "topic": "Database Security",
+    "question": "Role-based access control (RBAC) means:",
+    "options": {
+      "A": "Every user has all permissions",
+      "B": "Permissions are assigned to roles, and users are assigned to roles",
+      "C": "No user has any permission",
+      "D": "Permissions are random"
+    },
+    "correct_answer": "B",
+    "explanation": "RBAC: create roles (admin, manager, viewer), assign permissions to roles, assign users to roles. Simplifies access management. A, C, D are impractical or insecure."
+  },
+  {
+    "id": 163,
+    "topic": "Database Security",
+    "question": "Database encryption protects data:",
+    "options": {
+      "A": "Only during transmission",
+      "B": "At rest (stored data) and/or in transit (network transmission)",
+      "C": "Only when deleted",
+      "D": "Only during backup"
+    },
+    "correct_answer": "B",
+    "explanation": "Encryption at rest = stored data encrypted on disk. Encryption in transit = data encrypted during network transmission (SSL/TLS). Both are important. A is only transit. C and D are incomplete."
+  },
+  {
+    "id": 164,
+    "topic": "Database Security",
+    "question": "An audit trail in database security is:",
+    "options": {
+      "A": "A type of index",
+      "B": "A record/log of who accessed what data, when, and what changes were made",
+      "C": "A backup file",
+      "D": "A type of join"
+    },
+    "correct_answer": "B",
+    "explanation": "Audit trail logs all database activities for security monitoring, compliance, and forensic analysis. Tracks who did what, when. A, C, D are unrelated concepts."
+  },
+  {
+    "id": 165,
+    "topic": "Database Security",
+    "question": "The principle of least privilege states:",
+    "options": {
+      "A": "Give everyone maximum access",
+      "B": "Users should only be given the minimum permissions necessary to perform their tasks",
+      "C": "No one should have any access",
+      "D": "Only the DBA should use the database"
+    },
+    "correct_answer": "B",
+    "explanation": "Least privilege = minimum necessary access. Reduces risk of accidental or intentional misuse. A is maximum privilege (insecure). C and D are too restrictive."
+  },
+  {
+    "id": 166,
+    "topic": "Database Security",
+    "question": "Views can be used for security by:",
+    "options": {
+      "A": "Encrypting all data",
+      "B": "Restricting users to see only specific columns/rows they're authorized to access",
+      "C": "Deleting unauthorized data",
+      "D": "Creating backups"
+    },
+    "correct_answer": "B",
+    "explanation": "Views can hide sensitive columns/rows. Grant access to view instead of base table. Users see only what the view exposes. A is encryption. C and D are unrelated security mechanisms."
+  },
+  {
+    "id": 167,
+    "topic": "Distributed Databases",
+    "question": "A distributed database is:",
+    "options": {
+      "A": "A database stored on a single computer",
+      "B": "A database whose data is stored across multiple sites/computers connected by a network",
+      "C": "A database with no data",
+      "D": "A backup of a database"
+    },
+    "correct_answer": "B",
+    "explanation": "Distributed DB = data spread across multiple locations connected via network but appears as a single logical database to users. A = centralized. C and D are incorrect."
+  },
+  {
+    "id": 168,
+    "topic": "Distributed Databases",
+    "question": "Data fragmentation in distributed databases includes:",
+    "options": {
+      "A": "Horizontal and Vertical fragmentation",
+      "B": "Only horizontal fragmentation",
+      "C": "Only vertical fragmentation",
+      "D": "No fragmentation at all"
+    },
+    "correct_answer": "A",
+    "explanation": "Horizontal = splitting by rows (e.g., customers by region). Vertical = splitting by columns (e.g., personal info vs financial info). Hybrid/Mixed = combination. B and C are incomplete."
+  },
+  {
+    "id": 169,
+    "topic": "Distributed Databases",
+    "question": "Horizontal fragmentation divides a table by:",
+    "options": {
+      "A": "Columns",
+      "B": "Rows — subsets of tuples based on conditions",
+      "C": "Databases",
+      "D": "Users"
+    },
+    "correct_answer": "B",
+    "explanation": "Horizontal fragmentation = row-based partitioning (e.g., customers WHERE country='Pakistan' on one site). A = vertical fragmentation. C and D are not fragmentation types."
+  },
+  {
+    "id": 170,
+    "topic": "Distributed Databases",
+    "question": "Vertical fragmentation divides a table by:",
+    "options": {
+      "A": "Rows",
+      "B": "Columns — subsets of attributes (must include PK in each fragment)",
+      "C": "Databases",
+      "D": "Indexes"
+    },
+    "correct_answer": "B",
+    "explanation": "Vertical fragmentation = column-based split. Each fragment must include the PK for reconstruction. A = horizontal. C and D are not fragmentation types."
+  },
+  {
+    "id": 171,
+    "topic": "Distributed Databases",
+    "question": "Data replication in distributed databases means:",
+    "options": {
+      "A": "Deleting data from all sites",
+      "B": "Storing copies of data at multiple sites for availability and performance",
+      "C": "Encrypting data",
+      "D": "Compressing data"
+    },
+    "correct_answer": "B",
+    "explanation": "Replication = copies at multiple sites. Benefits: availability, faster local access, fault tolerance. Cost: consistency challenges, update overhead. A, C, D are different operations."
+  },
+  {
+    "id": 172,
+    "topic": "Distributed Databases",
+    "question": "The Two-Phase Commit (2PC) protocol ensures:",
+    "options": {
+      "A": "Data encryption",
+      "B": "Atomicity in distributed transactions — all sites commit or all abort",
+      "C": "Faster queries",
+      "D": "Data fragmentation"
+    },
+    "correct_answer": "B",
+    "explanation": "2PC: Phase 1 (Prepare) — coordinator asks all sites to vote. Phase 2 (Commit/Abort) — if all vote YES, commit all; if any votes NO, abort all. Ensures distributed atomicity."
+  },
+  {
+    "id": 173,
+    "topic": "Distributed Databases",
+    "question": "Transparency in distributed databases means:",
+    "options": {
+      "A": "Users can see the physical locations of data",
+      "B": "Distribution details are hidden from users — they see a single logical database",
+      "C": "Data is visible to everyone",
+      "D": "There is no security"
+    },
+    "correct_answer": "B",
+    "explanation": "Distribution transparency hides the complexity of distribution. Types: location, fragmentation, replication transparency. Users interact as if it's one centralized DB. A is opposite."
+  },
+  {
+    "id": 174,
+    "topic": "Distributed Databases",
+    "question": "CAP Theorem states that a distributed system can guarantee at most:",
+    "options": {
+      "A": "All three: Consistency, Availability, Partition tolerance",
+      "B": "Only two out of three: Consistency, Availability, Partition tolerance",
+      "C": "Only one property",
+      "D": "None of the properties"
+    },
+    "correct_answer": "B",
+    "explanation": "CAP Theorem (Brewer's): in presence of network partition, must choose between Consistency and Availability. Can't have all 3 simultaneously. Most distributed systems sacrifice one."
+  },
+  {
+    "id": 175,
+    "topic": "Distributed Databases",
+    "question": "In CAP theorem, 'P' (Partition Tolerance) means:",
+    "options": {
+      "A": "Data is partitioned into tables",
+      "B": "System continues to operate despite network partitions/communication failures between nodes",
+      "C": "Data is encrypted",
+      "D": "Data is compressed"
+    },
+    "correct_answer": "B",
+    "explanation": "Partition tolerance = system works even when network between nodes fails. In real distributed systems, P is almost always necessary, so the choice is between C and A."
+  },
+  {
+    "id": 176,
+    "topic": "NoSQL & Modern Databases",
+    "question": "NoSQL stands for:",
+    "options": {
+      "A": "No Structured Query Language at all",
+      "B": "Not Only SQL — alternative to traditional relational databases",
+      "C": "New SQL",
+      "D": "No Sequel"
+    },
+    "correct_answer": "B",
+    "explanation": "NoSQL = Not Only SQL. It doesn't reject SQL entirely but offers alternatives for specific use cases (big data, flexible schema, horizontal scaling). A is too restrictive."
+  },
+  {
+    "id": 177,
+    "topic": "NoSQL & Modern Databases",
+    "question": "Types of NoSQL databases include:",
+    "options": {
+      "A": "Document, Key-Value, Column-Family, Graph",
+      "B": "Only Document databases",
+      "C": "Only Key-Value stores",
+      "D": "Only Relational databases"
+    },
+    "correct_answer": "A",
+    "explanation": "Four main types: Document (MongoDB), Key-Value (Redis), Column-Family (Cassandra), Graph (Neo4j). Each optimized for different use cases. B, C are incomplete. D is RDBMS."
+  },
+  {
+    "id": 178,
+    "topic": "NoSQL & Modern Databases",
+    "question": "MongoDB is an example of which NoSQL type?",
+    "options": {
+      "A": "Key-Value store",
+      "B": "Document database (stores JSON/BSON documents)",
+      "C": "Graph database",
+      "D": "Column-Family store"
+    },
+    "correct_answer": "B",
+    "explanation": "MongoDB = document store using BSON (Binary JSON). Flexible schema. A = Redis, DynamoDB. C = Neo4j. D = Cassandra, HBase."
+  },
+  {
+    "id": 179,
+    "topic": "NoSQL & Modern Databases",
+    "question": "Redis is an example of which NoSQL type?",
+    "options": {
+      "A": "Document store",
+      "B": "Graph database",
+      "C": "Key-Value store (in-memory)",
+      "D": "Column-Family store"
+    },
+    "correct_answer": "C",
+    "explanation": "Redis = in-memory key-value store. Used for caching, session management. Very fast. A = MongoDB. B = Neo4j. D = Cassandra."
+  },
+  {
+    "id": 180,
+    "topic": "NoSQL & Modern Databases",
+    "question": "Neo4j is an example of which NoSQL type?",
+    "options": {
+      "A": "Key-Value store",
+      "B": "Document store",
+      "C": "Column-Family store",
+      "D": "Graph database"
+    },
+    "correct_answer": "D",
+    "explanation": "Neo4j = graph database using nodes and edges. Best for relationships (social networks, recommendations). A = Redis. B = MongoDB. C = Cassandra."
+  },
+  {
+    "id": 181,
+    "topic": "NoSQL & Modern Databases",
+    "question": "Apache Cassandra is an example of which NoSQL type?",
+    "options": {
+      "A": "Document store",
+      "B": "Key-Value store",
+      "C": "Column-Family / Wide-Column store",
+      "D": "Graph database"
+    },
+    "correct_answer": "C",
+    "explanation": "Cassandra = column-family store. Designed for high availability, scalability. Used by Facebook, Netflix. A = MongoDB. B = Redis. D = Neo4j."
+  },
+  {
+    "id": 182,
+    "topic": "NoSQL & Modern Databases",
+    "question": "NoSQL databases are generally better than RDBMS for:",
+    "options": {
+      "A": "Complex multi-table joins and ACID transactions",
+      "B": "Handling large volumes of unstructured/semi-structured data with horizontal scalability",
+      "C": "Strict schema enforcement",
+      "D": "Complex SQL queries"
+    },
+    "correct_answer": "B",
+    "explanation": "NoSQL excels at big data, flexible schemas, horizontal scaling. RDBMS is better for ACID transactions, complex joins, strict schemas. A, C, D are RDBMS strengths."
+  },
+  {
+    "id": 183,
+    "topic": "NoSQL & Modern Databases",
+    "question": "BASE properties in NoSQL stand for:",
+    "options": {
+      "A": "Basic Availability, Soft state, Eventual consistency",
+      "B": "Binary Access, Structured Elements",
+      "C": "Backup And Storage Engine",
+      "D": "Big Analytics and Search Engine"
+    },
+    "correct_answer": "A",
+    "explanation": "BASE (opposite of ACID): Basically Available (system mostly works), Soft state (state may change without input), Eventually consistent (consistency achieved over time). B, C, D are made up."
+  },
+  {
+    "id": 184,
+    "topic": "NoSQL & Modern Databases",
+    "question": "Horizontal scaling (scale-out) means:",
+    "options": {
+      "A": "Adding more CPU/RAM to a single server",
+      "B": "Adding more servers/nodes to distribute the load",
+      "C": "Reducing the database size",
+      "D": "Removing servers"
+    },
+    "correct_answer": "B",
+    "explanation": "Horizontal scaling = add more machines (NoSQL strength). Vertical scaling (scale-up) = add more resources to one machine (RDBMS traditional approach). A = vertical scaling."
+  },
+  {
+    "id": 185,
+    "topic": "NoSQL & Modern Databases",
+    "question": "Sharding in databases means:",
+    "options": {
+      "A": "Backing up data",
+      "B": "Distributing data across multiple servers, each holding a subset (shard) of the data",
+      "C": "Encrypting data",
+      "D": "Compressing data"
+    },
+    "correct_answer": "B",
+    "explanation": "Sharding = horizontal partitioning across servers. Each shard holds part of the data. Enables horizontal scaling and parallel processing. A, C, D are different operations."
+  },
+  {
+    "id": 186,
+    "topic": "NoSQL & Modern Databases",
+    "question": "NewSQL databases aim to:",
+    "options": {
+      "A": "Replace all NoSQL databases",
+      "B": "Combine SQL/ACID guarantees of RDBMS with scalability of NoSQL",
+      "C": "Remove all data from databases",
+      "D": "Only work offline"
+    },
+    "correct_answer": "B",
+    "explanation": "NewSQL (e.g., CockroachDB, Google Spanner, VoltDB) provides ACID + horizontal scalability. Best of both worlds. A is too broad. C and D are incorrect."
+  },
+  {
+    "id": 187,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "A data warehouse is:",
+    "options": {
+      "A": "An operational database for daily transactions",
+      "B": "A subject-oriented, integrated, time-variant, non-volatile collection of data for decision support",
+      "C": "A backup system",
+      "D": "A type of NoSQL database"
+    },
+    "correct_answer": "B",
+    "explanation": "Data warehouse (Bill Inmon's definition): Subject-oriented (organized by topic), Integrated (from multiple sources), Time-variant (historical data), Non-volatile (read-mostly). A = OLTP."
+  },
+  {
+    "id": 188,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "OLTP vs OLAP — OLTP is for:",
+    "options": {
+      "A": "Complex analytical queries and reporting",
+      "B": "Day-to-day operational transactions (INSERT, UPDATE, DELETE)",
+      "C": "Data mining only",
+      "D": "Backup only"
+    },
+    "correct_answer": "B",
+    "explanation": "OLTP (Online Transaction Processing) = daily operations, many short transactions. OLAP (Online Analytical Processing) = complex queries, aggregations, reporting. A = OLAP."
+  },
+  {
+    "id": 189,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "OLAP (Online Analytical Processing) is used for:",
+    "options": {
+      "A": "Daily transaction processing",
+      "B": "Complex analytical queries, aggregations, reporting, and decision support",
+      "C": "Inserting individual records",
+      "D": "User authentication"
+    },
+    "correct_answer": "B",
+    "explanation": "OLAP = analytical/reporting workload. Complex queries on large data. Read-heavy. Uses data warehouse. A = OLTP. C is transactional. D is security."
+  },
+  {
+    "id": 190,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "Star schema in data warehouse consists of:",
+    "options": {
+      "A": "Only fact tables",
+      "B": "A central fact table surrounded by dimension tables (denormalized)",
+      "C": "Only dimension tables",
+      "D": "No tables at all"
+    },
+    "correct_answer": "B",
+    "explanation": "Star schema: central fact table (measures/metrics) connected to multiple dimension tables (descriptive attributes). Simple, fast queries. Dimension tables are denormalized."
+  },
+  {
+    "id": 191,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "Snowflake schema differs from star schema in that:",
+    "options": {
+      "A": "It has no fact table",
+      "B": "Dimension tables are normalized (split into sub-dimensions)",
+      "C": "It has no dimension tables",
+      "D": "It is identical to star schema"
+    },
+    "correct_answer": "B",
+    "explanation": "Snowflake = star schema with normalized dimension tables. Less redundancy but more joins needed. Star = denormalized dimensions (simpler, fewer joins). A, C are wrong. D is incorrect."
+  },
+  {
+    "id": 192,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "A fact table contains:",
+    "options": {
+      "A": "Only descriptive data",
+      "B": "Quantitative measures/metrics and foreign keys to dimension tables",
+      "C": "Only primary keys",
+      "D": "User passwords"
+    },
+    "correct_answer": "B",
+    "explanation": "Fact table stores measurable business data (sales amount, quantity, revenue) + FKs to dimensions (time, product, customer). A describes dimension tables. C and D are wrong."
+  },
+  {
+    "id": 193,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "A dimension table contains:",
+    "options": {
+      "A": "Quantitative measures",
+      "B": "Descriptive attributes that provide context to facts (e.g., product name, date, region)",
+      "C": "Only foreign keys",
+      "D": "Transaction logs"
+    },
+    "correct_answer": "B",
+    "explanation": "Dimension tables provide context/descriptive info: WHO, WHAT, WHERE, WHEN. Examples: Time dimension, Product dimension, Customer dimension. A = fact table."
+  },
+  {
+    "id": 194,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "ETL stands for:",
+    "options": {
+      "A": "Encrypt, Transfer, Load",
+      "B": "Extract, Transform, Load",
+      "C": "Execute, Test, Launch",
+      "D": "Enter, Tabulate, List"
+    },
+    "correct_answer": "B",
+    "explanation": "ETL: Extract (from sources) → Transform (clean, format, integrate) → Load (into data warehouse). Core process for populating data warehouses. A, C, D are fabricated."
+  },
+  {
+    "id": 195,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "OLAP operations include:",
+    "options": {
+      "A": "INSERT, UPDATE, DELETE",
+      "B": "Roll-up, Drill-down, Slice, Dice, Pivot",
+      "C": "CREATE, ALTER, DROP",
+      "D": "GRANT, REVOKE"
+    },
+    "correct_answer": "B",
+    "explanation": "OLAP operations: Roll-up (aggregate/summarize), Drill-down (more detail), Slice (one dimension fixed), Dice (sub-cube), Pivot (rotate axes). A = DML. C = DDL. D = DCL."
+  },
+  {
+    "id": 196,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "Roll-up in OLAP means:",
+    "options": {
+      "A": "Going to more detailed data",
+      "B": "Aggregating data — moving from detailed to summarized (e.g., daily → monthly → yearly)",
+      "C": "Deleting data",
+      "D": "Slicing data"
+    },
+    "correct_answer": "B",
+    "explanation": "Roll-up = aggregation up the hierarchy (less detail). Drill-down = disaggregation (more detail). A describes drill-down. C and D are different operations."
+  },
+  {
+    "id": 197,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "Drill-down in OLAP means:",
+    "options": {
+      "A": "Summarizing data to higher level",
+      "B": "Going from summarized to more detailed data (e.g., yearly → monthly → daily)",
+      "C": "Deleting data",
+      "D": "Creating new tables"
+    },
+    "correct_answer": "B",
+    "explanation": "Drill-down = more detail (navigate down the hierarchy). Opposite of roll-up. A describes roll-up. C and D are unrelated."
+  },
+  {
+    "id": 198,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "Data mining is:",
+    "options": {
+      "A": "Physically digging for data",
+      "B": "The process of discovering patterns, correlations, and knowledge from large datasets",
+      "C": "Deleting old data",
+      "D": "Creating databases"
+    },
+    "correct_answer": "B",
+    "explanation": "Data mining = Knowledge Discovery in Databases (KDD). Techniques: classification, clustering, association rules, regression. Finds hidden patterns. A is literal mining. C and D are unrelated."
+  },
+  {
+    "id": 199,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "Association rule mining finds:",
+    "options": {
+      "A": "Clusters of data",
+      "B": "Relationships/patterns like 'customers who buy X also buy Y' (market basket analysis)",
+      "C": "Outliers only",
+      "D": "Primary keys"
+    },
+    "correct_answer": "B",
+    "explanation": "Association rules: if-then patterns. Famous example: 'bread → butter' (Apriori algorithm). Metrics: support, confidence, lift. A = clustering. C = anomaly detection."
+  },
+  {
+    "id": 200,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "Classification in data mining is:",
+    "options": {
+      "A": "Grouping similar data without labels",
+      "B": "Predicting a categorical label/class for new data based on training data (supervised learning)",
+      "C": "Deleting duplicates",
+      "D": "Sorting data alphabetically"
+    },
+    "correct_answer": "B",
+    "explanation": "Classification = supervised learning (labeled data). Predicts category (spam/not spam, fraud/legit). Algorithms: Decision Tree, Naive Bayes, SVM. A = clustering (unsupervised)."
+  },
+  {
+    "id": 201,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "Clustering in data mining is:",
+    "options": {
+      "A": "Predicting known labels",
+      "B": "Grouping similar data points together without predefined labels (unsupervised learning)",
+      "C": "Sorting data",
+      "D": "Deleting data"
+    },
+    "correct_answer": "B",
+    "explanation": "Clustering = unsupervised learning. Groups similar items without pre-labeled categories. Algorithms: K-Means, DBSCAN, Hierarchical. A = classification (supervised). C, D are unrelated."
+  },
+  {
+    "id": 202,
+    "topic": "Data Warehousing & Data Mining",
+    "question": "A data mart is:",
+    "options": {
+      "A": "The same as a data warehouse",
+      "B": "A subset of a data warehouse focused on a specific department or business area",
+      "C": "A type of NoSQL database",
+      "D": "A data backup"
+    },
+    "correct_answer": "B",
+    "explanation": "Data mart = focused subset of data warehouse for a specific department (sales, HR, finance). Smaller, faster to build. Data warehouse covers entire organization. A, C, D are incorrect."
+  },
+  {
+    "id": 203,
+    "topic": "Database Design & Normalization",
+    "question": "An anomaly-free database design typically requires at least:",
+    "options": {
+      "A": "1NF",
+      "B": "3NF or BCNF",
+      "C": "No normal form",
+      "D": "Only having one table"
+    },
+    "correct_answer": "B",
+    "explanation": "3NF/BCNF eliminates most anomalies (insertion, update, deletion). 1NF alone still has anomalies. Most practical databases aim for 3NF or BCNF. D increases anomalies."
+  },
+  {
+    "id": 204,
+    "topic": "Transaction Management",
+    "question": "A cascading rollback occurs when:",
+    "options": {
+      "A": "Only one transaction rolls back",
+      "B": "Failure of one transaction causes other dependent transactions to also roll back",
+      "C": "All transactions commit",
+      "D": "No transactions are running"
+    },
+    "correct_answer": "B",
+    "explanation": "Cascading rollback: T2 reads data written by T1. If T1 aborts, T2 must also abort (read dirty data). Strict 2PL prevents this. A is simple rollback. C is normal success."
+  },
+  {
+    "id": 205,
+    "topic": "Concurrency Control",
+    "question": "In Wound-Wait scheme:",
+    "options": {
+      "A": "Older transaction waits for younger",
+      "B": "Older transaction wounds (forces rollback of) younger; younger waits for older",
+      "C": "Both wait forever",
+      "D": "Both are aborted"
+    },
+    "correct_answer": "B",
+    "explanation": "Wound-Wait: if requesting is OLDER → wounds (aborts) younger. If requesting is YOUNGER → waits. Preemptive scheme. A describes Wait-Die."
+  },
+  {
+    "id": 206,
+    "topic": "Indexing & File Organization",
+    "question": "The advantage of indexing is:",
+    "options": {
+      "A": "Slower queries",
+      "B": "Faster data retrieval but slower INSERT/UPDATE/DELETE due to index maintenance",
+      "C": "No effect on performance",
+      "D": "Reduced storage space"
+    },
+    "correct_answer": "B",
+    "explanation": "Indexes speed up SELECT but slow down writes (INSERT/UPDATE/DELETE) because index must be updated too. Also uses additional storage. Trade-off between read and write performance."
+  },
+  {
+    "id": 207,
+    "topic": "Structured Query Language (SQL)",
+    "question": "Which clause is used to limit the number of rows returned?",
+    "options": {
+      "A": "WHERE",
+      "B": "GROUP BY",
+      "C": "LIMIT (MySQL) / TOP (SQL Server) / FETCH FIRST (Standard SQL)",
+      "D": "HAVING"
+    },
+    "correct_answer": "C",
+    "explanation": "LIMIT n (MySQL/PostgreSQL), TOP n (SQL Server), FETCH FIRST n ROWS ONLY (ANSI SQL) restrict output rows. WHERE filters rows based on conditions. GROUP BY groups rows. HAVING filters groups."
+  }
+]
