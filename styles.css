@@ -237,14 +237,14 @@ html.dark .tab-btn-active {
 }
 
 .question-card {
-  font-size: 1.25rem;
-  border-radius: 1.5rem;
-  border: 2.5px solid #0e7490;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: 2px solid #0e7490;
   box-shadow:
-    0 8px 32px -8px #0e7490cc,
-    0 1.5px 0 #fff;
+    0 6px 24px -6px #0e7490cc,
+    0 1px 0 #fff;
   background: linear-gradient(120deg, #f0fdfa 80%, #e0f2fe 100%);
-  padding: 2.2rem 1.5rem;
+  padding: 1.5rem 1.25rem;
 }
 
 html.dark .question-card {
@@ -256,9 +256,9 @@ html.dark .question-card {
 }
 
 .question-title {
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
   color: #0e7490;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.01em;
 }
 
@@ -267,8 +267,8 @@ html.dark .question-title {
 }
 
 .question-tag {
-  font-size: 1.1rem;
-  padding: 0.4rem 1.1rem;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.75rem;
   background: #e0f2fe;
   color: #0e7490;
   font-weight: 700;
@@ -280,10 +280,10 @@ html.dark .question-tag {
 }
 
 .option-btn {
-  font-size: 1.15rem;
-  padding: 1.1rem 1.2rem;
-  border-radius: 1.1rem;
-  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 0.25rem;
 }
 
 .option-btn.selected {
@@ -323,9 +323,9 @@ html.dark .option-btn.wrong {
 }
 
 .action-btn {
-  font-size: 1.15rem;
-  padding: 0.9rem 1.3rem;
-  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.75rem;
   font-weight: 700;
   background: linear-gradient(135deg, #0f766e, #0e7490);
   color: #fff;
@@ -345,9 +345,9 @@ html.dark .option-btn.wrong {
 }
 
 .answer-box {
-  font-size: 1.1rem;
-  padding: 1rem 1.2rem;
-  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.75rem;
 }
 
 html.dark .answer-box {
@@ -357,7 +357,7 @@ html.dark .answer-box {
 
 body,
 html {
-  font-size: 22px;
+  font-size: 16px;
   background: #f0fdfa;
 }
 
@@ -430,18 +430,43 @@ html.dark .ql-snow .ql-picker-label {
 }
 
 @media (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+
   .question-card {
-    padding: 0.9rem;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .question-title {
+    font-size: 1.25rem !important;
+  }
+
+  html.dark .question-title {
+    color: var(--dark-text);
+  }
+
+  .question-prompt {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
   }
 
   .option-btn {
-    font-size: 0.9rem;
-    padding: 0.65rem 0.75rem;
+    font-size: 0.95rem;
+    padding: 0.8rem 1rem;
+    border-radius: 0.75rem;
   }
 
   .action-btn {
-    font-size: 0.88rem;
-    padding: 0.55rem 0.8rem;
+    font-size: 0.95rem;
+    padding: 0.7rem 1rem;
+    border-radius: 0.75rem;
+  }
+
+  .tab-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
   }
 }
 

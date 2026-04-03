@@ -112,6 +112,26 @@
           >
             DSA MCQ
           </button>
+          <button
+            id="tab-btn-os"
+            class="tab-btn"
+            type="button"
+            role="tab"
+            aria-controls="tab-os"
+            aria-selected="false"
+          >
+            Operating System MCQS
+          </button>
+          <button
+            id="tab-btn-ai"
+            class="tab-btn"
+            type="button"
+            role="tab"
+            aria-controls="tab-ai"
+            aria-selected="false"
+          >
+            AI MCQS
+          </button>
         </div>
       </header>
 
@@ -163,6 +183,46 @@
       <section id="tab-dsa" class="space-y-5 hidden">
         <div>
           <section id="dsa-container" class="space-y-5"></section>
+        </div>
+      </section>
+
+      <section id="tab-os" class="space-y-5 hidden">
+        <div>
+          <section
+            class="mb-6 grid grid-cols-1 gap-3 rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft backdrop-blur-sm sm:grid-cols-2"
+          >
+            <button id="new-random-os" class="action-btn w-full" type="button">
+              Shuffle MCQ Order
+            </button>
+            <button
+              id="toggle-all-os-answers"
+              class="action-btn alt-btn w-full"
+              type="button"
+            >
+              Show Answers For All
+            </button>
+          </section>
+          <section id="os-container" class="space-y-5"></section>
+        </div>
+      </section>
+
+      <section id="tab-ai" class="space-y-5 hidden">
+        <div>
+          <section
+            class="mb-6 grid grid-cols-1 gap-3 rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft backdrop-blur-sm sm:grid-cols-2"
+          >
+            <button id="new-random-ai" class="action-btn w-full" type="button">
+              Shuffle MCQ Order
+            </button>
+            <button
+              id="toggle-all-ai-answers"
+              class="action-btn alt-btn w-full"
+              type="button"
+            >
+              Show Answers For All
+            </button>
+          </section>
+          <section id="ai-container" class="space-y-5"></section>
         </div>
       </section>
 

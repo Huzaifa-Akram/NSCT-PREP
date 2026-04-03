@@ -1,0 +1,2212 @@
+[
+  {
+    "id": 1,
+    "topic": "Introduction to AI/ML",
+    "question": "Artificial Intelligence (AI) is best defined as:",
+    "options": {
+      "A": "Only writing code in Python",
+      "B": "The ability of machines to mimic human intelligence",
+      "C": "Storing data in databases",
+      "D": "A type of computer hardware"
+    },
+    "correct_answer": "B",
+    "explanation": "AI refers to systems that can perform tasks requiring human intelligence such as reasoning, learning, perception, and decision-making."
+  },
+  {
+    "id": 2,
+    "topic": "Introduction to AI/ML",
+    "question": "Which statement is correct about AI, ML, and Deep Learning?",
+    "options": {
+      "A": "AI is a subset of ML",
+      "B": "ML is a subset of AI, and Deep Learning is a subset of ML",
+      "C": "Deep Learning is larger than AI",
+      "D": "They are all exactly the same"
+    },
+    "correct_answer": "B",
+    "explanation": "AI is the broadest field, ML is a subset of AI, and Deep Learning is a subset of ML."
+  },
+  {
+    "id": 3,
+    "topic": "Introduction to AI/ML",
+    "question": "Which of the following is an example of Narrow AI?",
+    "options": {
+      "A": "A system with human-level intelligence in all domains",
+      "B": "A machine more intelligent than all humans combined",
+      "C": "A spam email classifier",
+      "D": "A machine with full self-awareness"
+    },
+    "correct_answer": "C",
+    "explanation": "Narrow AI is specialized for one task, such as spam detection, recommendation systems, or voice assistants."
+  },
+  {
+    "id": 4,
+    "topic": "Introduction to AI/ML",
+    "question": "General AI refers to:",
+    "options": {
+      "A": "AI that works only for games",
+      "B": "AI with human-level intelligence across all tasks",
+      "C": "AI trained on general datasets only",
+      "D": "Any chatbot"
+    },
+    "correct_answer": "B",
+    "explanation": "General AI means human-like intelligence that can perform any intellectual task a human can do. It does not yet exist."
+  },
+  {
+    "id": 5,
+    "topic": "Introduction to AI/ML",
+    "question": "Which type of machine learning uses labeled data?",
+    "options": {
+      "A": "Unsupervised Learning",
+      "B": "Reinforcement Learning",
+      "C": "Supervised Learning",
+      "D": "Self-Learning"
+    },
+    "correct_answer": "C",
+    "explanation": "Supervised learning trains on labeled examples where both input and correct output are known."
+  },
+  {
+    "id": 6,
+    "topic": "Introduction to AI/ML",
+    "question": "Which type of machine learning finds patterns in unlabeled data?",
+    "options": {
+      "A": "Supervised Learning",
+      "B": "Unsupervised Learning",
+      "C": "Reinforcement Learning",
+      "D": "Transfer Learning"
+    },
+    "correct_answer": "B",
+    "explanation": "Unsupervised learning works with unlabeled data to discover structure, clusters, or lower-dimensional representations."
+  },
+  {
+    "id": 7,
+    "topic": "Introduction to AI/ML",
+    "question": "Reinforcement Learning is based on:",
+    "options": {
+      "A": "Learning from rewards and penalties",
+      "B": "Only labeled training data",
+      "C": "Only clustering",
+      "D": "Storing all training data in memory"
+    },
+    "correct_answer": "A",
+    "explanation": "Reinforcement learning learns by interacting with an environment and receiving rewards or penalties."
+  },
+  {
+    "id": 8,
+    "topic": "Data Analytics",
+    "question": "Which type of analytics answers the question 'What happened?'",
+    "options": {
+      "A": "Predictive Analytics",
+      "B": "Prescriptive Analytics",
+      "C": "Descriptive Analytics",
+      "D": "Diagnostic Analytics"
+    },
+    "correct_answer": "C",
+    "explanation": "Descriptive analytics summarizes historical data to explain what happened."
+  },
+  {
+    "id": 9,
+    "topic": "Data Analytics",
+    "question": "Which type of analytics answers the question 'Why did it happen?'",
+    "options": {
+      "A": "Diagnostic Analytics",
+      "B": "Predictive Analytics",
+      "C": "Descriptive Analytics",
+      "D": "Prescriptive Analytics"
+    },
+    "correct_answer": "A",
+    "explanation": "Diagnostic analytics investigates causes and reasons behind past events."
+  },
+  {
+    "id": 10,
+    "topic": "Data Analytics",
+    "question": "Which type of analytics predicts future outcomes?",
+    "options": {
+      "A": "Descriptive",
+      "B": "Diagnostic",
+      "C": "Predictive",
+      "D": "Manual"
+    },
+    "correct_answer": "C",
+    "explanation": "Predictive analytics uses historical data and models to forecast future events."
+  },
+  {
+    "id": 11,
+    "topic": "Mathematical Foundations",
+    "question": "A scalar is:",
+    "options": {
+      "A": "A single number",
+      "B": "A 1D list of numbers",
+      "C": "A 2D array of numbers",
+      "D": "A graph"
+    },
+    "correct_answer": "A",
+    "explanation": "A scalar is just one numerical value."
+  },
+  {
+    "id": 12,
+    "topic": "Mathematical Foundations",
+    "question": "A vector is:",
+    "options": {
+      "A": "A single value",
+      "B": "A 1D array of numbers",
+      "C": "A 3D matrix only",
+      "D": "A probability value"
+    },
+    "correct_answer": "B",
+    "explanation": "A vector is a one-dimensional collection of numbers."
+  },
+  {
+    "id": 13,
+    "topic": "Mathematical Foundations",
+    "question": "A matrix is:",
+    "options": {
+      "A": "A single number",
+      "B": "A 1D array",
+      "C": "A 2D array of numbers",
+      "D": "A loss function"
+    },
+    "correct_answer": "C",
+    "explanation": "A matrix is a two-dimensional arrangement of numbers, often used to represent datasets."
+  },
+  {
+    "id": 14,
+    "topic": "Mathematical Foundations",
+    "question": "Which measure represents the average value of a dataset?",
+    "options": {
+      "A": "Median",
+      "B": "Mean",
+      "C": "Mode",
+      "D": "Variance"
+    },
+    "correct_answer": "B",
+    "explanation": "Mean is the arithmetic average of data points."
+  },
+  {
+    "id": 15,
+    "topic": "Mathematical Foundations",
+    "question": "Which measure is the middle value after sorting the data?",
+    "options": {
+      "A": "Mean",
+      "B": "Median",
+      "C": "Mode",
+      "D": "Range"
+    },
+    "correct_answer": "B",
+    "explanation": "Median is the middle observation in sorted order."
+  },
+  {
+    "id": 16,
+    "topic": "Mathematical Foundations",
+    "question": "Which measure represents the most frequent value in a dataset?",
+    "options": {
+      "A": "Mean",
+      "B": "Median",
+      "C": "Mode",
+      "D": "Variance"
+    },
+    "correct_answer": "C",
+    "explanation": "Mode is the value that appears most frequently."
+  },
+  {
+    "id": 17,
+    "topic": "Mathematical Foundations",
+    "question": "Correlation values lie between:",
+    "options": {
+      "A": "0 and 10",
+      "B": "-1 and 1",
+      "C": "-10 and 10",
+      "D": "0 and 100"
+    },
+    "correct_answer": "B",
+    "explanation": "Correlation ranges from -1 (perfect negative) to +1 (perfect positive)."
+  },
+  {
+    "id": 18,
+    "topic": "Mathematical Foundations",
+    "question": "A correlation of 0 indicates:",
+    "options": {
+      "A": "Perfect positive relationship",
+      "B": "Perfect negative relationship",
+      "C": "No linear relationship",
+      "D": "Data error"
+    },
+    "correct_answer": "C",
+    "explanation": "A correlation of 0 suggests no linear relationship between variables."
+  },
+  {
+    "id": 19,
+    "topic": "Mathematical Foundations",
+    "question": "Gradient Descent is used for:",
+    "options": {
+      "A": "Data visualization",
+      "B": "Optimizing/minimizing a loss function",
+      "C": "Only clustering",
+      "D": "Removing duplicates"
+    },
+    "correct_answer": "B",
+    "explanation": "Gradient descent updates parameters to minimize the loss function."
+  },
+  {
+    "id": 20,
+    "topic": "Python for AI",
+    "question": "Which Python library is most commonly used for numerical computing and arrays?",
+    "options": {
+      "A": "Pandas",
+      "B": "NumPy",
+      "C": "Seaborn",
+      "D": "Flask"
+    },
+    "correct_answer": "B",
+    "explanation": "NumPy provides efficient numerical arrays and mathematical operations."
+  },
+  {
+    "id": 21,
+    "topic": "Python for AI",
+    "question": "Which Python library is mainly used for tabular data manipulation?",
+    "options": {
+      "A": "NumPy",
+      "B": "Pandas",
+      "C": "TensorFlow",
+      "D": "OpenCV"
+    },
+    "correct_answer": "B",
+    "explanation": "Pandas is used for DataFrames, data cleaning, and analysis."
+  },
+  {
+    "id": 22,
+    "topic": "Python for AI",
+    "question": "Which library is most commonly used for traditional machine learning models in Python?",
+    "options": {
+      "A": "Scikit-learn",
+      "B": "Matplotlib",
+      "C": "NLTK",
+      "D": "PyGame"
+    },
+    "correct_answer": "A",
+    "explanation": "Scikit-learn provides a wide range of ML algorithms and utilities."
+  },
+  {
+    "id": 23,
+    "topic": "Python for AI",
+    "question": "Which library is used for basic plotting and visualization?",
+    "options": {
+      "A": "Seaborn only",
+      "B": "Matplotlib",
+      "C": "TensorFlow",
+      "D": "PyTorch"
+    },
+    "correct_answer": "B",
+    "explanation": "Matplotlib is widely used for line plots, histograms, bar charts, and more."
+  },
+  {
+    "id": 24,
+    "topic": "Python for AI",
+    "question": "Which deep learning framework was developed by Google?",
+    "options": {
+      "A": "PyTorch",
+      "B": "TensorFlow",
+      "C": "Pandas",
+      "D": "NLTK"
+    },
+    "correct_answer": "B",
+    "explanation": "TensorFlow is a major deep learning framework developed by Google."
+  },
+  {
+    "id": 25,
+    "topic": "Python for AI",
+    "question": "Which library is famous for computer vision tasks in Python?",
+    "options": {
+      "A": "OpenCV",
+      "B": "NumPy",
+      "C": "Scikit-learn",
+      "D": "Statsmodels"
+    },
+    "correct_answer": "A",
+    "explanation": "OpenCV is widely used for image processing and computer vision."
+  },
+  {
+    "id": 26,
+    "topic": "Data Collection & Pre-processing",
+    "question": "Which of the following is a numerical continuous variable?",
+    "options": {
+      "A": "Color",
+      "B": "Height",
+      "C": "City",
+      "D": "Gender"
+    },
+    "correct_answer": "B",
+    "explanation": "Continuous variables can take any value within a range, such as height or temperature."
+  },
+  {
+    "id": 27,
+    "topic": "Data Collection & Pre-processing",
+    "question": "Which of the following is a numerical discrete variable?",
+    "options": {
+      "A": "Weight",
+      "B": "Age in exact decimal years",
+      "C": "Number of students in a class",
+      "D": "Temperature"
+    },
+    "correct_answer": "C",
+    "explanation": "Discrete variables take countable values, such as number of students."
+  },
+  {
+    "id": 28,
+    "topic": "Data Collection & Pre-processing",
+    "question": "Which type of categorical variable has a meaningful order?",
+    "options": {
+      "A": "Nominal",
+      "B": "Ordinal",
+      "C": "Continuous",
+      "D": "Discrete"
+    },
+    "correct_answer": "B",
+    "explanation": "Ordinal variables have categories with order, e.g., low, medium, high."
+  },
+  {
+    "id": 29,
+    "topic": "Data Collection & Pre-processing",
+    "question": "Replacing missing numerical values with the average is called:",
+    "options": {
+      "A": "Label encoding",
+      "B": "Mean imputation",
+      "C": "Normalization",
+      "D": "Sampling"
+    },
+    "correct_answer": "B",
+    "explanation": "Mean imputation replaces missing numerical values with the mean of that feature."
+  },
+  {
+    "id": 30,
+    "topic": "Data Collection & Pre-processing",
+    "question": "For categorical missing values, a common imputation method is:",
+    "options": {
+      "A": "Mean",
+      "B": "Median",
+      "C": "Mode",
+      "D": "Standard deviation"
+    },
+    "correct_answer": "C",
+    "explanation": "Mode imputation replaces missing categorical values with the most frequent category."
+  },
+  {
+    "id": 31,
+    "topic": "Data Collection & Pre-processing",
+    "question": "Which method is commonly used to detect outliers using quartiles?",
+    "options": {
+      "A": "Gradient method",
+      "B": "IQR method",
+      "C": "Tokenization",
+      "D": "Cross-validation"
+    },
+    "correct_answer": "B",
+    "explanation": "The Interquartile Range (IQR) method detects values below Q1 - 1.5×IQR or above Q3 + 1.5×IQR."
+  },
+  {
+    "id": 32,
+    "topic": "Data Collection & Pre-processing",
+    "question": "Min-Max normalization scales data to:",
+    "options": {
+      "A": "[-1, 1] only",
+      "B": "[0, 1]",
+      "C": "[1, 100]",
+      "D": "Any random range"
+    },
+    "correct_answer": "B",
+    "explanation": "Min-Max scaling transforms values to the [0,1] range using (x-min)/(max-min)."
+  },
+  {
+    "id": 33,
+    "topic": "Data Collection & Pre-processing",
+    "question": "Standardization transforms data so that it usually has:",
+    "options": {
+      "A": "Mean = 1 and std = 0",
+      "B": "Mean = 0 and std = 1",
+      "C": "Min = 0 and max = 1",
+      "D": "Only positive values"
+    },
+    "correct_answer": "B",
+    "explanation": "Z-score standardization transforms data to mean 0 and standard deviation 1."
+  },
+  {
+    "id": 34,
+    "topic": "Data Collection & Pre-processing",
+    "question": "Which encoding method is best for nominal categories like Red, Blue, Green?",
+    "options": {
+      "A": "Label Encoding only",
+      "B": "One-Hot Encoding",
+      "C": "Mean Encoding only",
+      "D": "Min-Max Encoding"
+    },
+    "correct_answer": "B",
+    "explanation": "One-hot encoding avoids implying order among nominal categories."
+  },
+  {
+    "id": 35,
+    "topic": "Data Collection & Pre-processing",
+    "question": "Which encoding is more suitable for ordinal data like Low, Medium, High?",
+    "options": {
+      "A": "Label Encoding",
+      "B": "One-Hot only",
+      "C": "Histogram Encoding",
+      "D": "Random Encoding"
+    },
+    "correct_answer": "A",
+    "explanation": "Ordinal data has an inherent order, so label encoding can preserve that order."
+  },
+  {
+    "id": 36,
+    "topic": "Data Collection & Pre-processing",
+    "question": "Why do we split data into train and test sets?",
+    "options": {
+      "A": "To reduce storage",
+      "B": "To evaluate model performance on unseen data",
+      "C": "To make graphs prettier",
+      "D": "To remove outliers"
+    },
+    "correct_answer": "B",
+    "explanation": "The model is trained on training data and evaluated on test data to check generalization."
+  },
+  {
+    "id": 37,
+    "topic": "EDA",
+    "question": "EDA stands for:",
+    "options": {
+      "A": "External Data Access",
+      "B": "Exploratory Data Analysis",
+      "C": "Extended Deep Analytics",
+      "D": "Error Detection Algorithm"
+    },
+    "correct_answer": "B",
+    "explanation": "EDA means exploring and summarizing data visually and statistically before modeling."
+  },
+  {
+    "id": 38,
+    "topic": "EDA",
+    "question": "Which plot is most suitable for showing the distribution of a numerical variable?",
+    "options": {
+      "A": "Histogram",
+      "B": "Pie chart",
+      "C": "Confusion matrix",
+      "D": "Tree diagram"
+    },
+    "correct_answer": "A",
+    "explanation": "A histogram shows the frequency distribution of numerical data."
+  },
+  {
+    "id": 39,
+    "topic": "EDA",
+    "question": "Which plot is commonly used to detect outliers?",
+    "options": {
+      "A": "Scatter plot",
+      "B": "Box plot",
+      "C": "Heatmap",
+      "D": "Line plot"
+    },
+    "correct_answer": "B",
+    "explanation": "Box plots show quartiles, spread, and outliers clearly."
+  },
+  {
+    "id": 40,
+    "topic": "EDA",
+    "question": "Which plot is useful for visualizing correlation among features?",
+    "options": {
+      "A": "Heatmap",
+      "B": "Pie chart",
+      "C": "Area chart",
+      "D": "Dendrogram"
+    },
+    "correct_answer": "A",
+    "explanation": "A correlation heatmap shows pairwise relationships among variables."
+  },
+  {
+    "id": 41,
+    "topic": "Supervised Learning",
+    "question": "Supervised learning is mainly divided into:",
+    "options": {
+      "A": "Clustering and PCA",
+      "B": "Classification and Regression",
+      "C": "Bagging and Boosting",
+      "D": "Training and Testing"
+    },
+    "correct_answer": "B",
+    "explanation": "Supervised learning includes classification for categories and regression for numerical values."
+  },
+  {
+    "id": 42,
+    "topic": "Supervised Learning",
+    "question": "Predicting whether an email is spam or not spam is an example of:",
+    "options": {
+      "A": "Regression",
+      "B": "Clustering",
+      "C": "Classification",
+      "D": "Dimensionality reduction"
+    },
+    "correct_answer": "C",
+    "explanation": "Spam/not spam is a discrete class prediction, so it is classification."
+  },
+  {
+    "id": 43,
+    "topic": "Supervised Learning",
+    "question": "Predicting house price is an example of:",
+    "options": {
+      "A": "Classification",
+      "B": "Regression",
+      "C": "Clustering",
+      "D": "Tokenization"
+    },
+    "correct_answer": "B",
+    "explanation": "House price is a continuous numeric value, so this is regression."
+  },
+  {
+    "id": 44,
+    "topic": "Supervised Learning - Logistic Regression",
+    "question": "Despite its name, Logistic Regression is mainly used for:",
+    "options": {
+      "A": "Regression only",
+      "B": "Classification",
+      "C": "Clustering",
+      "D": "Data cleaning"
+    },
+    "correct_answer": "B",
+    "explanation": "Logistic Regression is mainly a classification algorithm, especially for binary classification."
+  },
+  {
+    "id": 45,
+    "topic": "Supervised Learning - Logistic Regression",
+    "question": "Logistic Regression commonly uses which function to map outputs into probabilities?",
+    "options": {
+      "A": "ReLU",
+      "B": "Sigmoid",
+      "C": "Softmax only",
+      "D": "Tanh"
+    },
+    "correct_answer": "B",
+    "explanation": "Logistic Regression uses the sigmoid function to produce outputs between 0 and 1."
+  },
+  {
+    "id": 46,
+    "topic": "Supervised Learning - KNN",
+    "question": "KNN predicts class based on:",
+    "options": {
+      "A": "Decision rules only",
+      "B": "Majority vote of nearest neighbors",
+      "C": "Gradient descent",
+      "D": "Random guessing"
+    },
+    "correct_answer": "B",
+    "explanation": "K-Nearest Neighbors classifies a point based on the majority class among its nearest neighbors."
+  },
+  {
+    "id": 47,
+    "topic": "Supervised Learning - KNN",
+    "question": "KNN is sensitive to feature scaling because it relies on:",
+    "options": {
+      "A": "Entropy",
+      "B": "Distance calculations",
+      "C": "Tree depth",
+      "D": "Token counts"
+    },
+    "correct_answer": "B",
+    "explanation": "KNN uses distances such as Euclidean distance, so larger-scale features can dominate if scaling is not applied."
+  },
+  {
+    "id": 48,
+    "topic": "Supervised Learning - Decision Tree",
+    "question": "Decision Trees are known for being:",
+    "options": {
+      "A": "Impossible to interpret",
+      "B": "Highly interpretable",
+      "C": "Only used for images",
+      "D": "Always underfitting"
+    },
+    "correct_answer": "B",
+    "explanation": "Decision trees are easy to understand because they use if-else style splits."
+  },
+  {
+    "id": 49,
+    "topic": "Supervised Learning - Decision Tree",
+    "question": "A major drawback of Decision Trees is:",
+    "options": {
+      "A": "They cannot classify",
+      "B": "They are always too simple",
+      "C": "They are prone to overfitting",
+      "D": "They require only text data"
+    },
+    "correct_answer": "C",
+    "explanation": "Single decision trees can memorize training data too closely, leading to overfitting."
+  },
+  {
+    "id": 50,
+    "topic": "Supervised Learning - Decision Tree",
+    "question": "Which criteria are commonly used for Decision Tree splitting?",
+    "options": {
+      "A": "Gini impurity and entropy/information gain",
+      "B": "Only Euclidean distance",
+      "C": "Only RMSE",
+      "D": "Only ROC-AUC"
+    },
+    "correct_answer": "A",
+    "explanation": "Decision trees commonly use Gini impurity or entropy/information gain to choose the best split."
+  },
+  {
+    "id": 51,
+    "topic": "Supervised Learning - SVM",
+    "question": "Support Vector Machine tries to:",
+    "options": {
+      "A": "Find a hyperplane with maximum margin between classes",
+      "B": "Count word frequencies",
+      "C": "Generate images",
+      "D": "Remove missing values"
+    },
+    "correct_answer": "A",
+    "explanation": "SVM finds the optimal separating hyperplane that maximizes margin between classes."
+  },
+  {
+    "id": 52,
+    "topic": "Supervised Learning - SVM",
+    "question": "The data points closest to the SVM hyperplane are called:",
+    "options": {
+      "A": "Centroids",
+      "B": "Support Vectors",
+      "C": "Clusters",
+      "D": "Residuals"
+    },
+    "correct_answer": "B",
+    "explanation": "Support vectors are the key points that define the margin in SVM."
+  },
+  {
+    "id": 53,
+    "topic": "Supervised Learning - Naive Bayes",
+    "question": "Naive Bayes is based on:",
+    "options": {
+      "A": "K-Means formula",
+      "B": "Bayes' Theorem",
+      "C": "Gradient Boosting",
+      "D": "Euclidean norm only"
+    },
+    "correct_answer": "B",
+    "explanation": "Naive Bayes applies Bayes' theorem with an independence assumption among features."
+  },
+  {
+    "id": 54,
+    "topic": "Supervised Learning - Naive Bayes",
+    "question": "Naive Bayes is especially useful for:",
+    "options": {
+      "A": "Object detection",
+      "B": "Text classification",
+      "C": "Image segmentation only",
+      "D": "Disk scheduling"
+    },
+    "correct_answer": "B",
+    "explanation": "Naive Bayes performs well in spam detection, sentiment analysis, and other text classification tasks."
+  },
+  {
+    "id": 55,
+    "topic": "Regression",
+    "question": "Linear Regression predicts:",
+    "options": {
+      "A": "Categories only",
+      "B": "Continuous numerical values",
+      "C": "Clusters",
+      "D": "Only binary outputs"
+    },
+    "correct_answer": "B",
+    "explanation": "Linear regression predicts continuous outputs like price, salary, or temperature."
+  },
+  {
+    "id": 56,
+    "topic": "Regression",
+    "question": "Which equation best represents simple linear regression?",
+    "options": {
+      "A": "y = mx + b",
+      "B": "y = x^x",
+      "C": "y = log(x) only",
+      "D": "y = 1/x only"
+    },
+    "correct_answer": "A",
+    "explanation": "Simple linear regression models the target as y = mx + b."
+  },
+  {
+    "id": 57,
+    "topic": "Regression",
+    "question": "Polynomial Regression is useful when the relationship between variables is:",
+    "options": {
+      "A": "Perfectly categorical",
+      "B": "Curved/non-linear",
+      "C": "Always random",
+      "D": "Only binary"
+    },
+    "correct_answer": "B",
+    "explanation": "Polynomial regression can model curved relationships by adding higher-degree terms."
+  },
+  {
+    "id": 58,
+    "topic": "Regression",
+    "question": "Which regularization technique can shrink some coefficients exactly to zero?",
+    "options": {
+      "A": "Ridge Regression",
+      "B": "Lasso Regression",
+      "C": "KNN Regression",
+      "D": "PCA"
+    },
+    "correct_answer": "B",
+    "explanation": "Lasso (L1) regularization can force coefficients to zero, effectively performing feature selection."
+  },
+  {
+    "id": 59,
+    "topic": "Regression",
+    "question": "Ridge Regression uses:",
+    "options": {
+      "A": "L1 regularization",
+      "B": "L2 regularization",
+      "C": "No regularization",
+      "D": "Only one-hot encoding"
+    },
+    "correct_answer": "B",
+    "explanation": "Ridge uses L2 regularization to shrink coefficients without usually setting them exactly to zero."
+  },
+  {
+    "id": 60,
+    "topic": "Overfitting/Underfitting",
+    "question": "A model that performs very well on training data but poorly on test data is likely:",
+    "options": {
+      "A": "Underfitting",
+      "B": "Overfitting",
+      "C": "Perfectly generalized",
+      "D": "Unsupervised"
+    },
+    "correct_answer": "B",
+    "explanation": "Overfitting means the model memorized training data and does not generalize well to unseen data."
+  },
+  {
+    "id": 61,
+    "topic": "Overfitting/Underfitting",
+    "question": "A model with high error on both training and test data is likely:",
+    "options": {
+      "A": "Overfitting",
+      "B": "Underfitting",
+      "C": "Ensembling",
+      "D": "Regularized correctly"
+    },
+    "correct_answer": "B",
+    "explanation": "Underfitting happens when the model is too simple to capture patterns in the data."
+  },
+  {
+    "id": 62,
+    "topic": "Overfitting/Underfitting",
+    "question": "High bias is associated with:",
+    "options": {
+      "A": "Overfitting",
+      "B": "Underfitting",
+      "C": "Perfect fit",
+      "D": "Data augmentation"
+    },
+    "correct_answer": "B",
+    "explanation": "High bias means the model is too simple and underfits."
+  },
+  {
+    "id": 63,
+    "topic": "Overfitting/Underfitting",
+    "question": "High variance is associated with:",
+    "options": {
+      "A": "Underfitting",
+      "B": "Overfitting",
+      "C": "Always good generalization",
+      "D": "Only regression"
+    },
+    "correct_answer": "B",
+    "explanation": "High variance models are too sensitive to training data and tend to overfit."
+  },
+  {
+    "id": 64,
+    "topic": "Overfitting/Underfitting",
+    "question": "Which is a common way to reduce overfitting?",
+    "options": {
+      "A": "Use more complex models only",
+      "B": "Use regularization or simpler models",
+      "C": "Remove test data",
+      "D": "Never split the data"
+    },
+    "correct_answer": "B",
+    "explanation": "Overfitting can be reduced by regularization, more data, simpler models, pruning, dropout, and cross-validation."
+  },
+  {
+    "id": 65,
+    "topic": "Ensemble Learning",
+    "question": "Ensemble learning means:",
+    "options": {
+      "A": "Using one very weak model only",
+      "B": "Combining multiple models to build a stronger predictor",
+      "C": "Using only unsupervised learning",
+      "D": "Ignoring model evaluation"
+    },
+    "correct_answer": "B",
+    "explanation": "Ensemble methods combine several models to improve robustness and predictive performance."
+  },
+  {
+    "id": 66,
+    "topic": "Ensemble Learning",
+    "question": "Bagging stands for:",
+    "options": {
+      "A": "Bias Aggregation",
+      "B": "Bootstrap Aggregating",
+      "C": "Balanced Graphing",
+      "D": "Boosted Aggregation"
+    },
+    "correct_answer": "B",
+    "explanation": "Bagging means Bootstrap Aggregating: train models on bootstrap samples and combine their outputs."
+  },
+  {
+    "id": 67,
+    "topic": "Ensemble Learning",
+    "question": "Bagging mainly helps reduce:",
+    "options": {
+      "A": "Bias",
+      "B": "Variance",
+      "C": "All data",
+      "D": "Class labels"
+    },
+    "correct_answer": "B",
+    "explanation": "Bagging reduces variance and helps control overfitting."
+  },
+  {
+    "id": 68,
+    "topic": "Ensemble Learning",
+    "question": "Boosting mainly helps reduce:",
+    "options": {
+      "A": "Bias",
+      "B": "Only memory usage",
+      "C": "Dimensionality",
+      "D": "Token count"
+    },
+    "correct_answer": "A",
+    "explanation": "Boosting sequentially corrects errors of earlier models, mainly reducing bias."
+  },
+  {
+    "id": 69,
+    "topic": "Ensemble Learning",
+    "question": "Which statement is correct?",
+    "options": {
+      "A": "Bagging trains models sequentially",
+      "B": "Boosting trains models independently in parallel",
+      "C": "Bagging trains models in parallel, Boosting trains sequentially",
+      "D": "Both are exactly the same"
+    },
+    "correct_answer": "C",
+    "explanation": "Bagging uses independent models in parallel; boosting builds models one after another."
+  },
+  {
+    "id": 70,
+    "topic": "Ensemble Learning",
+    "question": "Random Forest is an ensemble of:",
+    "options": {
+      "A": "SVM models",
+      "B": "Decision Trees",
+      "C": "KNN models only",
+      "D": "CNN layers"
+    },
+    "correct_answer": "B",
+    "explanation": "Random Forest combines many decision trees using bagging and random feature selection."
+  },
+  {
+    "id": 71,
+    "topic": "Ensemble Learning",
+    "question": "Random Forest reduces overfitting compared to a single Decision Tree because it uses:",
+    "options": {
+      "A": "Only one deep tree",
+      "B": "Many trees and randomization",
+      "C": "No training data",
+      "D": "Only text data"
+    },
+    "correct_answer": "B",
+    "explanation": "By averaging/voting across many randomized trees, Random Forest reduces variance and overfitting."
+  },
+  {
+    "id": 72,
+    "topic": "Ensemble Learning",
+    "question": "Which boosting algorithm is especially popular in competitions and practice?",
+    "options": {
+      "A": "Naive Bayes",
+      "B": "XGBoost",
+      "C": "PCA",
+      "D": "K-Means"
+    },
+    "correct_answer": "B",
+    "explanation": "XGBoost is a highly optimized gradient boosting algorithm and is very popular in ML competitions."
+  },
+  {
+    "id": 73,
+    "topic": "Ensemble Learning",
+    "question": "Stacking combines base models using:",
+    "options": {
+      "A": "A meta-model",
+      "B": "Only K-Means",
+      "C": "Only dropout",
+      "D": "Random deletion"
+    },
+    "correct_answer": "A",
+    "explanation": "In stacking, outputs of base learners are fed into a meta-model that learns how to combine them."
+  },
+  {
+    "id": 74,
+    "topic": "Unsupervised Learning - Clustering",
+    "question": "K-Means is used for:",
+    "options": {
+      "A": "Classification",
+      "B": "Regression",
+      "C": "Clustering",
+      "D": "Translation"
+    },
+    "correct_answer": "C",
+    "explanation": "K-Means is an unsupervised clustering algorithm that groups similar data points."
+  },
+  {
+    "id": 75,
+    "topic": "Unsupervised Learning - Clustering",
+    "question": "In K-Means, K represents:",
+    "options": {
+      "A": "Number of features",
+      "B": "Number of classes in training labels",
+      "C": "Number of clusters",
+      "D": "Number of epochs"
+    },
+    "correct_answer": "C",
+    "explanation": "K specifies how many clusters the algorithm should create."
+  },
+  {
+    "id": 76,
+    "topic": "Unsupervised Learning - Clustering",
+    "question": "Which method is commonly used to choose the best K in K-Means?",
+    "options": {
+      "A": "ROC Curve",
+      "B": "Elbow Method",
+      "C": "Confusion Matrix",
+      "D": "Dropout"
+    },
+    "correct_answer": "B",
+    "explanation": "The Elbow Method plots WCSS vs K and looks for the bend point."
+  },
+  {
+    "id": 77,
+    "topic": "Unsupervised Learning - Clustering",
+    "question": "K-Means works best when clusters are:",
+    "options": {
+      "A": "Arbitrary shapes",
+      "B": "Spherical and well separated",
+      "C": "Always text-only",
+      "D": "Hierarchical only"
+    },
+    "correct_answer": "B",
+    "explanation": "K-Means assumes roughly spherical clusters around centroids."
+  },
+  {
+    "id": 78,
+    "topic": "Unsupervised Learning - Clustering",
+    "question": "Which clustering method can automatically identify noise/outliers?",
+    "options": {
+      "A": "K-Means",
+      "B": "DBSCAN",
+      "C": "Linear Regression",
+      "D": "Naive Bayes"
+    },
+    "correct_answer": "B",
+    "explanation": "DBSCAN is density-based and can mark sparse points as noise."
+  },
+  {
+    "id": 79,
+    "topic": "Unsupervised Learning - Clustering",
+    "question": "A dendrogram is associated with:",
+    "options": {
+      "A": "K-Means",
+      "B": "Hierarchical Clustering",
+      "C": "Logistic Regression",
+      "D": "Random Forest"
+    },
+    "correct_answer": "B",
+    "explanation": "Hierarchical clustering results are often visualized using a dendrogram."
+  },
+  {
+    "id": 80,
+    "topic": "Unsupervised Learning - Dimensionality Reduction",
+    "question": "PCA stands for:",
+    "options": {
+      "A": "Primary Cluster Analysis",
+      "B": "Principal Component Analysis",
+      "C": "Probabilistic Classification Algorithm",
+      "D": "Projected Correlation Analysis"
+    },
+    "correct_answer": "B",
+    "explanation": "PCA is Principal Component Analysis, a dimensionality reduction technique."
+  },
+  {
+    "id": 81,
+    "topic": "Unsupervised Learning - Dimensionality Reduction",
+    "question": "PCA is mainly used to:",
+    "options": {
+      "A": "Increase the number of features",
+      "B": "Reduce dimensions while preserving variance",
+      "C": "Assign class labels",
+      "D": "Only tokenize text"
+    },
+    "correct_answer": "B",
+    "explanation": "PCA reduces feature dimensions by projecting data onto principal components with maximum variance."
+  },
+  {
+    "id": 82,
+    "topic": "Model Evaluation",
+    "question": "In a confusion matrix, TP stands for:",
+    "options": {
+      "A": "True Prediction",
+      "B": "True Positive",
+      "C": "Total Positive",
+      "D": "Training Positive"
+    },
+    "correct_answer": "B",
+    "explanation": "TP means True Positive: a positive case correctly predicted as positive."
+  },
+  {
+    "id": 83,
+    "topic": "Model Evaluation",
+    "question": "In a confusion matrix, FP stands for:",
+    "options": {
+      "A": "False Positive",
+      "B": "Final Positive",
+      "C": "Feature Positive",
+      "D": "Free Parameter"
+    },
+    "correct_answer": "A",
+    "explanation": "FP means False Positive: predicted positive but actually negative."
+  },
+  {
+    "id": 84,
+    "topic": "Model Evaluation",
+    "question": "Accuracy is calculated as:",
+    "options": {
+      "A": "TP / (TP + FP)",
+      "B": "(TP + TN) / Total",
+      "C": "TP / (TP + FN)",
+      "D": "2PR / (P + R)"
+    },
+    "correct_answer": "B",
+    "explanation": "Accuracy is the proportion of all correct predictions over total predictions."
+  },
+  {
+    "id": 85,
+    "topic": "Model Evaluation",
+    "question": "Precision is:",
+    "options": {
+      "A": "TP / (TP + FP)",
+      "B": "TP / (TP + FN)",
+      "C": "(TP + TN)/Total",
+      "D": "TN / (TN + FP)"
+    },
+    "correct_answer": "A",
+    "explanation": "Precision measures how many predicted positives are actually positive."
+  },
+  {
+    "id": 86,
+    "topic": "Model Evaluation",
+    "question": "Recall (Sensitivity) is:",
+    "options": {
+      "A": "TP / (TP + FP)",
+      "B": "TN / (TN + FP)",
+      "C": "TP / (TP + FN)",
+      "D": "FP / (FP + TN)"
+    },
+    "correct_answer": "C",
+    "explanation": "Recall measures how many actual positive cases were correctly identified."
+  },
+  {
+    "id": 87,
+    "topic": "Model Evaluation",
+    "question": "F1 Score is best described as:",
+    "options": {
+      "A": "Arithmetic mean of TN and TP",
+      "B": "Harmonic mean of Precision and Recall",
+      "C": "Only a regression metric",
+      "D": "A clustering metric"
+    },
+    "correct_answer": "B",
+    "explanation": "F1 Score balances Precision and Recall using their harmonic mean."
+  },
+  {
+    "id": 88,
+    "topic": "Model Evaluation",
+    "question": "For highly imbalanced datasets, relying only on accuracy can be misleading. This is called:",
+    "options": {
+      "A": "Accuracy Paradox",
+      "B": "Bias-Variance tradeoff",
+      "C": "Belady's anomaly",
+      "D": "Dimensional curse"
+    },
+    "correct_answer": "A",
+    "explanation": "A model can achieve high accuracy on imbalanced data by ignoring the minority class."
+  },
+  {
+    "id": 89,
+    "topic": "Model Evaluation",
+    "question": "ROC curve plots:",
+    "options": {
+      "A": "Precision vs Recall",
+      "B": "True Positive Rate vs False Positive Rate",
+      "C": "Loss vs Epochs",
+      "D": "MSE vs RMSE"
+    },
+    "correct_answer": "B",
+    "explanation": "ROC plots TPR against FPR at different threshold settings."
+  },
+  {
+    "id": 90,
+    "topic": "Model Evaluation",
+    "question": "An AUC of 0.5 indicates:",
+    "options": {
+      "A": "Perfect model",
+      "B": "Excellent model",
+      "C": "Random guessing",
+      "D": "Always overfitted"
+    },
+    "correct_answer": "C",
+    "explanation": "AUC = 0.5 means the model is no better than random classification."
+  },
+  {
+    "id": 91,
+    "topic": "Model Evaluation - Regression",
+    "question": "Which metric is commonly used for regression?",
+    "options": {
+      "A": "Precision",
+      "B": "Recall",
+      "C": "MSE",
+      "D": "F1 Score"
+    },
+    "correct_answer": "C",
+    "explanation": "Mean Squared Error (MSE) is a standard regression metric."
+  },
+  {
+    "id": 92,
+    "topic": "Model Evaluation - Regression",
+    "question": "MAE stands for:",
+    "options": {
+      "A": "Mean Absolute Error",
+      "B": "Maximum Average Error",
+      "C": "Mean Approximation Estimate",
+      "D": "Median Absolute Error"
+    },
+    "correct_answer": "A",
+    "explanation": "MAE is the average of absolute differences between actual and predicted values."
+  },
+  {
+    "id": 93,
+    "topic": "Model Evaluation - Regression",
+    "question": "R² score of 1.0 means:",
+    "options": {
+      "A": "Worst possible regression model",
+      "B": "Perfect regression fit",
+      "C": "Random model",
+      "D": "No variance"
+    },
+    "correct_answer": "B",
+    "explanation": "R² = 1.0 indicates the model explains all the variance in the target."
+  },
+  {
+    "id": 94,
+    "topic": "Validation",
+    "question": "K-Fold Cross-Validation means:",
+    "options": {
+      "A": "Using only one train-test split forever",
+      "B": "Splitting data into K parts and rotating the test fold",
+      "C": "Using only the test set for training",
+      "D": "Removing K features"
+    },
+    "correct_answer": "B",
+    "explanation": "In K-fold CV, data is split into K folds and each fold gets a turn as the validation/test set."
+  },
+  {
+    "id": 95,
+    "topic": "Validation",
+    "question": "A common value of K in K-Fold Cross-Validation is:",
+    "options": {
+      "A": "1 only",
+      "B": "5 or 10",
+      "C": "100 only",
+      "D": "0"
+    },
+    "correct_answer": "B",
+    "explanation": "5-fold and 10-fold cross-validation are commonly used choices."
+  },
+  {
+    "id": 96,
+    "topic": "Validation",
+    "question": "Stratified K-Fold is especially useful when:",
+    "options": {
+      "A": "Data is image only",
+      "B": "Classes are imbalanced and class proportions should be preserved",
+      "C": "There is no target variable",
+      "D": "Only regression is used"
+    },
+    "correct_answer": "B",
+    "explanation": "Stratified K-Fold preserves class distribution in each fold."
+  },
+  {
+    "id": 97,
+    "topic": "Feature Engineering & Selection",
+    "question": "Feature engineering means:",
+    "options": {
+      "A": "Deleting all features",
+      "B": "Creating useful new features from existing data",
+      "C": "Only selecting labels",
+      "D": "Only plotting graphs"
+    },
+    "correct_answer": "B",
+    "explanation": "Feature engineering creates informative features that help models learn better."
+  },
+  {
+    "id": 98,
+    "topic": "Feature Engineering & Selection",
+    "question": "Extracting day, month, and year from a date column is an example of:",
+    "options": {
+      "A": "Tokenization",
+      "B": "Feature engineering",
+      "C": "Overfitting",
+      "D": "Clustering"
+    },
+    "correct_answer": "B",
+    "explanation": "Creating day/month/year from date is a common feature engineering technique."
+  },
+  {
+    "id": 99,
+    "topic": "Feature Engineering & Selection",
+    "question": "Feature selection is useful because it can:",
+    "options": {
+      "A": "Increase overfitting only",
+      "B": "Reduce irrelevant features and improve performance",
+      "C": "Remove all labels",
+      "D": "Only make plots"
+    },
+    "correct_answer": "B",
+    "explanation": "Removing irrelevant or noisy features can improve model accuracy, speed, and interpretability."
+  },
+  {
+    "id": 100,
+    "topic": "Feature Engineering & Selection",
+    "question": "Which feature selection method uses statistical tests independently of a model?",
+    "options": {
+      "A": "Filter method",
+      "B": "Wrapper method",
+      "C": "Embedded only",
+      "D": "Gradient method"
+    },
+    "correct_answer": "A",
+    "explanation": "Filter methods use statistical measures like correlation or chi-square without training a predictive model."
+  },
+  {
+    "id": 101,
+    "topic": "Feature Engineering & Selection",
+    "question": "Which feature selection method tries different feature subsets by training models repeatedly?",
+    "options": {
+      "A": "Filter",
+      "B": "Wrapper",
+      "C": "Encoding",
+      "D": "Normalization"
+    },
+    "correct_answer": "B",
+    "explanation": "Wrapper methods evaluate subsets by actually training models, making them accurate but computationally expensive."
+  },
+  {
+    "id": 102,
+    "topic": "Feature Engineering & Selection",
+    "question": "Which feature selection method is built into the learning algorithm itself?",
+    "options": {
+      "A": "Filter",
+      "B": "Wrapper",
+      "C": "Embedded",
+      "D": "Manual only"
+    },
+    "correct_answer": "C",
+    "explanation": "Embedded methods perform feature selection during model training, such as Lasso or tree-based importance."
+  },
+  {
+    "id": 103,
+    "topic": "Feature Engineering & Selection",
+    "question": "The curse of dimensionality refers to:",
+    "options": {
+      "A": "Too few features",
+      "B": "Problems caused by too many features in high-dimensional space",
+      "C": "Only memory overflow",
+      "D": "A plotting issue"
+    },
+    "correct_answer": "B",
+    "explanation": "As dimensions increase, data becomes sparse and models often need much more data to generalize well."
+  },
+  {
+    "id": 104,
+    "topic": "Deep Learning Fundamentals",
+    "question": "Deep Learning is mainly based on:",
+    "options": {
+      "A": "Decision tables only",
+      "B": "Artificial Neural Networks with many layers",
+      "C": "Simple averages only",
+      "D": "Sorting algorithms"
+    },
+    "correct_answer": "B",
+    "explanation": "Deep learning uses multi-layer neural networks to learn complex patterns."
+  },
+  {
+    "id": 105,
+    "topic": "Deep Learning Fundamentals",
+    "question": "A neural network usually contains:",
+    "options": {
+      "A": "Only one layer",
+      "B": "Input layer, hidden layer(s), and output layer",
+      "C": "Only output layer",
+      "D": "Only clustering layer"
+    },
+    "correct_answer": "B",
+    "explanation": "Typical neural networks consist of input, hidden, and output layers."
+  },
+  {
+    "id": 106,
+    "topic": "Deep Learning Fundamentals",
+    "question": "In a neuron, weights and inputs are combined using:",
+    "options": {
+      "A": "Only multiplication by zero",
+      "B": "Weighted sum plus bias",
+      "C": "Only subtraction",
+      "D": "Tokenization"
+    },
+    "correct_answer": "B",
+    "explanation": "A neuron computes z = w1x1 + w2x2 + ... + b, then applies an activation function."
+  },
+  {
+    "id": 107,
+    "topic": "Activation Functions",
+    "question": "Which activation function is most commonly used in hidden layers of deep networks?",
+    "options": {
+      "A": "Sigmoid",
+      "B": "ReLU",
+      "C": "Softmax",
+      "D": "Identity only"
+    },
+    "correct_answer": "B",
+    "explanation": "ReLU is widely used because it is simple and helps deep networks train efficiently."
+  },
+  {
+    "id": 108,
+    "topic": "Activation Functions",
+    "question": "Which activation function is commonly used for binary classification output?",
+    "options": {
+      "A": "Sigmoid",
+      "B": "ReLU",
+      "C": "Leaky ReLU",
+      "D": "Max Pooling"
+    },
+    "correct_answer": "A",
+    "explanation": "Sigmoid maps values to (0,1), making it suitable for binary probability outputs."
+  },
+  {
+    "id": 109,
+    "topic": "Activation Functions",
+    "question": "Which activation function is commonly used for multi-class classification output?",
+    "options": {
+      "A": "Tanh",
+      "B": "ReLU",
+      "C": "Softmax",
+      "D": "Linear"
+    },
+    "correct_answer": "C",
+    "explanation": "Softmax converts logits into class probabilities that sum to 1."
+  },
+  {
+    "id": 110,
+    "topic": "Activation Functions",
+    "question": "Leaky ReLU is mainly used to address:",
+    "options": {
+      "A": "Underflow in databases",
+      "B": "The dying ReLU problem",
+      "C": "Overfitting in KNN",
+      "D": "Lack of labels"
+    },
+    "correct_answer": "B",
+    "explanation": "Leaky ReLU allows a small gradient for negative inputs, helping avoid dead neurons."
+  },
+  {
+    "id": 111,
+    "topic": "Deep Learning Fundamentals",
+    "question": "Forward propagation means:",
+    "options": {
+      "A": "Passing data from input to output through the network",
+      "B": "Sending errors backward only",
+      "C": "Removing neurons",
+      "D": "Clustering hidden layers"
+    },
+    "correct_answer": "A",
+    "explanation": "Forward propagation computes predictions by passing input through the network."
+  },
+  {
+    "id": 112,
+    "topic": "Deep Learning Fundamentals",
+    "question": "Backpropagation is used to:",
+    "options": {
+      "A": "Split data into clusters",
+      "B": "Update weights using gradients from the loss",
+      "C": "Resize images",
+      "D": "Tokenize text"
+    },
+    "correct_answer": "B",
+    "explanation": "Backpropagation computes gradients of the loss w.r.t. weights and helps optimize the network."
+  },
+  {
+    "id": 113,
+    "topic": "Deep Learning Fundamentals",
+    "question": "An epoch in deep learning is:",
+    "options": {
+      "A": "One neuron",
+      "B": "One complete pass through the training dataset",
+      "C": "One feature",
+      "D": "One test example"
+    },
+    "correct_answer": "B",
+    "explanation": "An epoch means the model has seen the entire training dataset once."
+  },
+  {
+    "id": 114,
+    "topic": "Deep Learning Fundamentals",
+    "question": "Batch size refers to:",
+    "options": {
+      "A": "Total number of features",
+      "B": "Number of samples processed before updating weights",
+      "C": "Only test samples",
+      "D": "Number of output classes"
+    },
+    "correct_answer": "B",
+    "explanation": "Batch size is the number of training examples processed before performing a gradient update."
+  },
+  {
+    "id": 115,
+    "topic": "Deep Learning Fundamentals",
+    "question": "Learning rate controls:",
+    "options": {
+      "A": "Image size",
+      "B": "Step size of parameter updates",
+      "C": "Number of classes",
+      "D": "Only accuracy display"
+    },
+    "correct_answer": "B",
+    "explanation": "Learning rate determines how large each update step is during optimization."
+  },
+  {
+    "id": 116,
+    "topic": "Deep Learning Fundamentals",
+    "question": "Which optimizer is the most commonly used default choice in deep learning?",
+    "options": {
+      "A": "Random Search",
+      "B": "Adam",
+      "C": "K-Means",
+      "D": "PCA"
+    },
+    "correct_answer": "B",
+    "explanation": "Adam is widely used because it adapts learning rates and often converges quickly."
+  },
+  {
+    "id": 117,
+    "topic": "Deep Learning Fundamentals",
+    "question": "Which training variant uses the full dataset before one update step?",
+    "options": {
+      "A": "Stochastic Gradient Descent",
+      "B": "Mini-Batch Gradient Descent",
+      "C": "Batch Gradient Descent",
+      "D": "Random Forest"
+    },
+    "correct_answer": "C",
+    "explanation": "Batch GD uses the entire dataset for each parameter update."
+  },
+  {
+    "id": 118,
+    "topic": "Deep Learning Fundamentals",
+    "question": "Dropout is mainly used to:",
+    "options": {
+      "A": "Increase overfitting",
+      "B": "Prevent overfitting by randomly disabling neurons during training",
+      "C": "Normalize data",
+      "D": "Split data"
+    },
+    "correct_answer": "B",
+    "explanation": "Dropout regularizes networks by randomly dropping neurons during training."
+  },
+  {
+    "id": 119,
+    "topic": "Deep Learning Fundamentals",
+    "question": "Binary classification in deep learning commonly uses which loss?",
+    "options": {
+      "A": "Binary Cross-Entropy",
+      "B": "K-Means loss",
+      "C": "Only MAE",
+      "D": "Silhouette score"
+    },
+    "correct_answer": "A",
+    "explanation": "Binary cross-entropy is a standard loss for binary classification."
+  },
+  {
+    "id": 120,
+    "topic": "Deep Learning Fundamentals",
+    "question": "Multi-class classification in deep learning commonly uses:",
+    "options": {
+      "A": "Categorical Cross-Entropy",
+      "B": "Only RMSE",
+      "C": "Only MAE",
+      "D": "Gini only"
+    },
+    "correct_answer": "A",
+    "explanation": "Categorical cross-entropy is commonly used for multi-class classification."
+  },
+  {
+    "id": 121,
+    "topic": "Deep Learning Fundamentals",
+    "question": "Regression in neural networks commonly uses which loss?",
+    "options": {
+      "A": "Categorical Cross-Entropy",
+      "B": "Mean Squared Error",
+      "C": "Softmax loss only",
+      "D": "Precision loss"
+    },
+    "correct_answer": "B",
+    "explanation": "MSE is a common regression loss in neural networks."
+  },
+  {
+    "id": 122,
+    "topic": "CNN",
+    "question": "CNN stands for:",
+    "options": {
+      "A": "Central Neural Network",
+      "B": "Convolutional Neural Network",
+      "C": "Conditional Numeric Network",
+      "D": "Clustered Neural Node"
+    },
+    "correct_answer": "B",
+    "explanation": "CNN stands for Convolutional Neural Network, widely used in image tasks."
+  },
+  {
+    "id": 123,
+    "topic": "CNN",
+    "question": "CNNs are best suited for:",
+    "options": {
+      "A": "Image data",
+      "B": "Only tabular data",
+      "C": "Only sorting",
+      "D": "Only database indexing"
+    },
+    "correct_answer": "A",
+    "explanation": "CNNs are highly effective for images due to convolutional filters that capture spatial patterns."
+  },
+  {
+    "id": 124,
+    "topic": "CNN",
+    "question": "Pooling layers in CNNs are used to:",
+    "options": {
+      "A": "Increase image size",
+      "B": "Reduce spatial dimensions",
+      "C": "Create labels",
+      "D": "Only normalize text"
+    },
+    "correct_answer": "B",
+    "explanation": "Pooling reduces feature map size and helps make representations more compact."
+  },
+  {
+    "id": 125,
+    "topic": "CNN",
+    "question": "Which famous CNN architecture introduced skip connections?",
+    "options": {
+      "A": "LeNet",
+      "B": "VGG",
+      "C": "ResNet",
+      "D": "AlexNet"
+    },
+    "correct_answer": "C",
+    "explanation": "ResNet introduced residual/skip connections that helped train very deep networks."
+  },
+  {
+    "id": 126,
+    "topic": "Advanced Deep Learning",
+    "question": "RNN stands for:",
+    "options": {
+      "A": "Random Neural Network",
+      "B": "Recurrent Neural Network",
+      "C": "Recursive Numeric Node",
+      "D": "Residual Neural Network"
+    },
+    "correct_answer": "B",
+    "explanation": "RNN stands for Recurrent Neural Network, designed for sequential data."
+  },
+  {
+    "id": 127,
+    "topic": "Advanced Deep Learning",
+    "question": "RNNs are best suited for:",
+    "options": {
+      "A": "Image pixels only",
+      "B": "Sequential data such as text or time series",
+      "C": "Only clustering",
+      "D": "Only feature scaling"
+    },
+    "correct_answer": "B",
+    "explanation": "RNNs process sequences by maintaining hidden state across time steps."
+  },
+  {
+    "id": 128,
+    "topic": "Advanced Deep Learning",
+    "question": "Which model was designed to solve the vanishing gradient problem in RNNs?",
+    "options": {
+      "A": "LSTM",
+      "B": "K-Means",
+      "C": "Naive Bayes",
+      "D": "PCA"
+    },
+    "correct_answer": "A",
+    "explanation": "LSTM uses gates to preserve long-term information and reduce vanishing gradients."
+  },
+  {
+    "id": 129,
+    "topic": "Advanced Deep Learning",
+    "question": "GAN stands for:",
+    "options": {
+      "A": "Generalized Activation Network",
+      "B": "Generative Adversarial Network",
+      "C": "Grouped Attention Network",
+      "D": "Graph Analytic Network"
+    },
+    "correct_answer": "B",
+    "explanation": "GANs involve a generator and discriminator competing against each other."
+  },
+  {
+    "id": 130,
+    "topic": "Advanced Deep Learning",
+    "question": "GANs are mainly used for:",
+    "options": {
+      "A": "Data cleaning only",
+      "B": "Generating realistic synthetic data",
+      "C": "Only feature scaling",
+      "D": "Only sorting images"
+    },
+    "correct_answer": "B",
+    "explanation": "GANs are used for generating images, art, deepfakes, and data augmentation."
+  },
+  {
+    "id": 131,
+    "topic": "Advanced Deep Learning",
+    "question": "The key innovation of Transformers is:",
+    "options": {
+      "A": "Only max pooling",
+      "B": "Self-attention mechanism",
+      "C": "Only Euclidean distance",
+      "D": "Only tree pruning"
+    },
+    "correct_answer": "B",
+    "explanation": "Transformers rely on attention, allowing tokens to attend to each other in parallel."
+  },
+  {
+    "id": 132,
+    "topic": "Advanced Deep Learning",
+    "question": "Compared to RNNs, Transformers have the advantage of:",
+    "options": {
+      "A": "Processing tokens strictly one-by-one only",
+      "B": "Parallel processing of tokens",
+      "C": "No parameters",
+      "D": "Only working on images"
+    },
+    "correct_answer": "B",
+    "explanation": "Transformers can process all tokens in parallel, unlike sequential RNNs."
+  },
+  {
+    "id": 133,
+    "topic": "Natural Language Processing",
+    "question": "NLP stands for:",
+    "options": {
+      "A": "Neural Learning Process",
+      "B": "Natural Language Processing",
+      "C": "Numeric Logic Programming",
+      "D": "Network Language Prediction"
+    },
+    "correct_answer": "B",
+    "explanation": "NLP is the field of enabling machines to process and understand human language."
+  },
+  {
+    "id": 134,
+    "topic": "Natural Language Processing",
+    "question": "Tokenization means:",
+    "options": {
+      "A": "Removing all punctuation only",
+      "B": "Splitting text into smaller units such as words or sentences",
+      "C": "Converting text into images",
+      "D": "Only translating text"
+    },
+    "correct_answer": "B",
+    "explanation": "Tokenization breaks text into tokens such as words or sentences."
+  },
+  {
+    "id": 135,
+    "topic": "Natural Language Processing",
+    "question": "Which of the following is a stop word?",
+    "options": {
+      "A": "machine",
+      "B": "learning",
+      "C": "the",
+      "D": "algorithm"
+    },
+    "correct_answer": "C",
+    "explanation": "Stop words are very common words like 'the', 'is', 'a', often removed during preprocessing."
+  },
+  {
+    "id": 136,
+    "topic": "Natural Language Processing",
+    "question": "Which method usually gives a proper dictionary root word?",
+    "options": {
+      "A": "Stemming",
+      "B": "Lemmatization",
+      "C": "One-Hot Encoding",
+      "D": "K-Means"
+    },
+    "correct_answer": "B",
+    "explanation": "Lemmatization returns valid root/base forms, unlike stemming which may chop words crudely."
+  },
+  {
+    "id": 137,
+    "topic": "Natural Language Processing",
+    "question": "Bag of Words represents text by:",
+    "options": {
+      "A": "Word order and grammar fully",
+      "B": "Counting word occurrences",
+      "C": "Image embeddings",
+      "D": "Only sentiment labels"
+    },
+    "correct_answer": "B",
+    "explanation": "Bag of Words counts vocabulary occurrences but ignores word order and context."
+  },
+  {
+    "id": 138,
+    "topic": "Natural Language Processing",
+    "question": "TF-IDF gives lower weight to:",
+    "options": {
+      "A": "Rare important words",
+      "B": "Common words appearing in many documents",
+      "C": "Unique terms",
+      "D": "All nouns only"
+    },
+    "correct_answer": "B",
+    "explanation": "TF-IDF downweights frequent common words and upweights informative rare words."
+  },
+  {
+    "id": 139,
+    "topic": "Natural Language Processing",
+    "question": "Word2Vec and GloVe are examples of:",
+    "options": {
+      "A": "Classification algorithms",
+      "B": "Word embeddings",
+      "C": "Clustering methods",
+      "D": "Loss functions"
+    },
+    "correct_answer": "B",
+    "explanation": "Word2Vec and GloVe create dense vector representations of words capturing semantic relationships."
+  },
+  {
+    "id": 140,
+    "topic": "Natural Language Processing",
+    "question": "Which NLP task identifies names of people, places, and organizations in text?",
+    "options": {
+      "A": "Sentiment Analysis",
+      "B": "Named Entity Recognition",
+      "C": "Stemming",
+      "D": "Topic Modeling only"
+    },
+    "correct_answer": "B",
+    "explanation": "NER detects and labels entities such as persons, locations, and organizations."
+  },
+  {
+    "id": 141,
+    "topic": "Natural Language Processing",
+    "question": "BERT is mainly known for:",
+    "options": {
+      "A": "Bidirectional contextual understanding of language",
+      "B": "Only image generation",
+      "C": "Only clustering text",
+      "D": "Only simple regression"
+    },
+    "correct_answer": "A",
+    "explanation": "BERT reads context in both directions and is strong for understanding tasks."
+  },
+  {
+    "id": 142,
+    "topic": "Natural Language Processing",
+    "question": "GPT models are especially strong at:",
+    "options": {
+      "A": "Text generation",
+      "B": "Only PCA",
+      "C": "Only stop-word removal",
+      "D": "Only image segmentation"
+    },
+    "correct_answer": "A",
+    "explanation": "GPT is autoregressive and designed to generate coherent text."
+  },
+  {
+    "id": 143,
+    "topic": "Computer Vision",
+    "question": "Assigning a single label to an entire image is called:",
+    "options": {
+      "A": "Object Detection",
+      "B": "Image Classification",
+      "C": "Segmentation",
+      "D": "Tracking"
+    },
+    "correct_answer": "B",
+    "explanation": "Image classification predicts one or more labels for the whole image."
+  },
+  {
+    "id": 144,
+    "topic": "Computer Vision",
+    "question": "Finding objects and drawing bounding boxes around them is called:",
+    "options": {
+      "A": "Image Classification",
+      "B": "Object Detection",
+      "C": "Text Summarization",
+      "D": "Clustering"
+    },
+    "correct_answer": "B",
+    "explanation": "Object detection identifies and localizes objects in an image."
+  },
+  {
+    "id": 145,
+    "topic": "Computer Vision",
+    "question": "Labeling every pixel in an image belongs to:",
+    "options": {
+      "A": "Classification",
+      "B": "Segmentation",
+      "C": "Regression",
+      "D": "Tokenization"
+    },
+    "correct_answer": "B",
+    "explanation": "Image segmentation classifies pixels, often used in medical imaging and scene parsing."
+  },
+  {
+    "id": 146,
+    "topic": "Computer Vision",
+    "question": "Data augmentation helps by:",
+    "options": {
+      "A": "Reducing dataset size",
+      "B": "Creating modified versions of training images to improve generalization",
+      "C": "Removing labels",
+      "D": "Converting all images to text"
+    },
+    "correct_answer": "B",
+    "explanation": "Augmentation like flips, rotations, crops, and brightness changes increases effective training data."
+  },
+  {
+    "id": 147,
+    "topic": "Computer Vision",
+    "question": "YOLO is famous for:",
+    "options": {
+      "A": "Real-time object detection",
+      "B": "Only clustering",
+      "C": "Only translation",
+      "D": "Only tabular regression"
+    },
+    "correct_answer": "A",
+    "explanation": "YOLO (You Only Look Once) is a fast real-time object detection model."
+  },
+  {
+    "id": 148,
+    "topic": "Big Data Analytics",
+    "question": "Big Data is often described using the 5 V's. Which of the following is one of them?",
+    "options": {
+      "A": "Visibility",
+      "B": "Validity",
+      "C": "Velocity",
+      "D": "Virtualization"
+    },
+    "correct_answer": "C",
+    "explanation": "The 5 V's are Volume, Velocity, Variety, Veracity, and Value."
+  },
+  {
+    "id": 149,
+    "topic": "Big Data Analytics",
+    "question": "Which Big Data characteristic refers to the speed at which data is generated?",
+    "options": {
+      "A": "Volume",
+      "B": "Velocity",
+      "C": "Variety",
+      "D": "Value"
+    },
+    "correct_answer": "B",
+    "explanation": "Velocity refers to the speed of data generation and processing."
+  },
+  {
+    "id": 150,
+    "topic": "Big Data Analytics",
+    "question": "Which Big Data characteristic refers to different forms of data such as text, video, and logs?",
+    "options": {
+      "A": "Veracity",
+      "B": "Velocity",
+      "C": "Variety",
+      "D": "Volume"
+    },
+    "correct_answer": "C",
+    "explanation": "Variety refers to multiple data types and formats."
+  },
+  {
+    "id": 151,
+    "topic": "Big Data Analytics",
+    "question": "Which framework is known for in-memory fast big data processing?",
+    "options": {
+      "A": "Hadoop MapReduce",
+      "B": "Spark",
+      "C": "FTP",
+      "D": "SMTP"
+    },
+    "correct_answer": "B",
+    "explanation": "Apache Spark performs in-memory distributed computation and is much faster than disk-heavy MapReduce for many tasks."
+  },
+  {
+    "id": 152,
+    "topic": "Big Data Analytics",
+    "question": "HDFS stands for:",
+    "options": {
+      "A": "High Data File System",
+      "B": "Hadoop Distributed File System",
+      "C": "Hybrid Database File Service",
+      "D": "Hierarchical Data Framework System"
+    },
+    "correct_answer": "B",
+    "explanation": "HDFS is the Hadoop Distributed File System used for storing data across a cluster."
+  },
+  {
+    "id": 153,
+    "topic": "Big Data Analytics",
+    "question": "Which type of data has no fixed structure, such as images and videos?",
+    "options": {
+      "A": "Structured",
+      "B": "Semi-Structured",
+      "C": "Unstructured",
+      "D": "Labeled"
+    },
+    "correct_answer": "C",
+    "explanation": "Unstructured data includes images, videos, audio, emails, and social media content."
+  },
+  {
+    "id": 154,
+    "topic": "Model Deployment & MLOps",
+    "question": "MLOps is best described as:",
+    "options": {
+      "A": "Only model training",
+      "B": "Practices for deploying, monitoring, and maintaining ML systems in production",
+      "C": "Only visualization",
+      "D": "Only collecting data"
+    },
+    "correct_answer": "B",
+    "explanation": "MLOps combines ML with DevOps practices to operationalize machine learning."
+  },
+  {
+    "id": 155,
+    "topic": "Model Deployment & MLOps",
+    "question": "Which of the following is a common way to deploy a model for online predictions?",
+    "options": {
+      "A": "REST API",
+      "B": "Only pie charts",
+      "C": "Confusion matrix",
+      "D": "Histogram"
+    },
+    "correct_answer": "A",
+    "explanation": "A trained model is often deployed as a REST API for inference requests."
+  },
+  {
+    "id": 156,
+    "topic": "Model Deployment & MLOps",
+    "question": "Model drift means:",
+    "options": {
+      "A": "The model file moves to another folder",
+      "B": "Model performance degrades over time as conditions/data change",
+      "C": "The model gets smaller in size",
+      "D": "Only labels are missing"
+    },
+    "correct_answer": "B",
+    "explanation": "Model drift occurs when real-world patterns change and the deployed model becomes less accurate."
+  },
+  {
+    "id": 157,
+    "topic": "Model Deployment & MLOps",
+    "question": "Data drift means:",
+    "options": {
+      "A": "Input data distribution changes from the training data distribution",
+      "B": "Only model architecture changes",
+      "C": "Only output labels change format",
+      "D": "All data gets deleted"
+    },
+    "correct_answer": "A",
+    "explanation": "Data drift refers to changes in the distribution of incoming features compared to training data."
+  },
+  {
+    "id": 158,
+    "topic": "Model Deployment & MLOps",
+    "question": "Which tool is commonly used for experiment tracking and model registry?",
+    "options": {
+      "A": "MLflow",
+      "B": "Photoshop",
+      "C": "Word",
+      "D": "Excel only"
+    },
+    "correct_answer": "A",
+    "explanation": "MLflow is widely used for tracking experiments, models, and deployments."
+  },
+  {
+    "id": 159,
+    "topic": "Model Deployment & MLOps",
+    "question": "Docker is commonly used in MLOps for:",
+    "options": {
+      "A": "Tokenization",
+      "B": "Containerizing applications and models",
+      "C": "Only plotting heatmaps",
+      "D": "Only PCA"
+    },
+    "correct_answer": "B",
+    "explanation": "Docker packages models and dependencies into portable containers."
+  },
+  {
+    "id": 160,
+    "topic": "AI Ethics, Security & Privacy",
+    "question": "Bias in AI often results from:",
+    "options": {
+      "A": "Always using too much RAM",
+      "B": "Biased or unrepresentative training data",
+      "C": "Only using Python",
+      "D": "Using GPU acceleration"
+    },
+    "correct_answer": "B",
+    "explanation": "If training data reflects unfairness or poor representation, the model can learn biased behavior."
+  },
+  {
+    "id": 161,
+    "topic": "AI Ethics, Security & Privacy",
+    "question": "Explainable AI (XAI) focuses on:",
+    "options": {
+      "A": "Making models larger",
+      "B": "Understanding why a model made a decision",
+      "C": "Only speeding up training",
+      "D": "Only storing more data"
+    },
+    "correct_answer": "B",
+    "explanation": "XAI aims to make AI decisions more transparent and understandable."
+  },
+  {
+    "id": 162,
+    "topic": "AI Ethics, Security & Privacy",
+    "question": "Which model type is generally more interpretable?",
+    "options": {
+      "A": "Deep neural network",
+      "B": "Decision Tree",
+      "C": "Transformer only",
+      "D": "GAN only"
+    },
+    "correct_answer": "B",
+    "explanation": "Decision trees are easier to interpret because their decision path can be directly followed."
+  },
+  {
+    "id": 163,
+    "topic": "AI Ethics, Security & Privacy",
+    "question": "LIME and SHAP are tools used for:",
+    "options": {
+      "A": "Only image resizing",
+      "B": "Model explainability",
+      "C": "Only clustering",
+      "D": "Only database indexing"
+    },
+    "correct_answer": "B",
+    "explanation": "LIME and SHAP help explain how features contributed to model predictions."
+  },
+  {
+    "id": 164,
+    "topic": "AI Ethics, Security & Privacy",
+    "question": "GDPR is mainly related to:",
+    "options": {
+      "A": "Computer graphics",
+      "B": "Data privacy and protection",
+      "C": "Only deep learning",
+      "D": "Cloud scaling only"
+    },
+    "correct_answer": "B",
+    "explanation": "GDPR is a major regulation on personal data privacy and protection."
+  },
+  {
+    "id": 165,
+    "topic": "AI Ethics, Security & Privacy",
+    "question": "Federated Learning helps privacy by:",
+    "options": {
+      "A": "Sending all raw user data to one central server",
+      "B": "Training models across devices without sharing raw data",
+      "C": "Deleting all training data",
+      "D": "Only using synthetic images"
+    },
+    "correct_answer": "B",
+    "explanation": "Federated learning keeps user data on devices and shares model updates instead of raw data."
+  },
+  {
+    "id": 166,
+    "topic": "AI Ethics, Security & Privacy",
+    "question": "Differential Privacy generally protects individuals by:",
+    "options": {
+      "A": "Removing all features",
+      "B": "Adding controlled noise to data or outputs",
+      "C": "Only changing labels",
+      "D": "Turning off the model"
+    },
+    "correct_answer": "B",
+    "explanation": "Differential privacy adds carefully calibrated noise to reduce risk of identifying individuals."
+  },
+  {
+    "id": 167,
+    "topic": "AI Ethics, Security & Privacy",
+    "question": "An adversarial attack in AI is:",
+    "options": {
+      "A": "A plotting error",
+      "B": "Small crafted perturbations to input that fool a model",
+      "C": "Only deleting model files",
+      "D": "Reducing batch size"
+    },
+    "correct_answer": "B",
+    "explanation": "Adversarial attacks subtly modify inputs to make models produce incorrect predictions."
+  },
+  {
+    "id": 168,
+    "topic": "AI Ethics, Security & Privacy",
+    "question": "Data poisoning means:",
+    "options": {
+      "A": "Cleaning data carefully",
+      "B": "Corrupting training data to manipulate model behavior",
+      "C": "Compressing data",
+      "D": "Converting text to vectors"
+    },
+    "correct_answer": "B",
+    "explanation": "Attackers may poison training data so the resulting model learns harmful or incorrect patterns."
+  },
+  {
+    "id": 169,
+    "topic": "AI Ethics, Security & Privacy",
+    "question": "Which is a core principle of Responsible AI?",
+    "options": {
+      "A": "Fairness",
+      "B": "Opacity",
+      "C": "No accountability",
+      "D": "Ignoring privacy"
+    },
+    "correct_answer": "A",
+    "explanation": "Responsible AI emphasizes fairness, transparency, privacy, accountability, safety, and human oversight."
+  },
+  {
+    "id": 170,
+    "topic": "AI Ethics, Security & Privacy",
+    "question": "Human oversight in AI means:",
+    "options": {
+      "A": "Humans should never review AI decisions",
+      "B": "Humans should retain control in critical decisions",
+      "C": "Only machines should decide everything",
+      "D": "Models should be hidden from people"
+    },
+    "correct_answer": "B",
+    "explanation": "Critical AI systems should include human supervision and final authority where necessary."
+  }
+]
